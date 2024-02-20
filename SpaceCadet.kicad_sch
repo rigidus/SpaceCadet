@@ -4309,12 +4309,6 @@
     (path "/d9524388-ec1e-4e5b-be10-4e95f0f16567"
       (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a1f6712f-1087-4ef4-bf84-58baf0e54e9a"
-      (reference "#PWR0113") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/44de499e-d74e-4a0b-ad44-b5559c965905"
-      (reference "#PWR0114") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/4b693529-fe06-44af-a160-67a5ffd8665d"
       (reference "C12") (unit 1) (value "10pF") (footprint "TestPoint:Two_Pad_Through_Hole_10.4mm")
     )
