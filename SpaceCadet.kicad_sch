@@ -4217,6 +4217,9 @@
     (path "/d9524388-ec1e-4e5b-be10-4e95f0f16567"
       (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/777624ef-f23f-4f71-b0b9-38350d125900"
+      (reference "+/=") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
     (path "/4b693529-fe06-44af-a160-67a5ffd8665d"
       (reference "C12") (unit 1) (value "10pF") (footprint "TestPoint:Two_Pad_Through_Hole_10.4mm")
     )
@@ -4697,398 +4700,395 @@
     (path "/b3722303-ea62-4002-a830-59226134f53b"
       (reference "R11") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/25dbed8c-d2ac-4070-9b7f-ca8dc63adfff"
-      (reference "SW1") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ed6a36cc-23e2-4ce0-b249-7beaeb944bbe"
-      (reference "SW2") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aaae257c-33b8-4032-ba47-4245475e205f"
-      (reference "SW3") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/04500d61-f108-40e3-ab2b-6372c701704d"
-      (reference "SW4") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/499f393e-688b-43dd-b588-83634487972a"
-      (reference "SW5") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/362ed031-aa05-4fc0-b957-4ecdea07a36d"
-      (reference "SW6") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aecbfd72-461f-44d0-b027-3534e5a4e1a3"
-      (reference "SW7") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ffb3785b-cb7b-43cc-b04b-84d6a97142ab"
-      (reference "SW8") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ebf94283-6f11-426c-92ca-673cb156ae91"
-      (reference "SW9") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dea8366a-b361-4d8b-b55a-805812ce5b00"
-      (reference "SW10") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/08061452-5504-4790-bd18-9350e396f4d9"
-      (reference "SW11") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c2685a38-40b6-4219-8aa4-df943873313c"
-      (reference "SW12") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/daa115c7-4bd9-4b02-a55f-b9c920ec148b"
-      (reference "SW13") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fdd9750d-b214-4ef2-a210-d07d6bfc1a4a"
-      (reference "SW14") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/92f9d7f5-5dc1-46ca-838b-cc7005045e92"
+      (reference "RIGHT_BRACKET") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/20b12fe3-3d74-4d00-977f-c6fc6441b27e"
-      (reference "SW15") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "STATUS") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/92f9d7f5-5dc1-46ca-838b-cc7005045e92"
-      (reference "SW16") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/25dbed8c-d2ac-4070-9b7f-ca8dc63adfff"
+      (reference "SW1") (unit 1) (value "MACRO") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ed6a36cc-23e2-4ce0-b249-7beaeb944bbe"
+      (reference "SW2") (unit 1) (value "TERMINAL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aaae257c-33b8-4032-ba47-4245475e205f"
+      (reference "SW3") (unit 1) (value "QUOTE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/04500d61-f108-40e3-ab2b-6372c701704d"
+      (reference "SW4") (unit 1) (value "OVER_STRIKE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/499f393e-688b-43dd-b588-83634487972a"
+      (reference "SW5") (unit 1) (value "CLEAR_INPUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/362ed031-aa05-4fc0-b957-4ecdea07a36d"
+      (reference "SW6") (unit 1) (value "CLEAR_SCREEN") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aecbfd72-461f-44d0-b027-3534e5a4e1a3"
+      (reference "SW7") (unit 1) (value "HOLD_OUTPUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ffb3785b-cb7b-43cc-b04b-84d6a97142ab"
+      (reference "SW8") (unit 1) (value "STOP_OUTPUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ebf94283-6f11-426c-92ca-673cb156ae91"
+      (reference "SW9") (unit 1) (value "ABORT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dea8366a-b361-4d8b-b55a-805812ce5b00"
+      (reference "SW10") (unit 1) (value "BREAK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/08061452-5504-4790-bd18-9350e396f4d9"
+      (reference "SW11") (unit 1) (value "RESUME") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c2685a38-40b6-4219-8aa4-df943873313c"
+      (reference "SW12") (unit 1) (value "CALL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/daa115c7-4bd9-4b02-a55f-b9c920ec148b"
+      (reference "SW13") (unit 1) (value "THUMB_DOWN") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fdd9750d-b214-4ef2-a210-d07d6bfc1a4a"
+      (reference "SW14") (unit 1) (value "THUMB_UP") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/eb7ad674-bb20-4edb-a829-3c99fa7f4d5b"
-      (reference "SW17") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW17") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0fd9246d-f5ef-49da-aad9-ca06d65293e3"
-      (reference "SW18") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW18") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ac65beeb-438f-4de1-ad90-f1dd7741b6d7"
-      (reference "SW19") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW19") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f7322592-c045-4941-8a70-17c9e3cdd3e0"
-      (reference "SW20") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW20") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d63f2580-b0a1-4585-b824-e3786192ecaa"
-      (reference "SW21") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW21") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/507bc32c-fe12-4a53-8572-d41a49008a6f"
-      (reference "SW22") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW22") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c2ac067a-439b-44fc-ac73-3448097f9722"
-      (reference "SW23") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW23") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/942635f1-1821-491e-bf81-44207a8c841d"
-      (reference "SW24") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW24") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f05b4346-479d-40cc-8d47-633793a47445"
-      (reference "SW25") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW25") (unit 1) (value "I") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4b22f008-8069-486b-8d1a-7484019180cf"
-      (reference "SW26") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW26") (unit 1) (value "II") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8518c4b0-e606-4692-b0fc-9135a8dfb9d8"
-      (reference "SW27") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW27") (unit 1) (value "SYSTEM") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5e92d2d9-920d-4336-9309-e2c92ab2209a"
-      (reference "SW28") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW28") (unit 1) (value "+/-/=/:") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0d42a1c7-9fb2-458d-bbd4-fb87cda62392"
-      (reference "SW29") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW29") (unit 1) (value "1") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9b079535-f2cd-4951-a93e-7136adbf06f1"
-      (reference "SW30") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW30") (unit 1) (value "2") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/92457519-5e5a-4c63-8635-c42f2402aaf5"
-      (reference "SW31") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW31") (unit 1) (value "3") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f4a55f5b-0a32-49ee-b1ad-be205626c7f5"
-      (reference "SW32") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW32") (unit 1) (value "4") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/df555a90-4566-4be7-ab47-814198466e7f"
-      (reference "SW33") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW33") (unit 1) (value "5") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ea947726-5bc7-4a79-a9db-3a3fb9f4e561"
-      (reference "SW34") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW34") (unit 1) (value "6") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f258613a-afe1-4017-8125-3f903bd1a178"
-      (reference "SW35") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW35") (unit 1) (value "7") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/175cb3a1-5b61-4396-97b8-199f73a039f5"
-      (reference "SW36") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW36") (unit 1) (value "8") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6004cc58-01ad-4be2-ba24-01916045a394"
-      (reference "SW37") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW37") (unit 1) (value "9") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a01e115b-18c9-4571-b983-4db47dc29763"
-      (reference "SW38") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW38") (unit 1) (value "0") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a889a31d-d971-4a2a-be86-e644a338bbda"
-      (reference "SW39") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/777624ef-f23f-4f71-b0b9-38350d125900"
-      (reference "SW40") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW39") (unit 1) (value "-/_") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dccc64fd-7fa1-4349-ae66-e3f1dac2fb2c"
-      (reference "SW41") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW41") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cf2415b4-613c-42e9-a4fd-844723889dfe"
-      (reference "SW42") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW42") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/84d4734b-19d3-4102-a704-c1d58ade85a0"
-      (reference "SW43") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW43") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c63df381-aa3f-4197-a4ec-8dc0cf886482"
-      (reference "SW44") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW44") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1e278159-3880-47a5-8d30-741ddee92cbe"
-      (reference "SW45") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW45") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3d5ce0c7-79fb-47fe-b2c2-edc9b0ec98b1"
-      (reference "SW46") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW46") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/38873388-30be-4d46-b946-753ac3efa150"
-      (reference "SW47") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW47") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/01d2db96-e861-4942-9e4e-7d23185f1e80"
-      (reference "SW48") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW48") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c37af7b7-6dd6-450f-a425-905b5d548caa"
-      (reference "SW49") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW49") (unit 1) (value "III") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c7223a63-21ab-4f7e-8200-28247b5b3e77"
-      (reference "SW50") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW50") (unit 1) (value "IV") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7d7010ef-bd1d-4e0f-be94-0b2101991b93"
-      (reference "SW51") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW51") (unit 1) (value "NETWORK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/59880233-a1cb-4d71-8b71-41c4cdbe96a8"
-      (reference "SW52") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW52") (unit 1) (value "TAB") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3f693b16-a9e6-4abe-8ee3-c887f82ea7f2"
-      (reference "SW53") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW53") (unit 1) (value "Q") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8f33efd3-3f19-42cb-9b5f-24399f10fdcb"
-      (reference "SW54") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW54") (unit 1) (value "W") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a7964317-55d0-4da7-ac7b-be7972fe90ea"
-      (reference "SW55") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW55") (unit 1) (value "E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b1ae3940-1d12-4463-a07f-a1ebd67bfcd0"
-      (reference "SW56") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW56") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fac212ac-f63c-4b50-b081-44118aec6903"
-      (reference "SW57") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW57") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cd4842cd-9e0e-47c4-b948-311aa50f1650"
-      (reference "SW58") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW58") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/52474c56-3b02-4977-8ac8-a7aa2f3e3e94"
-      (reference "SW59") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW59") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b78e953f-f4be-48fc-b7e0-1d66c2fa1209"
-      (reference "SW60") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW60") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3fd5f37b-f4bb-4475-bb63-d67440a3d286"
-      (reference "SW61") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW61") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/89b8a78d-05b0-459e-92c0-7c9c5cc6ef3f"
-      (reference "SW62") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW62") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3b1143f2-6b7f-4175-b92d-d94162f76667"
-      (reference "SW63") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW63") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5bf2d34d-9b29-486f-acb5-324de8d69475"
-      (reference "SW64") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW64") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5b2374ac-ba4f-4766-8a19-88de9393b81a"
-      (reference "SW65") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW65") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f354f400-e3c1-47ef-97f5-aa18c34c3f2f"
-      (reference "SW66") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW66") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6d655523-9c1c-458a-a8a8-aa3492ec5607"
-      (reference "SW67") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW67") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ea774ac2-3e61-4127-a70b-8fd833f0aa51"
-      (reference "SW68") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW68") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4c0aa060-f5e7-4028-9796-e4dbaedeadcc"
-      (reference "SW69") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW69") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1a26b368-058e-43c5-8854-9b9d58f54236"
-      (reference "SW70") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW70") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6750e0bf-2995-486f-95c5-ccc14d1db389"
-      (reference "SW71") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW71") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dddf0944-961e-48d2-ac2b-61ff29d0b1b0"
-      (reference "SW72") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW72") (unit 1) (value "MODE_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c517c443-a580-4520-a18e-c7d55b618ad6"
-      (reference "SW73") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW73") (unit 1) (value "ALT_MODE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6227a16f-8e9c-41ea-8272-afe3698e177c"
-      (reference "SW74") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW74") (unit 1) (value "RUB_OUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6986aedc-866f-4c81-b971-5dcccab83e6f"
-      (reference "SW75") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW75") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cebece0f-0840-4d0a-8257-712bc0b0c4b8"
-      (reference "SW76") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW76") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/32194134-2ff0-46a8-90e5-ad529158ffd0"
-      (reference "SW77") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW77") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a919b826-e301-4cfb-ae7e-9b442ac3a5ce"
-      (reference "SW78") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW78") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/427ed3a6-0ae8-412c-ba01-b23f4f3ee232"
-      (reference "SW79") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW79") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1b6decde-a9f1-415d-9a2e-b5e50c2306ea"
-      (reference "SW80") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW80") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8d05ea38-f79f-49be-b4e8-2bd44f412315"
-      (reference "SW81") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW81") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/eaec8b30-0bae-4baa-bec0-a16bc0df1d21"
-      (reference "SW82") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW82") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/66e5ea91-fb47-434b-95aa-f35add85fff1"
-      (reference "SW83") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW83") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/15146e9e-3ef7-4df7-962c-1f1dc1bfd0b0"
-      (reference "SW84") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW84") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e855e0e8-4041-4216-a87d-508f7fba7523"
-      (reference "SW85") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW85") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/480781fa-28f3-45ad-b5b8-70e7df6ae940"
-      (reference "SW86") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW86") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d5e1f22a-bbe8-4094-86a3-d558da83196c"
-      (reference "SW87") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW87") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6d0e85d7-19a4-4c4d-aff1-6b265c3c4844"
-      (reference "SW88") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW88") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1488c796-5947-448f-af4c-34f7b79f53bf"
-      (reference "SW89") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW89") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/135c153a-6f75-43ed-9acb-735836d6a17b"
-      (reference "SW90") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW90") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a47e71be-832c-42bd-868b-084839d24856"
-      (reference "SW91") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW91") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c88a7567-6c46-4646-95e3-e5bddd8cab27"
-      (reference "SW92") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW92") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/bd0f9237-ea24-4699-a459-3e101338ff41"
-      (reference "SW93") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW93") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/48c7582b-637f-4b0b-85c9-888c0e30f3e4"
-      (reference "SW94") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW94") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/513610cf-ef50-4f93-9016-0a984007b8fe"
-      (reference "SW95") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW95") (unit 1) (value "CAPS_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3aad007d-37bb-4621-b05a-92e910074292"
-      (reference "SW96") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW96") (unit 1) (value "TOP") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a2a6b686-1501-4a95-afc2-38038c591b56"
-      (reference "SW97") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW97") (unit 1) (value "GREEK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/125858fa-ba82-4d32-8c02-5f02bbab28be"
-      (reference "SW98") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW98") (unit 1) (value "SHIFT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4ad900e6-9ba0-4300-a6a8-b2aef3061e17"
-      (reference "SW99") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW99") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5e2d566a-879e-45d0-b0b8-115976c2824b"
-      (reference "SW100") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW100") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9983193e-1955-417a-92fb-19a4f6ecd1c1"
-      (reference "SW101") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW101") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fdd2dba5-cf76-4836-b1e7-0671f1a48f70"
-      (reference "SW102") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW102") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/642fd662-006b-4a52-be38-ab08f207b614"
-      (reference "SW103") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW103") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4b5c2ad3-ae57-4370-ad24-489879f19024"
-      (reference "SW104") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW104") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c85737db-842b-48bd-b8dc-c2a8b62ab4ee"
-      (reference "SW105") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW105") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cb5d5cd1-74b0-4680-9352-c918adfd8977"
-      (reference "SW106") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW106") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f055d980-e9e0-443c-9a5a-754b733718ab"
-      (reference "SW107") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW107") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/23b9d96d-a162-4c75-9d84-431b4039f0c9"
-      (reference "SW108") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW108") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/281bdac0-d188-4b7e-ad5f-34040056a71b"
-      (reference "SW109") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW109") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8b4c49e4-4f23-411f-98af-90b7cad8fc30"
-      (reference "SW110") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW110") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fe064434-628e-4101-a048-0534efdb5bfa"
-      (reference "SW111") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW111") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7abeb5f6-bd2d-404a-905d-ea53f3753a67"
-      (reference "SW112") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW112") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d93f8e4e-32e6-46a2-8839-cf89d810d8c6"
-      (reference "SW113") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW113") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6172236a-cee0-4fc3-940f-6cf6facf6ba3"
-      (reference "SW114") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW114") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/441d5a64-1378-4b15-850c-60487e5b9989"
-      (reference "SW115") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW115") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8ecd0224-c192-4686-bbe0-0e4469c7ac52"
-      (reference "SW116") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW116") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/66a7b68f-e2e4-46f6-b038-199a25b6f3ad"
-      (reference "SW117") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW117") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d320d1e1-6c63-4699-b186-ac83949e50a9"
-      (reference "SW118") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW118") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/62264486-9cde-4155-8eba-b2f6c47154ee"
-      (reference "SW119") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW119") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1a14a68b-7316-42f7-a86a-fc6069eb2130"
-      (reference "SW120") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW120") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cff0c073-2ad5-4386-a6cd-68527751b497"
-      (reference "SW121") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW121") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6dadf9d7-ecce-49a4-99a2-a86a0effdcde"
-      (reference "SW122") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW122") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cfe0c3b5-25d8-4ca4-8f7b-2572ea41d8d2"
-      (reference "SW122a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW122a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/029100b7-9a69-406c-a7db-c40f8950415e"
-      (reference "SW123") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW123") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/19518e66-8eb3-4353-ab66-b1bcafef057c"
-      (reference "SW123a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW123a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6bc6fd47-f42a-448e-be24-3e58c8c3553d"
-      (reference "SW124") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW124") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c3c81763-fc5c-4173-90d2-d5936ef79c2f"
-      (reference "SW124a0") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW124a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/647ae2f2-f3fe-47aa-b94b-d0f3ea954394"
-      (reference "SW125") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW125") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e9f76b7a-f446-45e7-bf22-bb61491def34"
-      (reference "SW126") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW126") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/89b43a72-fe0b-4fc2-b368-189776fcf697"
-      (reference "SW127") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW127") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1bef8362-69a5-4d30-b6db-dac14d752354"
-      (reference "SW128") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:MicroSwitch_SD_Series_E")
+      (reference "SW128") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/c066ba78-5889-440f-8d26-66915e83d08b"
       (reference "U1") (unit 1) (value "74LS154") (footprint "Package_DIP:DIP-24_W15.24mm_LongPads")
