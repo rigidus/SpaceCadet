@@ -1208,6 +1208,7 @@
     )
   )
 
+
   (junction (at 178.435 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 06d9d8ea-8fd2-4487-95e1-bf8d0fb1dc46)
   )
@@ -4595,6 +4596,9 @@
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/42f20bc8-b033-4cb0-a146-b6fa98de7b27"
       (reference "D120") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9b15c0a9-1fd1-4788-b378-4e6b1ef828e1"
+      (reference "D121") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cf5ef955-fbec-4099-9631-99d9d9ec970a"
       (reference "D122") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
@@ -4615,9 +4619,6 @@
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/63dc4a98-0fc7-4960-af51-bc4e3e3cb758"
       (reference "D128") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9b15c0a9-1fd1-4788-b378-4e6b1ef828e1"
-      (reference "D`1`17") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
     (path "/1ea855f8-a5b1-424e-a642-dd01e460d8f4"
       (reference "J0") (unit 1) (value "Conn_02x17_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal")
