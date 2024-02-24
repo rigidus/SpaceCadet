@@ -4217,9 +4217,6 @@
     (path "/d9524388-ec1e-4e5b-be10-4e95f0f16567"
       (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/777624ef-f23f-4f71-b0b9-38350d125900"
-      (reference "+/=") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
     (path "/4b693529-fe06-44af-a160-67a5ffd8665d"
       (reference "C12") (unit 1) (value "10pF") (footprint "TestPoint:Two_Pad_Through_Hole_10.4mm")
     )
@@ -4238,389 +4235,56 @@
     (path "/94b91b8a-0258-4cda-a957-e6f302c9f04e"
       (reference "C17") (unit 1) (value "4.7uF 25v") (footprint "TestPoint:Two_Pad_Through_Hole_12mm")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/93b2fcc0-3672-4813-a90f-3f646a278352"
-      (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4309aa7c-5581-4e58-b3a2-50a6f4a54a48"
+      (reference "D_R1C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e8b222d2-b023-4c2d-8daa-39e7144372cf"
-      (reference "D2") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aaacc267-2f97-49c1-bb98-f105904950da"
+      (reference "D_R2C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/18f1d0f3-a1f3-42d3-9a7e-f93cb16d359e"
-      (reference "D3") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c8141780-2312-474c-abe2-46643e97fc7d"
+      (reference "D_R3C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e8146575-a6e5-435f-add6-7aa1bbff87ce"
-      (reference "D4") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/191dd7a3-a048-464c-bae1-285be9838296"
+      (reference "D_R4C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/46cb422e-7b32-45a6-a453-43c8670eac13"
-      (reference "D5") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/29149ea9-4295-443a-8d29-91c8337f497e"
+      (reference "D_R5C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6440b1d3-2bf4-4289-9a46-33ee163a9a62"
-      (reference "D6") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3e878b83-7df7-4cc5-b215-1388c96428db"
+      (reference "D_R6C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f88bf85b-4daa-4e78-b867-0e200d418f50"
-      (reference "D7") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cdcb8367-96f4-492b-8942-d9ee150c0c8a"
+      (reference "D_R7C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e723e7fb-7ac5-43aa-9230-1e4f97f0c63c"
-      (reference "D8") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0cb3b285-ca31-4053-a023-4e00c5b736c1"
+      (reference "D_R8C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/464978bc-d156-4afb-9a4d-6d3bc09ed039"
-      (reference "D9") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c4b7de32-5d50-4591-b218-2ca610b812d7"
+      (reference "D_R9C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6687df2f-7ea4-459b-a661-e4fdb2cd5393"
-      (reference "D10") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5b958905-95a3-4da3-8933-513d6accc0c0"
+      (reference "D_R10C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ef3763cf-a403-4ff5-b500-fdab3beaf7ed"
-      (reference "D11") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ef84abbe-b5fa-4140-9c09-a939e0dba8d6"
+      (reference "D_R11C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f859fa63-7c79-4358-b6de-883e6bcd0aeb"
-      (reference "D12") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/39620699-4abd-44a0-9d93-c0c4b92389ba"
+      (reference "D_R12C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7c99ee7d-6b17-4922-9d0a-8b66457fd71b"
-      (reference "D13") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/35b9f520-3579-44b5-add0-2f892bde29fb"
+      (reference "D_R13C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9b442a2a-fcca-4863-8d85-1aa3c78b24e8"
-      (reference "D14") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/626ddf2e-c5e6-4429-8bc6-e4a5599d907b"
+      (reference "D_R14C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/2f1e261b-b02f-48a2-917c-70bdb79ca1ff"
-      (reference "D15") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/509b49d3-9c52-4e87-b1cc-2579e783caa2"
+      (reference "D_R15C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cc635c19-f811-45f1-a9ef-482ef1b53184"
-      (reference "D16") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cc31325c-36a1-4b1d-93d0-9b44f0f4fbae"
+      (reference "D_ROC0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dc9eca42-6fc8-4ed2-8864-62c5390495fa"
-      (reference "D17") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8c4e8b67-6aba-4f74-b4b8-f0f9bc22046c"
-      (reference "D18") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/74c7cab2-2394-4af9-81b7-4b62cdc53576"
-      (reference "D19") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ed07f445-9596-45c6-8556-8f64e5f8c68f"
-      (reference "D20") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0bd80f09-f58a-49b1-8326-f0af1386f895"
-      (reference "D21") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8aed2a01-2152-4780-b947-f85007dc9a6d"
-      (reference "D22") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f938691b-d15c-49e3-8471-7d3232a1c256"
-      (reference "D23") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/37055dcb-fcc0-42bd-ba60-0f66f6f97498"
-      (reference "D24") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/de84519b-23de-4145-92a1-ba2ebf78c0f1"
-      (reference "D25") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/807485a1-7d83-40c9-9d7c-f2617a231419"
-      (reference "D26") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9a3ea560-0820-4ac8-81f7-9688295a7290"
-      (reference "D27") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/bb87a7ef-5209-428d-9ffa-41d6380e6dd2"
-      (reference "D28") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/563b2041-db21-4dcc-b2b0-fce158bc909b"
-      (reference "D29") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ac903ca5-a683-4dff-a3d6-118332240008"
-      (reference "D30") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b9bcb5fd-c972-4bbf-936d-ae3317dafb53"
-      (reference "D31") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3f1c4101-3747-43a7-91b1-bc0103a72d07"
-      (reference "D32") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b4f6c0ee-b0d9-4fcc-abff-2563fe11a228"
-      (reference "D33") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3f6d09cf-9bda-4535-9593-db0c05e4a7ff"
-      (reference "D34") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c309dc58-4e28-4e0a-a725-06b0208482dd"
-      (reference "D35") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/53ea8f1b-d970-4e75-9aec-e941a2652805"
-      (reference "D36") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/81df9bf3-674f-4347-b850-3d101b90d885"
-      (reference "D37") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8d572c80-4786-4a83-b3b5-53b184efecc9"
-      (reference "D38") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/40e9f759-c1b7-4e7f-a7d6-36bc78fbc6c7"
-      (reference "D39") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/58bcd55e-9817-415d-94a9-23e7831a2e3d"
-      (reference "D40") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/021e87ab-a462-4011-9118-da0936e96b82"
-      (reference "D41") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/bbdea4b4-3693-4bd2-8aa9-5aa2f3ec26ee"
-      (reference "D42") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/371e2157-f4f4-42b8-9764-ea4c93ab035a"
-      (reference "D43") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/83e59f2d-95d2-4962-82b0-f69311b6f272"
-      (reference "D44") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/2db6ff72-709d-43a9-b318-6a49a4163e1c"
-      (reference "D45") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8c000b42-ede5-402e-8001-153383006041"
-      (reference "D46") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5b44e073-6ccd-40e2-8fa7-e355f6a17ff9"
-      (reference "D47") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/518abc52-a638-4f6b-929b-05d38f934114"
-      (reference "D48") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9cf980d1-6256-4bdf-b7e8-13b84e4cd073"
-      (reference "D49") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/787b3734-2d1f-4325-9c57-731e60a33a4e"
-      (reference "D50") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/24b61207-7f51-4ff8-908d-bffb772e60f2"
-      (reference "D51") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/2f48d4d4-6361-4ee9-918b-0c9c78ff328c"
-      (reference "D52") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4d6f9cd5-d833-42f9-88c8-4efc17fb4e34"
-      (reference "D53") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/33aa1e4d-e86b-476c-8ca1-98eaea2344e2"
-      (reference "D54") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/963b0a64-ef35-48ff-a2a1-f492148d28c5"
-      (reference "D55") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/689a5d30-c5cd-430d-a023-5be7860f2ff5"
-      (reference "D56") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/55f79353-b1f4-4304-89e1-8e1f88b3d6af"
-      (reference "D57") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0557912c-9491-450c-ac21-f0c2acc5d4e4"
-      (reference "D58") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3279e809-6013-4621-b80d-1b8953c97ee6"
-      (reference "D59") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/63fad12e-7f76-4766-ad05-85beb86ee4d2"
-      (reference "D60") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3944c643-91e8-4e20-94dd-881a44f71c39"
-      (reference "D61") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ed9968d8-1443-4e8f-aa26-67777580b805"
-      (reference "D62") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8b03c444-c65d-443c-bfc7-44ae346fef42"
-      (reference "D63") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b612c90c-798c-4d45-8043-27ad788f44cd"
-      (reference "D64") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fd62a8bf-524f-4315-ade5-6b610759bad0"
-      (reference "D65") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3190adbe-de27-4978-af4e-9b7eaf1cb495"
-      (reference "D66") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/72e73b54-a786-4857-b2d6-54e19a821007"
-      (reference "D67") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0eb8f5c1-4a3b-435c-9481-62f94c3560d7"
-      (reference "D68") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/798bcb01-5cb1-4556-95f0-61cfcb6fc075"
-      (reference "D69") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4eb2a8ac-02df-4a7c-b8ea-765d8924238e"
-      (reference "D70") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/21417bb7-7190-4a9b-9f64-eda58470b485"
-      (reference "D71") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/58c4c6dc-69c0-4849-aff8-1f3b70dfe0da"
-      (reference "D72") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4cd107f7-4337-4780-96e3-be9c6e1c296c"
-      (reference "D73") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e138e388-7877-4cba-ac0b-55a97539e15b"
-      (reference "D74") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a759845c-d855-49da-a823-6989ac14003a"
-      (reference "D75") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ac4185bc-d30f-4d36-9cae-bd9b83fd3fc7"
-      (reference "D76") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e7bd9c08-76ff-420d-8e3f-89935fbebe6d"
-      (reference "D77") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/db15c283-9879-4fbe-bb92-6fa79b2e0bd4"
-      (reference "D78") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/db20b2eb-7ea9-43ec-b14b-5d9b2e6ab7e8"
-      (reference "D79") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e28cac27-b0e7-405d-a161-579b75a7a0ea"
-      (reference "D80") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5b921488-239f-4f71-a17c-56f8b96907e2"
-      (reference "D81") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/95c0cbad-dfb5-4b15-b6ff-9186b07bb882"
-      (reference "D82") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/27dc7fe6-396e-489c-877e-e785c587a124"
-      (reference "D83") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/2ad54c8a-ce00-4887-b80f-0de354799116"
-      (reference "D84") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/01c78e03-e69e-4162-beff-24bc89a2be03"
-      (reference "D85") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/2e823e94-0e87-4bb2-9114-a51603cd957f"
-      (reference "D86") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/80a0f2e3-ea9b-42e6-81d4-8a017d745c27"
-      (reference "D87") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/800c8854-53f6-4a22-b343-3c40e12ec3bd"
-      (reference "D88") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ad08b4cc-bcd4-4a7d-b2ca-1665f95dfc11"
-      (reference "D89") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/71a7b60c-f9bb-4c92-8629-79b3f206fe50"
-      (reference "D90") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ac29accd-30fc-403b-b273-9fa333d8efb1"
-      (reference "D91") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c370e9af-fd52-4009-a20f-42739aa7ad11"
-      (reference "D92") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9eac429c-646b-4813-8b19-a8671ff17122"
-      (reference "D93") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/85ea3d71-4086-4c9a-b8db-2a785ba81b42"
-      (reference "D94") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7ae6c2d2-58cb-4dd3-bbda-2185fe96c6f0"
-      (reference "D95") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/65241455-5ed7-425b-9d83-bcd196f87f07"
-      (reference "D96") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1ec3cb68-dc09-4354-89bf-bdf291819472"
-      (reference "D97") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a9159d59-2b83-4379-9123-59331b0b0ca4"
-      (reference "D98") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/23be9783-1190-42ef-8f5a-449c07d966fd"
-      (reference "D99") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ab847de3-43d8-4f70-881c-eb73cafc1a9e"
-      (reference "D100") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/76eda1f8-2858-40c7-9d32-159f65092877"
-      (reference "D101") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/452fa336-2af1-4f42-bd02-8d4ae77f522e"
-      (reference "D102") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/edfd8276-8ca5-451b-8c1b-a08c4d091e0b"
-      (reference "D103") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8c3b2596-cf70-4aa1-9416-282735045fdd"
-      (reference "D104") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/680c1273-d959-40ed-81f9-51d0954ea020"
-      (reference "D105") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1a0b1c15-b39a-4e88-a16b-0948aaf5cf29"
-      (reference "D106") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1f69c13c-4cf3-4230-bace-579bba93bd41"
-      (reference "D107") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/657e090d-3904-457d-9563-7637d037bf39"
-      (reference "D108") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0613218f-d759-48ef-a15a-f2c57b1f69ec"
-      (reference "D109") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/2fd941ec-1e2d-4e88-9430-d329f0a759f7"
-      (reference "D110") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/18011cba-420a-41f3-a752-df394849f12e"
-      (reference "D111") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f187d046-745e-4be9-a883-8266e36f72d9"
-      (reference "D112") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ad35cb43-99e3-417d-992a-67fe2ffdf7a7"
-      (reference "D113") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/159f8d01-379f-462c-9344-201232cbbff7"
-      (reference "D114") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aee063bf-1d35-4f7a-8e4f-5e76287985aa"
-      (reference "D115") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b7cb5bf0-7e63-4c11-9f06-79f2ea179ea5"
-      (reference "D116") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/16de2b5d-bb50-4ddd-a770-37e683bcaebd"
-      (reference "D117") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/22f24d35-42fc-4986-a25d-3e1338bf06fd"
-      (reference "D118") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/07983e86-81b6-479e-a082-97e716dac394"
-      (reference "D119") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/42f20bc8-b033-4cb0-a146-b6fa98de7b27"
-      (reference "D120") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9b15c0a9-1fd1-4788-b378-4e6b1ef828e1"
-      (reference "D121") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cf5ef955-fbec-4099-9631-99d9d9ec970a"
-      (reference "D122") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a6873635-257c-4864-969a-c7e68d72d774"
-      (reference "D123") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1929721d-ff5b-42c4-b16b-07cbffadbeb1"
-      (reference "D124") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3cd01643-319b-4070-b426-b260f4205406"
-      (reference "D125") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e76356e5-5565-4bb0-94d0-47da14afdf40"
-      (reference "D126") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e8d96ad9-6758-4517-ad06-364a8b6fa8c4"
-      (reference "D127") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/63dc4a98-0fc7-4960-af51-bc4e3e3cb758"
-      (reference "D128") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c1680ed8-3e6a-4b48-91d2-f8d9696898d1"
+      (reference "D_ROC1") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
     (path "/1ea855f8-a5b1-424e-a642-dd01e460d8f4"
       (reference "J0") (unit 1) (value "Conn_02x17_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal")
@@ -4676,419 +4340,80 @@
     (path "/4a02a54b-8317-4515-aa64-93dbfb11a4cb"
       (reference "JP32") (unit 1) (value "Jumper Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6f163d38-e927-4bb8-81cf-024313ac950d"
+      (reference "R0C0") (unit 1) (value "MACRO") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a6b31a68-7e85-4157-a45b-14db66896c1e"
+      (reference "R0C1") (unit 1) (value "TERMINAL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/04c117d5-7798-49fc-9bf2-7faff5d6fa66"
+      (reference "R1C0") (unit 1) (value "ROMAN_ONE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0dd89272-747c-4ab2-980e-9eba300c6498"
+      (reference "R2C0") (unit 1) (value "ROMAN_TWO") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7747d7e4-d8f9-4501-8532-42062e76c638"
+      (reference "R3C0") (unit 1) (value "ROMAN_THREE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
     (path "/4ed57943-0461-493e-8f46-26d1eea10a82"
       (reference "R4") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b4c6709b-ce78-4570-af65-9467989c6ba8"
+      (reference "R4C0") (unit 1) (value "ROMAN_FOUR") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/7ef65beb-8399-4097-ac13-2d05b63259d4"
       (reference "R5") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/baf90f96-81d6-4b46-b7f0-7ffad9ca18d5"
+      (reference "R5C0") (unit 1) (value "MODE_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
     (path "/585e9c7f-d46a-4180-8342-4d9663c8f2cc"
       (reference "R6") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/61c997af-1a11-41b6-ad2e-7eed7fb89f1c"
+      (reference "R6C0") (unit 1) (value "CAPS_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/b1af4875-6c7a-4214-901c-5aeac72b67c9"
       (reference "R7") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5b27f1f1-9c00-427c-9a5b-72ceb9d7b040"
+      (reference "R7C0") (unit 1) (value "TOP") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
     (path "/e80dacb6-6a6c-44ed-9d2e-699e2578433d"
       (reference "R8") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8c4d9fdc-00f8-4426-9217-a3f8a2455717"
+      (reference "R8C0") (unit 1) (value "HYPER") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/81dcdae1-ae0e-4d8c-9bf2-1ad2e7737479"
       (reference "R9") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1f1909ba-eb6b-408d-bc65-a7b731c7e323"
+      (reference "R9C0") (unit 1) (value "SUPER") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
     (path "/572a1812-167d-4df6-a541-c4a12c71e180"
       (reference "R10") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/96524c13-7b3e-4ce3-ae6f-b05002022052"
+      (reference "R10C0") (unit 1) (value "GREEK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/b3722303-ea62-4002-a830-59226134f53b"
       (reference "R11") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/92f9d7f5-5dc1-46ca-838b-cc7005045e92"
-      (reference "RIGHT_BRACKET") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7c585249-6f3d-4abe-9b89-38044143e878"
+      (reference "R11C0") (unit 1) (value "META") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/20b12fe3-3d74-4d00-977f-c6fc6441b27e"
-      (reference "STATUS") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0c56b2fd-43f3-4ff5-95b4-3dded997ff86"
+      (reference "R12C0") (unit 1) (value "SHIFT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/25dbed8c-d2ac-4070-9b7f-ca8dc63adfff"
-      (reference "SW1") (unit 1) (value "MACRO") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/504f2999-3fd5-451d-85a9-0a086046102e"
+      (reference "R13C0") (unit 1) (value "CTRL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ed6a36cc-23e2-4ce0-b249-7beaeb944bbe"
-      (reference "SW2") (unit 1) (value "TERMINAL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f009bbde-e635-45df-adcc-6f29a74a6da4"
+      (reference "R14C0") (unit 1) (value "ALT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aaae257c-33b8-4032-ba47-4245475e205f"
-      (reference "SW3") (unit 1) (value "QUOTE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/04500d61-f108-40e3-ab2b-6372c701704d"
-      (reference "SW4") (unit 1) (value "OVER_STRIKE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/499f393e-688b-43dd-b588-83634487972a"
-      (reference "SW5") (unit 1) (value "CLEAR_INPUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/362ed031-aa05-4fc0-b957-4ecdea07a36d"
-      (reference "SW6") (unit 1) (value "CLEAR_SCREEN") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aecbfd72-461f-44d0-b027-3534e5a4e1a3"
-      (reference "SW7") (unit 1) (value "HOLD_OUTPUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ffb3785b-cb7b-43cc-b04b-84d6a97142ab"
-      (reference "SW8") (unit 1) (value "STOP_OUTPUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ebf94283-6f11-426c-92ca-673cb156ae91"
-      (reference "SW9") (unit 1) (value "ABORT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dea8366a-b361-4d8b-b55a-805812ce5b00"
-      (reference "SW10") (unit 1) (value "BREAK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/08061452-5504-4790-bd18-9350e396f4d9"
-      (reference "SW11") (unit 1) (value "RESUME") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c2685a38-40b6-4219-8aa4-df943873313c"
-      (reference "SW12") (unit 1) (value "CALL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/daa115c7-4bd9-4b02-a55f-b9c920ec148b"
-      (reference "SW13") (unit 1) (value "THUMB_DOWN") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fdd9750d-b214-4ef2-a210-d07d6bfc1a4a"
-      (reference "SW14") (unit 1) (value "THUMB_UP") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/eb7ad674-bb20-4edb-a829-3c99fa7f4d5b"
-      (reference "SW17") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0fd9246d-f5ef-49da-aad9-ca06d65293e3"
-      (reference "SW18") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ac65beeb-438f-4de1-ad90-f1dd7741b6d7"
-      (reference "SW19") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f7322592-c045-4941-8a70-17c9e3cdd3e0"
-      (reference "SW20") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d63f2580-b0a1-4585-b824-e3786192ecaa"
-      (reference "SW21") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/507bc32c-fe12-4a53-8572-d41a49008a6f"
-      (reference "SW22") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c2ac067a-439b-44fc-ac73-3448097f9722"
-      (reference "SW23") (unit 1) (value "SD_4B1E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/942635f1-1821-491e-bf81-44207a8c841d"
-      (reference "SW24") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f05b4346-479d-40cc-8d47-633793a47445"
-      (reference "SW25") (unit 1) (value "I") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4b22f008-8069-486b-8d1a-7484019180cf"
-      (reference "SW26") (unit 1) (value "II") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8518c4b0-e606-4692-b0fc-9135a8dfb9d8"
-      (reference "SW27") (unit 1) (value "SYSTEM") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5e92d2d9-920d-4336-9309-e2c92ab2209a"
-      (reference "SW28") (unit 1) (value "+/-/=/:") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0d42a1c7-9fb2-458d-bbd4-fb87cda62392"
-      (reference "SW29") (unit 1) (value "1") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9b079535-f2cd-4951-a93e-7136adbf06f1"
-      (reference "SW30") (unit 1) (value "2") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/92457519-5e5a-4c63-8635-c42f2402aaf5"
-      (reference "SW31") (unit 1) (value "3") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f4a55f5b-0a32-49ee-b1ad-be205626c7f5"
-      (reference "SW32") (unit 1) (value "4") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/df555a90-4566-4be7-ab47-814198466e7f"
-      (reference "SW33") (unit 1) (value "5") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ea947726-5bc7-4a79-a9db-3a3fb9f4e561"
-      (reference "SW34") (unit 1) (value "6") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f258613a-afe1-4017-8125-3f903bd1a178"
-      (reference "SW35") (unit 1) (value "7") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/175cb3a1-5b61-4396-97b8-199f73a039f5"
-      (reference "SW36") (unit 1) (value "8") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6004cc58-01ad-4be2-ba24-01916045a394"
-      (reference "SW37") (unit 1) (value "9") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a01e115b-18c9-4571-b983-4db47dc29763"
-      (reference "SW38") (unit 1) (value "0") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a889a31d-d971-4a2a-be86-e644a338bbda"
-      (reference "SW39") (unit 1) (value "-/_") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dccc64fd-7fa1-4349-ae66-e3f1dac2fb2c"
-      (reference "SW41") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cf2415b4-613c-42e9-a4fd-844723889dfe"
-      (reference "SW42") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/84d4734b-19d3-4102-a704-c1d58ade85a0"
-      (reference "SW43") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c63df381-aa3f-4197-a4ec-8dc0cf886482"
-      (reference "SW44") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1e278159-3880-47a5-8d30-741ddee92cbe"
-      (reference "SW45") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3d5ce0c7-79fb-47fe-b2c2-edc9b0ec98b1"
-      (reference "SW46") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/38873388-30be-4d46-b946-753ac3efa150"
-      (reference "SW47") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/01d2db96-e861-4942-9e4e-7d23185f1e80"
-      (reference "SW48") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c37af7b7-6dd6-450f-a425-905b5d548caa"
-      (reference "SW49") (unit 1) (value "III") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c7223a63-21ab-4f7e-8200-28247b5b3e77"
-      (reference "SW50") (unit 1) (value "IV") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7d7010ef-bd1d-4e0f-be94-0b2101991b93"
-      (reference "SW51") (unit 1) (value "NETWORK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/59880233-a1cb-4d71-8b71-41c4cdbe96a8"
-      (reference "SW52") (unit 1) (value "TAB") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3f693b16-a9e6-4abe-8ee3-c887f82ea7f2"
-      (reference "SW53") (unit 1) (value "Q") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8f33efd3-3f19-42cb-9b5f-24399f10fdcb"
-      (reference "SW54") (unit 1) (value "W") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a7964317-55d0-4da7-ac7b-be7972fe90ea"
-      (reference "SW55") (unit 1) (value "E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b1ae3940-1d12-4463-a07f-a1ebd67bfcd0"
-      (reference "SW56") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fac212ac-f63c-4b50-b081-44118aec6903"
-      (reference "SW57") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cd4842cd-9e0e-47c4-b948-311aa50f1650"
-      (reference "SW58") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/52474c56-3b02-4977-8ac8-a7aa2f3e3e94"
-      (reference "SW59") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b78e953f-f4be-48fc-b7e0-1d66c2fa1209"
-      (reference "SW60") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3fd5f37b-f4bb-4475-bb63-d67440a3d286"
-      (reference "SW61") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/89b8a78d-05b0-459e-92c0-7c9c5cc6ef3f"
-      (reference "SW62") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3b1143f2-6b7f-4175-b92d-d94162f76667"
-      (reference "SW63") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5bf2d34d-9b29-486f-acb5-324de8d69475"
-      (reference "SW64") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5b2374ac-ba4f-4766-8a19-88de9393b81a"
-      (reference "SW65") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f354f400-e3c1-47ef-97f5-aa18c34c3f2f"
-      (reference "SW66") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6d655523-9c1c-458a-a8a8-aa3492ec5607"
-      (reference "SW67") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/ea774ac2-3e61-4127-a70b-8fd833f0aa51"
-      (reference "SW68") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4c0aa060-f5e7-4028-9796-e4dbaedeadcc"
-      (reference "SW69") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1a26b368-058e-43c5-8854-9b9d58f54236"
-      (reference "SW70") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6750e0bf-2995-486f-95c5-ccc14d1db389"
-      (reference "SW71") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/dddf0944-961e-48d2-ac2b-61ff29d0b1b0"
-      (reference "SW72") (unit 1) (value "MODE_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c517c443-a580-4520-a18e-c7d55b618ad6"
-      (reference "SW73") (unit 1) (value "ALT_MODE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6227a16f-8e9c-41ea-8272-afe3698e177c"
-      (reference "SW74") (unit 1) (value "RUB_OUT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6986aedc-866f-4c81-b971-5dcccab83e6f"
-      (reference "SW75") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cebece0f-0840-4d0a-8257-712bc0b0c4b8"
-      (reference "SW76") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/32194134-2ff0-46a8-90e5-ad529158ffd0"
-      (reference "SW77") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a919b826-e301-4cfb-ae7e-9b442ac3a5ce"
-      (reference "SW78") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/427ed3a6-0ae8-412c-ba01-b23f4f3ee232"
-      (reference "SW79") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1b6decde-a9f1-415d-9a2e-b5e50c2306ea"
-      (reference "SW80") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8d05ea38-f79f-49be-b4e8-2bd44f412315"
-      (reference "SW81") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/eaec8b30-0bae-4baa-bec0-a16bc0df1d21"
-      (reference "SW82") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/66e5ea91-fb47-434b-95aa-f35add85fff1"
-      (reference "SW83") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/15146e9e-3ef7-4df7-962c-1f1dc1bfd0b0"
-      (reference "SW84") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e855e0e8-4041-4216-a87d-508f7fba7523"
-      (reference "SW85") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/480781fa-28f3-45ad-b5b8-70e7df6ae940"
-      (reference "SW86") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d5e1f22a-bbe8-4094-86a3-d558da83196c"
-      (reference "SW87") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6d0e85d7-19a4-4c4d-aff1-6b265c3c4844"
-      (reference "SW88") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1488c796-5947-448f-af4c-34f7b79f53bf"
-      (reference "SW89") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/135c153a-6f75-43ed-9acb-735836d6a17b"
-      (reference "SW90") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a47e71be-832c-42bd-868b-084839d24856"
-      (reference "SW91") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c88a7567-6c46-4646-95e3-e5bddd8cab27"
-      (reference "SW92") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/bd0f9237-ea24-4699-a459-3e101338ff41"
-      (reference "SW93") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/48c7582b-637f-4b0b-85c9-888c0e30f3e4"
-      (reference "SW94") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/513610cf-ef50-4f93-9016-0a984007b8fe"
-      (reference "SW95") (unit 1) (value "CAPS_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/3aad007d-37bb-4621-b05a-92e910074292"
-      (reference "SW96") (unit 1) (value "TOP") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a2a6b686-1501-4a95-afc2-38038c591b56"
-      (reference "SW97") (unit 1) (value "GREEK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/125858fa-ba82-4d32-8c02-5f02bbab28be"
-      (reference "SW98") (unit 1) (value "SHIFT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4ad900e6-9ba0-4300-a6a8-b2aef3061e17"
-      (reference "SW99") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5e2d566a-879e-45d0-b0b8-115976c2824b"
-      (reference "SW100") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/9983193e-1955-417a-92fb-19a4f6ecd1c1"
-      (reference "SW101") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fdd2dba5-cf76-4836-b1e7-0671f1a48f70"
-      (reference "SW102") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/642fd662-006b-4a52-be38-ab08f207b614"
-      (reference "SW103") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4b5c2ad3-ae57-4370-ad24-489879f19024"
-      (reference "SW104") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c85737db-842b-48bd-b8dc-c2a8b62ab4ee"
-      (reference "SW105") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cb5d5cd1-74b0-4680-9352-c918adfd8977"
-      (reference "SW106") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f055d980-e9e0-443c-9a5a-754b733718ab"
-      (reference "SW107") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/23b9d96d-a162-4c75-9d84-431b4039f0c9"
-      (reference "SW108") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/281bdac0-d188-4b7e-ad5f-34040056a71b"
-      (reference "SW109") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8b4c49e4-4f23-411f-98af-90b7cad8fc30"
-      (reference "SW110") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/fe064434-628e-4101-a048-0534efdb5bfa"
-      (reference "SW111") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7abeb5f6-bd2d-404a-905d-ea53f3753a67"
-      (reference "SW112") (unit 1) (value "SD_6B1D") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d93f8e4e-32e6-46a2-8839-cf89d810d8c6"
-      (reference "SW113") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6172236a-cee0-4fc3-940f-6cf6facf6ba3"
-      (reference "SW114") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/441d5a64-1378-4b15-850c-60487e5b9989"
-      (reference "SW115") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8ecd0224-c192-4686-bbe0-0e4469c7ac52"
-      (reference "SW116") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/66a7b68f-e2e4-46f6-b038-199a25b6f3ad"
-      (reference "SW117") (unit 1) (value "SD_5B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d320d1e1-6c63-4699-b186-ac83949e50a9"
-      (reference "SW118") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/62264486-9cde-4155-8eba-b2f6c47154ee"
-      (reference "SW119") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1a14a68b-7316-42f7-a86a-fc6069eb2130"
-      (reference "SW120") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cff0c073-2ad5-4386-a6cd-68527751b497"
-      (reference "SW121") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6dadf9d7-ecce-49a4-99a2-a86a0effdcde"
-      (reference "SW122") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/cfe0c3b5-25d8-4ca4-8f7b-2572ea41d8d2"
-      (reference "SW122a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/029100b7-9a69-406c-a7db-c40f8950415e"
-      (reference "SW123") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/19518e66-8eb3-4353-ab66-b1bcafef057c"
-      (reference "SW123a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6bc6fd47-f42a-448e-be24-3e58c8c3553d"
-      (reference "SW124") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c3c81763-fc5c-4173-90d2-d5936ef79c2f"
-      (reference "SW124a0") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/647ae2f2-f3fe-47aa-b94b-d0f3ea954394"
-      (reference "SW125") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/e9f76b7a-f446-45e7-bf22-bb61491def34"
-      (reference "SW126") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/89b43a72-fe0b-4fc2-b368-189776fcf697"
-      (reference "SW127") (unit 1) (value "UNPOPULATED") (footprint "Button_Switch_Keyboard:SW_MX_1U")
-    )
-    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1bef8362-69a5-4d30-b6db-dac14d752354"
-      (reference "SW128") (unit 1) (value "SD_4B3E") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/16b75526-5421-4b46-bde8-b1124e3db898"
+      (reference "R15C0") (unit 1) (value "LEFT_SPACE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
     )
     (path "/c066ba78-5889-440f-8d26-66915e83d08b"
       (reference "U1") (unit 1) (value "74LS154") (footprint "Package_DIP:DIP-24_W15.24mm_LongPads")
