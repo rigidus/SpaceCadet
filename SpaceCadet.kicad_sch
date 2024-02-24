@@ -4235,11 +4235,20 @@
     (path "/94b91b8a-0258-4cda-a957-e6f302c9f04e"
       (reference "C17") (unit 1) (value "4.7uF 25v") (footprint "TestPoint:Two_Pad_Through_Hole_12mm")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/b6c0e4f7-1312-44d5-a62b-24a791e5c6ef"
+      (reference "D_ALT_MODE0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4309aa7c-5581-4e58-b3a2-50a6f4a54a48"
       (reference "D_R1C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/30c081a8-6eb9-49ff-8afb-4e4de5006481"
+      (reference "D_R1C1") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/aaacc267-2f97-49c1-bb98-f105904950da"
       (reference "D_R2C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/df01794a-31a4-4672-8b8e-9cf59e963290"
+      (reference "D_R2C1") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/c8141780-2312-474c-abe2-46643e97fc7d"
       (reference "D_R3C0") (unit 1) (value "D") (footprint "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
@@ -4341,16 +4350,22 @@
       (reference "JP32") (unit 1) (value "Jumper Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6f163d38-e927-4bb8-81cf-024313ac950d"
-      (reference "R0C0") (unit 1) (value "MACRO") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R0C0") (unit 1) (value "MACRO") (footprint "Button_Switch_Keyboard:SW_MX_2U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/a6b31a68-7e85-4157-a45b-14db66896c1e"
-      (reference "R0C1") (unit 1) (value "TERMINAL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R0C1") (unit 1) (value "TERMINAL") (footprint "Button_Switch_Keyboard:SW_MX_2U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/04c117d5-7798-49fc-9bf2-7faff5d6fa66"
-      (reference "R1C0") (unit 1) (value "ROMAN_ONE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R1C0") (unit 1) (value "ROM_ONE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/4a1a595b-1734-48c3-9baf-7268eeda2fed"
+      (reference "R1C1") (unit 1) (value "SYSTEM") (footprint "Button_Switch_Keyboard:SW_MX_2U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0dd89272-747c-4ab2-980e-9eba300c6498"
       (reference "R2C0") (unit 1) (value "ROMAN_TWO") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/6c39388b-21e9-4c26-9bbc-13b8bcf2deef"
+      (reference "R2C1") (unit 1) (value "NETWORK") (footprint "Button_Switch_Keyboard:SW_MX_2U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7747d7e4-d8f9-4501-8532-42062e76c638"
       (reference "R3C0") (unit 1) (value "ROMAN_THREE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
@@ -4365,7 +4380,7 @@
       (reference "R5") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/baf90f96-81d6-4b46-b7f0-7ffad9ca18d5"
-      (reference "R5C0") (unit 1) (value "MODE_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R5C0") (unit 1) (value "MODE_LOCK") (footprint "Button_Switch_Keyboard:SW_MX_2U")
     )
     (path "/585e9c7f-d46a-4180-8342-4d9663c8f2cc"
       (reference "R6") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
@@ -4377,43 +4392,46 @@
       (reference "R7") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/5b27f1f1-9c00-427c-9a5b-72ceb9d7b040"
-      (reference "R7C0") (unit 1) (value "TOP") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R7C0") (unit 1) (value "TOP") (footprint "Button_Switch_Keyboard:SW_MX_1.25U")
     )
     (path "/e80dacb6-6a6c-44ed-9d2e-699e2578433d"
       (reference "R8") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/8c4d9fdc-00f8-4426-9217-a3f8a2455717"
-      (reference "R8C0") (unit 1) (value "HYPER") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R8C0") (unit 1) (value "HYPER") (footprint "Button_Switch_Keyboard:SW_MX_1.25U")
     )
     (path "/81dcdae1-ae0e-4d8c-9bf2-1ad2e7737479"
       (reference "R9") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/1f1909ba-eb6b-408d-bc65-a7b731c7e323"
-      (reference "R9C0") (unit 1) (value "SUPER") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R9C0") (unit 1) (value "SUPER") (footprint "Button_Switch_Keyboard:SW_MX_1.25U")
     )
     (path "/572a1812-167d-4df6-a541-c4a12c71e180"
       (reference "R10") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/96524c13-7b3e-4ce3-ae6f-b05002022052"
-      (reference "R10C0") (unit 1) (value "GREEK") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R10C0") (unit 1) (value "GREEK") (footprint "Button_Switch_Keyboard:SW_MX_1.25U")
     )
     (path "/b3722303-ea62-4002-a830-59226134f53b"
       (reference "R11") (unit 1) (value "1K") (footprint "TestPoint:Two_Pad_Through_Hole_12.4mm")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/7c585249-6f3d-4abe-9b89-38044143e878"
-      (reference "R11C0") (unit 1) (value "META") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R11C0") (unit 1) (value "META") (footprint "Button_Switch_Keyboard:SW_MX_1.25U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/0c56b2fd-43f3-4ff5-95b4-3dded997ff86"
-      (reference "R12C0") (unit 1) (value "SHIFT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R12C0") (unit 1) (value "SHIFT") (footprint "Button_Switch_Keyboard:SW_MX_2.25U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/504f2999-3fd5-451d-85a9-0a086046102e"
-      (reference "R13C0") (unit 1) (value "CTRL") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R13C0") (unit 1) (value "CTRL") (footprint "Button_Switch_Keyboard:SW_MX_1.25U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/f009bbde-e635-45df-adcc-6f29a74a6da4"
-      (reference "R14C0") (unit 1) (value "ALT") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+      (reference "R14C0") (unit 1) (value "ALT") (footprint "Button_Switch_Keyboard:SW_MX_1.25U")
     )
     (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/16b75526-5421-4b46-bde8-b1124e3db898"
       (reference "R15C0") (unit 1) (value "LEFT_SPACE") (footprint "Button_Switch_Keyboard:SW_MX_1U")
+    )
+    (path "/1a8342a5-15fc-454c-84eb-2b470c08f569/d951874a-f6b8-4a39-8c68-9552cd0d56c3"
+      (reference "S_ALT_MODE17") (unit 1) (value "ALT_MODE") (footprint "Button_Switch_Keyboard:SW_MX_2U")
     )
     (path "/c066ba78-5889-440f-8d26-66915e83d08b"
       (reference "U1") (unit 1) (value "74LS154") (footprint "Package_DIP:DIP-24_W15.24mm_LongPads")
