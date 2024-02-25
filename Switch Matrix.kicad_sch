@@ -1,1308 +1,7754 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid a0ec0bcc-7be9-4a0e-8dfd-6c54debb3a5d)
-
-  (paper "A3")
-
-  (title_block
-    (title "SD-16273 Keyboard PCB")
-    (date "2022-05-14")
-    (rev "1")
-    (company "Micro Switch (a divison of Honeywell)")
-  )
-
-  (lib_symbols
-    (symbol "Device:D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (id 0) (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D" (id 1) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Diode" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D_0_1"
-        (polyline
-          (pts
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "D_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Space_Cadet_Button_Switches:SWK" (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (id 0) (at 1.524 2.794 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SWK" (id 1) (at 2.286 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Button_Switch_Keyboard:SW_MX_1U" (id 2) (at 0.508 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 9.398 -1.524 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SWK_0_1"
-        (rectangle (start 1.524 -1.524) (end -1.778 1.524)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-      )
-      (symbol "SWK_1_1"
-        (pin passive line (at 4.064 0 180) (length 2.54)
-          (name "in" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 4.064 270) (length 2.54)
-          (name "out" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 31.75 106.68) (diameter 0) (color 0 0 0 0)
-    (uuid 0b641dae-97ea-4013-84bc-60664e9a67b4)
-  )
-  (junction (at 26.67 144.272) (diameter 0) (color 0 0 0 0)
-    (uuid 2496e13b-7296-42f6-b9e9-8a5dc2ec0e91)
-  )
-  (junction (at 31.75 140.97) (diameter 0) (color 0 0 0 0)
-    (uuid 4a5f3efc-0e73-496a-b602-5e1d8e498613)
-  )
-  (junction (at 26.67 58.42) (diameter 0) (color 0 0 0 0)
-    (uuid 50050d6f-7f36-46bb-ae66-51cb3a89b402)
-  )
-  (junction (at 26.6904 109.9471) (diameter 0) (color 0 0 0 0)
-    (uuid 587f8601-8cbe-4989-b4a2-df1980c65ce2)
-  )
-  (junction (at 31.75 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 5893dfca-28ea-4ffd-b96a-07f540f10438)
-  )
-  (junction (at 26.543 246.888) (diameter 0) (color 0 0 0 0)
-    (uuid 82645456-d30b-4390-9775-45dce935b837)
-  )
-  (junction (at 31.75 243.84) (diameter 0) (color 0 0 0 0)
-    (uuid 9b005fee-4071-4393-8dfc-a2ed72d8a6bc)
-  )
-  (junction (at 26.67 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid b72e3c78-134c-4f50-854c-4610984c82cc)
-  )
-  (junction (at 26.67 75.565) (diameter 0) (color 0 0 0 0)
-    (uuid c20f91dd-bdbd-4131-b444-92a65fe95475)
-  )
-  (junction (at 26.67 127) (diameter 0) (color 0 0 0 0)
-    (uuid cc0a8a93-1fe3-43df-8bfc-b7910ede63a6)
-  )
-  (junction (at 31.75 123.825) (diameter 0) (color 0 0 0 0)
-    (uuid df1ea2e1-bf96-4ca4-81dc-25fc15e5abf6)
-  )
-  (junction (at 31.75 89.535) (diameter 0) (color 0 0 0 0)
-    (uuid e7d2a9e4-0a2f-45f8-81fe-2660ef756e1b)
-  )
-
-  (wire (pts (xy 31.75 89.535) (xy 31.75 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 02a16b72-ae41-4624-9bff-b29c50bb45d0)
-  )
-  (wire (pts (xy 26.543 289.941) (xy 26.543 290.957))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 08b81469-59f3-444d-9a81-073299c76132)
-  )
-  (wire (pts (xy 26.543 221.488) (xy 26.543 222.504))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 0af4a6d7-ebc0-468a-a5ab-413574b14f89)
-  )
-  (wire (pts (xy 26.543 246.888) (xy 26.543 248.285))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 0ce64784-542a-498f-90ac-2bb7d7b30613)
-  )
-  (wire (pts (xy 26.543 255.905) (xy 26.543 256.921))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 11cc4c95-2620-491f-9b35-498a6cb556e1)
-  )
-  (wire (pts (xy 30.607 295.021) (xy 31.75 295.021))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 16650205-96d7-4cbb-923b-0b2482bbc3ea)
-  )
-  (wire (pts (xy 22.86 280.924) (xy 398.653 280.924))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1aa56333-a5cc-4a52-9ae4-2efdb8c303a5)
-  )
-  (wire (pts (xy 26.67 118.745) (xy 26.67 119.761))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1d397fdf-9e7d-441a-b467-e53c3105d6f5)
-  )
-  (wire (pts (xy 26.67 101.6) (xy 26.67 102.616))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1d847fa8-fcc8-4a60-ab7f-2beedc72235d)
-  )
-  (wire (pts (xy 22.86 246.888) (xy 26.543 246.888))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 230cd46c-afce-4319-bbf5-c56d6897fff8)
-  )
-  (wire (pts (xy 22.86 41.4885) (xy 399.7672 41.4885))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 24c65b6d-1676-46e9-be32-53817c82c28f)
-  )
-  (wire (pts (xy 31.75 20.32) (xy 31.75 72.39))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 27298cb4-f761-4df3-a255-1aa4735d53cf)
-  )
-  (wire (pts (xy 26.67 127) (xy 26.67 128.27))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 28957cc0-8c6b-48eb-b469-8fdbbbcace40)
-  )
-  (wire (pts (xy 22.86 263.906) (xy 398.653 263.906))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 296b9e16-60e6-4d3a-9831-121cd357da80)
-  )
-  (wire (pts (xy 26.67 92.71) (xy 400.05 92.71))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 29f84882-30a7-4992-9cc5-96c1ad82adb5)
-  )
-  (wire (pts (xy 26.543 272.796) (xy 26.543 273.812))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2a53604c-9ddd-4e3d-b02e-926ad1a520fe)
-  )
-  (wire (pts (xy 31.75 72.39) (xy 31.75 89.535))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2d101861-8104-4990-9549-ef2bab9afdaf)
-  )
-  (wire (pts (xy 26.67 58.42) (xy 399.5846 58.42))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2e132989-a6d5-473b-8648-62d56fd2470f)
-  )
-  (wire (pts (xy 26.543 238.76) (xy 26.543 239.776))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 2f053916-84cf-4726-a2c8-cd5d2925554d)
-  )
-  (wire (pts (xy 30.607 243.84) (xy 31.75 243.84))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 35a44273-bd9d-4313-bdba-786a0d2e1018)
-  )
-  (wire (pts (xy 26.67 58.42) (xy 26.67 59.69))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 383a5932-b8f9-43bb-a00b-abd50533b71d)
-  )
-  (wire (pts (xy 22.86 229.743) (xy 398.78 229.743))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 39628f0f-6620-4116-91be-b1e444856f32)
-  )
-  (wire (pts (xy 26.6904 109.9471) (xy 399.7198 109.9471))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 41756b8d-c5e4-4503-8fc7-a1f986cadb1c)
-  )
-  (wire (pts (xy 30.734 123.825) (xy 31.75 123.825))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 448b3478-f0d2-4b27-924b-2796a83c2d90)
-  )
-  (wire (pts (xy 22.86 212.471) (xy 399.161 212.471))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 48fb1de4-6f03-4e35-a18d-711c2f1ed37c)
-  )
-  (wire (pts (xy 31.75 140.97) (xy 31.75 243.84))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4a5672e0-befb-4719-9b6f-f77944abe4c9)
-  )
-  (wire (pts (xy 22.86 24.13) (xy 400.05 24.13))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4c31551b-604e-483c-8b2e-db1fcb768af7)
-  )
-  (wire (pts (xy 26.67 92.71) (xy 26.67 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4d110d3b-1b65-4715-a9a5-5971299592d8)
-  )
-  (wire (pts (xy 26.67 75.565) (xy 26.67 76.835))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4f6f4d74-3809-44d1-a88a-781e809b2588)
-  )
-  (wire (pts (xy 22.6905 109.9471) (xy 26.6904 109.9471))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 54e7315b-5521-4178-9eb5-72e00fffc8ad)
-  )
-  (wire (pts (xy 31.75 106.68) (xy 31.75 123.825))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 54e908b9-dad2-4962-a5c1-a4a03adad340)
-  )
-  (wire (pts (xy 42.291 66.929) (xy 42.291 67.945))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 58f9a1ec-aa6f-4211-bea0-585b03f417c1)
-  )
-  (wire (pts (xy 30.734 55.245) (xy 31.75 55.245))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5fd173ec-3ed9-4cdd-b0bd-c8a30e12649b)
-  )
-  (wire (pts (xy 46.99 20.32) (xy 46.99 275.59))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 65dbfa2f-a11c-47fa-94f9-d4d90f97327e)
-  )
-  (wire (pts (xy 22.86 92.71) (xy 26.67 92.71))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 67120c22-cbeb-4dcb-a001-08678d76f5b3)
-  )
-  (wire (pts (xy 26.67 84.455) (xy 26.67 85.471))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6ef77865-a6ce-4c14-a121-81093550f75e)
-  )
-  (wire (pts (xy 26.67 153.162) (xy 26.67 154.178))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 715008ac-6a1d-46bb-9fdf-38204c4fbd63)
-  )
-  (wire (pts (xy 26.6904 109.9471) (xy 26.6904 111.125))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7d516e3b-aa46-40a1-8a6d-4496805f6a6d)
-  )
-  (wire (pts (xy 42.037 50.038) (xy 42.037 51.054))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 83e4f5b2-2aa2-4328-b1f7-13d7940d942d)
-  )
-  (wire (pts (xy 22.86 75.565) (xy 26.67 75.565))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 847d9a36-214d-40a7-93c1-d9b503be2098)
-  )
-  (wire (pts (xy 26.67 144.272) (xy 26.67 145.542))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8920d976-aa83-4f8d-a7d0-bb5969bc1785)
-  )
-  (wire (pts (xy 30.734 89.535) (xy 31.75 89.535))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8c995185-9e28-4832-926c-8152005c4d3f)
-  )
-  (wire (pts (xy 26.67 127) (xy 399.796 127))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8cbc8e54-854d-4212-93ed-36f4d27ac78e)
-  )
-  (wire (pts (xy 26.67 170.18) (xy 26.67 171.196))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 918efc7a-ddf2-438a-b3a4-84cbe86a4966)
-  )
-  (wire (pts (xy 26.67 67.31) (xy 26.67 68.326))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9ad78e0e-4c78-48ee-9641-61b44959f5be)
-  )
-  (wire (pts (xy 26.67 75.565) (xy 400.05 75.565))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9e290312-a78f-433a-a180-3f923de64a47)
-  )
-  (wire (pts (xy 31.75 123.825) (xy 31.75 140.97))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9f085175-4790-4571-859f-48aa899a086e)
-  )
-  (wire (pts (xy 26.6904 111.125) (xy 26.67 111.125))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a7fd9193-5bd9-42b4-933a-2ba07793b111)
-  )
-  (wire (pts (xy 26.67 135.89) (xy 26.67 136.906))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid aad3c93c-9985-4305-aece-9f61d2462028)
-  )
-  (wire (pts (xy 26.67 50.165) (xy 26.67 51.181))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid afd12f43-5942-475e-9c9d-c8328b564312)
-  )
-  (wire (pts (xy 399.7198 109.9471) (xy 399.7263 109.9312))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b496ec97-8ac1-438a-8a67-5eea4ec003db)
-  )
-  (wire (pts (xy 26.543 246.888) (xy 398.399 246.888))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b980d2ec-31da-4936-8305-177a746e91d0)
-  )
-  (wire (pts (xy 26.5684 204.216) (xy 26.5684 205.232))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b9bcbee5-da12-4a91-b342-72bd6b5482d7)
-  )
-  (wire (pts (xy 22.86 161.3916) (xy 398.907 161.3916))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid bad6c100-f538-45dc-bb2e-01096c2615b2)
-  )
-  (wire (pts (xy 42.672 85.217) (xy 42.672 86.233))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid bb90e2a8-f75a-4399-872a-59fca8350d7c)
-  )
-  (wire (pts (xy 30.734 140.97) (xy 31.75 140.97))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid bcd2ac05-7a22-47a9-b4fa-707fd6cbb1b6)
-  )
-  (wire (pts (xy 30.734 72.39) (xy 31.75 72.39))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c64528ae-f842-4f72-b74b-b7a6ea54398d)
-  )
-  (wire (pts (xy 22.86 195.326) (xy 398.8879 195.326))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c81d2ab0-e8b4-4353-a202-825979eb0f2c)
-  )
-  (wire (pts (xy 30.734 106.68) (xy 31.75 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid cf1d43e7-da26-4af2-8ea3-529edda3fcd9)
-  )
-  (wire (pts (xy 22.606 127) (xy 26.67 127))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d43ac7b8-72b0-4a49-b793-e80c86b68877)
-  )
-  (wire (pts (xy 26.67 33.02) (xy 26.67 34.036))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d81b9682-a303-40d0-9d3f-423467b2479c)
-  )
-  (wire (pts (xy 22.86 178.308) (xy 399.034 178.308))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d8c5d5ed-d35d-42a9-b08f-29976589e0b1)
-  )
-  (wire (pts (xy 26.5684 187.198) (xy 26.5684 188.214))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid de75ec47-3e52-44ad-bab0-5407b1c8b747)
-  )
-  (wire (pts (xy 22.86 58.42) (xy 26.67 58.42))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e06e3538-f060-4f45-a5bb-8a36937c4d93)
-  )
-  (wire (pts (xy 41.91 33.02) (xy 41.91 34.036))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid effbdac1-c447-4fd4-b113-5b0a1858cffe)
-  )
-  (wire (pts (xy 31.75 243.84) (xy 31.75 295.021))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid f73155c9-44d5-401f-97f0-229cfeefb5b0)
-  )
-  (wire (pts (xy 22.6781 144.2719) (xy 399.5646 144.2719))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fc315d2b-fdb9-4b65-858c-4d0882f1cb5d)
-  )
-
-  (text "Switch Matrix" (at 190.5508 19.2024 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid ee6d752d-2133-4fa5-9e89-10a24a833f4f)
-  )
-
-  (global_label "ROW2" (shape input) (at 22.86 58.42 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 143fc276-dfa1-470b-9994-94d310e1bf2e)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.1855 58.3406 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "COL1" (shape input) (at 46.99 20.32 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 28a05310-f0f5-4f88-83a9-ac907b138bb0)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 47.0694 13.0688 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "ROW4" (shape input) (at 22.86 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2924d4a9-ff2c-47a5-b88d-18d0bb402846)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.1855 92.6306 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW7" (shape input) (at 22.6781 144.2719 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 38d330df-63ee-4c68-a0e4-2d6b6c7288f8)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.0036 144.1925 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW10" (shape input) (at 22.86 195.326 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3c881846-592c-4f79-91db-19cc14e9f7b8)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.9759 195.2466 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW0" (shape input) (at 22.86 24.13 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5b4879ca-125a-4e72-a00b-4f0097f695de)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.1855 24.0506 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW1" (shape input) (at 22.86 41.4885 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 60382bca-c056-4bbc-849a-f4c4ca9caa62)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.1855 41.4091 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW15" (shape input) (at 22.86 280.924 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 62a0b929-5b0e-4c79-8f19-3eedb051a728)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.9759 280.8446 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW14" (shape input) (at 22.86 263.906 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 64da6129-95e7-4eca-9195-9aef1822c352)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.9759 263.8266 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "COL0" (shape input) (at 31.75 20.32 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 701b9cc5-b835-4775-b7c9-1bf12b0e5116)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 31.8294 13.0688 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "ROW8" (shape input) (at 22.86 161.3916 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7072a585-227a-4215-8bac-79da92ed5993)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.1855 161.3122 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW6" (shape input) (at 22.606 127 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7665e830-045a-47d7-978f-cc836a9621e5)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 14.9315 126.9206 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW11" (shape input) (at 22.86 212.471 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7d652eee-e8d8-49f5-8f63-a698c545756c)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.9759 212.3916 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW5" (shape input) (at 22.6905 109.9471 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a4ebcf71-98de-41d3-872f-c0ac8cd8121c)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.016 109.8677 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW12" (shape input) (at 22.86 229.743 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid dff8272d-debd-41ef-8cf1-4f4b6f8ff749)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.9759 229.6636 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW13" (shape input) (at 22.86 246.888 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ea55d300-07ae-4460-9121-3f14eaa0782d)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 13.9759 246.8086 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW9" (shape input) (at 22.86 178.308 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f6348348-4d66-43e1-89df-f9e6646bc2f4)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.1855 178.2286 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ROW3" (shape input) (at 22.86 75.565 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fac66267-c36f-4660-a4bf-df48e263b1d2)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 15.1855 75.4856 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 55.245 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 04c117d5-7798-49fc-9bf2-7faff5d6fa66)
-    (property "Reference" "R1C0" (id 0) (at 22.86 53.975 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "ROM_ONE" (id 1) (at 24.13 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1U" (id 2) (at 27.178 57.785 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 56.769 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 460decd2-a18b-4ec4-bba6-5635b788d50d))
-    (pin "2" (uuid 25a02e61-d166-4f7c-982a-1ac770544f90))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.543 243.84 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 0c56b2fd-43f3-4ff5-95b4-3dded997ff86)
-    (property "Reference" "R12C0" (id 0) (at 22.733 242.57 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SHIFT" (id 1) (at 24.003 244.475 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_2.25U" (id 2) (at 27.051 246.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.941 245.364 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c91edb9e-7412-4e2f-b023-feb3109828d7))
-    (pin "2" (uuid 3251a3c0-3dc1-4fe1-8a31-69d08933a846))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 166.37 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 0cb3b285-ca31-4053-a023-4e00c5b736c1)
-    (property "Reference" "D_R8C0" (id 0) (at 21.59 163.83 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 167.6399 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 868a1459-5eea-4c63-a612-c14385c468e5))
-    (pin "2" (uuid 609c7e13-0b10-4a9d-8c8c-22bf8dbf3069))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 0dd89272-747c-4ab2-980e-9eba300c6498)
-    (property "Reference" "R2C0" (id 0) (at 22.86 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "ROMAN_TWO" (id 1) (at 24.13 73.025 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1U" (id 2) (at 27.178 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 73.914 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 192e6844-628a-41d9-b477-ff6f84ce0716))
-    (pin "2" (uuid 6319fa77-5c1c-4aee-9f60-5a580521ef77))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.543 295.021 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 16b75526-5421-4b46-bde8-b1124e3db898)
-    (property "Reference" "R15C0" (id 0) (at 22.733 293.751 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LEFT_SPACE" (id 1) (at 24.003 295.656 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1U" (id 2) (at 27.051 297.561 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.941 296.545 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 15d5a7a5-8bc6-4e86-a10e-5735bb9c31eb))
-    (pin "2" (uuid 5a823e8c-e5fa-49cb-a22e-d5803d1c86d9))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 97.79 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 191dd7a3-a048-464c-bae1-285be9838296)
-    (property "Reference" "D_R4C0" (id 0) (at 21.59 95.25 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 99.0599 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 405a1bf8-0d04-48c8-b5a4-0344f418a766))
-    (pin "2" (uuid 8a54ed19-45c3-4f1a-9088-99e47f834d57))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.5684 192.278 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 1f1909ba-eb6b-408d-bc65-a7b731c7e323)
-    (property "Reference" "R9C0" (id 0) (at 22.7584 191.008 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SUPER" (id 1) (at 24.0284 192.913 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U" (id 2) (at 27.0764 194.818 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.9664 193.802 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 42e1e46e-51cf-4b46-b156-754f0a784524))
-    (pin "2" (uuid 363231c5-b6ab-42c3-945c-2b3a29e00377))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 114.935 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 29149ea9-4295-443a-8d29-91c8337f497e)
-    (property "Reference" "D_R5C0" (id 0) (at 21.59 112.395 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 116.2049 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 114.935 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 27a750c1-2930-42a2-8d9b-439bcb0fbd1e))
-    (pin "2" (uuid 317ae89d-567c-412c-b966-8427e8bf5535))
-  )
-
-  (symbol (lib_id "Device:D") (at 42.037 46.228 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 30c081a8-6eb9-49ff-8afb-4e4de5006481)
-    (property "Reference" "D_R1C1" (id 0) (at 36.957 43.688 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 44.577 47.4979 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 42.037 46.228 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 42.037 46.228 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 93e2b194-78b4-4c72-b805-e35e3550b188))
-    (pin "2" (uuid 8d4c482b-c37a-47ca-8580-9a0af7f9dca1))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.543 252.095 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 35b9f520-3579-44b5-add0-2f892bde29fb)
-    (property "Reference" "D_R13C0" (id 0) (at 21.463 249.555 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.083 253.3649 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.543 252.095 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.543 252.095 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b3a219f1-f110-4c1a-a132-b83cc73f45c5))
-    (pin "2" (uuid a6d47a2e-318e-488a-82b4-32d637c09fdb))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.543 234.95 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 39620699-4abd-44a0-9d93-c0c4b92389ba)
-    (property "Reference" "D_R12C0" (id 0) (at 21.463 232.41 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.083 236.2199 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.543 234.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.543 234.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9eda40be-fcd9-4e6d-a266-414ee2dd7dad))
-    (pin "2" (uuid bd1f2f36-d3ab-4822-a8bb-5aef482ff066))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 132.08 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 3e878b83-7df7-4cc5-b215-1388c96428db)
-    (property "Reference" "D_R6C0" (id 0) (at 21.59 129.54 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 133.3499 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5a816be6-9df4-4edd-b3d1-28106aecf46b))
-    (pin "2" (uuid db874f0a-7f6a-4273-9162-ddd41e688730))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 46.355 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 4309aa7c-5581-4e58-b3a2-50a6f4a54a48)
-    (property "Reference" "D_R1C0" (id 0) (at 21.59 43.815 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 47.6249 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 46.355 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 46.355 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a78019fa-9887-460b-891f-79c7a4934058))
-    (pin "2" (uuid 18d645d1-5667-4252-ae22-8dde6f6a4193))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 42.037 55.118 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 4a1a595b-1734-48c3-9baf-7268eeda2fed)
-    (property "Reference" "R1C1" (id 0) (at 38.227 53.848 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SYSTEM" (id 1) (at 39.497 55.753 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_2U" (id 2) (at 42.545 57.658 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 51.435 56.642 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7df9af83-9689-4570-9ac2-a6e8ee799f65))
-    (pin "2" (uuid 9bd8ef1d-532a-4927-afe5-162e6702eed1))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.543 260.985 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 504f2999-3fd5-451d-85a9-0a086046102e)
-    (property "Reference" "R13C0" (id 0) (at 22.733 259.715 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "CTRL" (id 1) (at 24.003 261.62 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U" (id 2) (at 27.051 263.525 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.941 262.509 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 69f26454-4a5e-4783-bb35-5f3abfd0240b))
-    (pin "2" (uuid c4549258-58ef-4278-bb64-b21e6103f181))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.543 286.131 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 509b49d3-9c52-4e87-b1cc-2579e783caa2)
-    (property "Reference" "D_R15C0" (id 0) (at 21.463 283.591 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.083 287.4009 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.543 286.131 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.543 286.131 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 86bdb5b8-bdd8-47e4-b178-1d2ceed0320f))
-    (pin "2" (uuid 5aa6c91b-9a15-48ef-83d2-57f7ed63307c))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 158.242 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 5b27f1f1-9c00-427c-9a5b-72ceb9d7b040)
-    (property "Reference" "R7C0" (id 0) (at 22.86 156.972 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "TOP" (id 1) (at 24.13 158.877 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U" (id 2) (at 27.178 160.782 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 159.766 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ab7b31a7-e0db-4448-b96b-016ae03d18d8))
-    (pin "2" (uuid 27affb8e-da73-4975-956d-cb99610f4848))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.5684 200.406 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 5b958905-95a3-4da3-8933-513d6accc0c0)
-    (property "Reference" "D_R10C0" (id 0) (at 21.4884 197.866 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.1084 201.6759 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.5684 200.406 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.5684 200.406 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 176efef5-b778-4a4e-94de-fe7aa75bcf58))
-    (pin "2" (uuid e5304362-e41e-41bc-a5ab-5f8ca247834b))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 61c997af-1a11-41b6-ad2e-7eed7fb89f1c)
-    (property "Reference" "R6C0" (id 0) (at 22.86 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "CAPS_LOCK" (id 1) (at 24.13 141.605 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1U" (id 2) (at 27.178 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 142.494 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c874be21-d20b-423d-986b-860b4c8f4403))
-    (pin "2" (uuid 1130e164-cb7a-4c48-a3d4-7a01face9d08))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.543 268.986 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 626ddf2e-c5e6-4429-8bc6-e4a5599d907b)
-    (property "Reference" "D_R14C0" (id 0) (at 21.463 266.446 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.083 270.2559 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.543 268.986 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.543 268.986 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b9d1af18-2f69-4e17-89a4-416b157f126a))
-    (pin "2" (uuid a4dfca25-43bf-4eb6-90af-40f3c029f868))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 42.291 72.009 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 6c39388b-21e9-4c26-9bbc-13b8bcf2deef)
-    (property "Reference" "R2C1" (id 0) (at 38.481 70.739 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "NETWORK" (id 1) (at 39.751 72.644 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_2U" (id 2) (at 42.799 74.549 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 51.689 73.533 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8d340f0a-c181-4e29-b9e8-e2a5bf9590b5))
-    (pin "2" (uuid b92a9dcc-efa9-46de-8394-1be42f852c3f))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 6f163d38-e927-4bb8-81cf-024313ac950d)
-    (property "Reference" "R0C0" (id 0) (at 22.86 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MACRO" (id 1) (at 24.13 38.735 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_2U" (id 2) (at 27.178 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 39.624 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e5bb7e25-1849-486f-abfc-d53892d0ba0c))
-    (pin "2" (uuid ec6784af-84ca-4c44-b24f-501237b01ed1))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 89.535 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 7747d7e4-d8f9-4501-8532-42062e76c638)
-    (property "Reference" "R3C0" (id 0) (at 22.86 88.265 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "ROMAN_THREE" (id 1) (at 24.13 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1U" (id 2) (at 27.178 92.075 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 91.059 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc2d7c11-b2db-4465-8d1e-55d62e046473))
-    (pin "2" (uuid cd2ad245-8949-4d93-9ae5-f5af525037ad))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.543 226.568 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 7c585249-6f3d-4abe-9b89-38044143e878)
-    (property "Reference" "R11C0" (id 0) (at 22.733 225.298 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "META" (id 1) (at 24.003 227.203 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U" (id 2) (at 27.051 229.108 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.941 228.092 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 35e7b062-1c95-4da8-876b-fdd05fd383bd))
-    (pin "2" (uuid 4ac36f2c-f556-4120-9543-269de2549bdc))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 8c4d9fdc-00f8-4426-9217-a3f8a2455717)
-    (property "Reference" "R8C0" (id 0) (at 22.86 173.99 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "HYPER" (id 1) (at 24.13 175.895 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U" (id 2) (at 27.178 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 176.784 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 40f6b5c2-3465-4e51-ad0c-0e1aaac2266b))
-    (pin "2" (uuid 9467eff4-059e-43fa-9a44-5bc7daa24e8b))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.5684 209.296 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 96524c13-7b3e-4ce3-ae6f-b05002022052)
-    (property "Reference" "R10C0" (id 0) (at 22.7584 208.026 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "GREEK" (id 1) (at 24.0284 209.931 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U" (id 2) (at 27.0764 211.836 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.9664 210.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e7c1fda-3d64-41d1-a901-73362f93f3a3))
-    (pin "2" (uuid 86e91b31-d5a5-4d6f-9a80-bd76a4409bac))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 41.91 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid a6b31a68-7e85-4157-a45b-14db66896c1e)
-    (property "Reference" "R0C1" (id 0) (at 38.1 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "TERMINAL" (id 1) (at 39.37 40.005 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_2U" (id 2) (at 42.418 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 51.308 39.624 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ed48b0a8-2626-43f7-aaf3-e3c094b88770))
-    (pin "2" (uuid 7f8debcb-0af2-4e5a-a999-754b3c130cde))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 63.5 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid aaacc267-2f97-49c1-bb98-f105904950da)
-    (property "Reference" "D_R2C0" (id 0) (at 21.59 60.96 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 64.7699 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1172fd92-8301-4521-8245-56bfebfacb8b))
-    (pin "2" (uuid b362f3a4-e156-41fd-8012-c24e49b0f95c))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid b4c6709b-ce78-4570-af65-9467989c6ba8)
-    (property "Reference" "R4C0" (id 0) (at 22.86 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "ROMAN_FOUR" (id 1) (at 24.13 107.315 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1U" (id 2) (at 27.178 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 108.204 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ec636829-6b91-4f39-9a0d-0d57a483b6d0))
-    (pin "2" (uuid 07e6965a-9294-4a6b-b0f5-3068a850519e))
-  )
-
-  (symbol (lib_id "Device:D") (at 42.672 81.407 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid b6c0e4f7-1312-44d5-a62b-24a791e5c6ef)
-    (property "Reference" "D_ALT_MODE0" (id 0) (at 37.592 78.867 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 45.212 82.6769 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 42.672 81.407 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 42.672 81.407 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ec39dec-0797-44f7-8264-c223d6123803))
-    (pin "2" (uuid 8a18dc2d-3acf-4bed-a88a-59330e4de1f8))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.67 123.825 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid baf90f96-81d6-4b46-b7f0-7ffad9ca18d5)
-    (property "Reference" "R5C0" (id 0) (at 22.86 122.555 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MODE_LOCK" (id 1) (at 24.13 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_2U" (id 2) (at 27.178 126.365 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 36.068 125.349 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cd34e42c-84c7-47ed-b6de-53eb70c3321c))
-    (pin "2" (uuid 2f6963a2-9dc8-4a79-94ec-b974426b2e53))
-  )
-
-  (symbol (lib_id "Device:D") (at 41.91 29.21 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid c1680ed8-3e6a-4b48-91d2-f8d9696898d1)
-    (property "Reference" "D_ROC1" (id 0) (at 36.83 26.67 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 44.45 30.4799 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 41.91 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 41.91 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d12b2e53-21f3-4742-8e9a-f26036bd71d6))
-    (pin "2" (uuid e23408cc-0390-4a2c-8148-eebbd7079e21))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.5684 183.388 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid c4b7de32-5d50-4591-b218-2ca610b812d7)
-    (property "Reference" "D_R9C0" (id 0) (at 21.4884 180.848 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.1084 184.6579 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.5684 183.388 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.5684 183.388 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 40a3f418-806d-42b9-9c30-dd825646b08b))
-    (pin "2" (uuid 075460ea-61cd-46ef-a93b-9fd3de477746))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 80.645 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid c8141780-2312-474c-abe2-46643e97fc7d)
-    (property "Reference" "D_R3C0" (id 0) (at 21.59 78.105 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 81.9149 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 80.645 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 80.645 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 474ad249-f37e-45ee-868f-6b92918f946d))
-    (pin "2" (uuid 31c2b372-728f-4f6e-98c5-ae20038c05a4))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 29.21 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid cc31325c-36a1-4b1d-93d0-9b44f0f4fbae)
-    (property "Reference" "D_ROC0" (id 0) (at 21.59 26.67 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 30.4799 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ab4cd37f-514e-4b2b-af05-99ee27fdc26e))
-    (pin "2" (uuid a080d5d7-1765-4d50-9ffd-a5e96baab8cd))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.67 149.352 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid cdcb8367-96f4-492b-8942-d9ee150c0c8a)
-    (property "Reference" "D_R7C0" (id 0) (at 21.59 146.812 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.21 150.6219 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.67 149.352 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.67 149.352 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c1ce1376-c760-4880-85e0-2353dd34edb4))
-    (pin "2" (uuid 2ee847f3-77af-4401-b1a8-28e79897c8b3))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 42.672 90.297 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid d951874a-f6b8-4a39-8c68-9552cd0d56c3)
-    (property "Reference" "S_ALT_MODE17" (id 0) (at 38.862 89.027 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "ALT_MODE" (id 1) (at 40.132 90.932 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_2U" (id 2) (at 43.18 92.837 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 52.07 91.821 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c6ce749f-bfe5-4710-bc88-c9e3c90008f8))
-    (pin "2" (uuid ba8602e9-d3bd-4e70-a425-a26f11e2e832))
-  )
-
-  (symbol (lib_id "Device:D") (at 42.291 63.119 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid df01794a-31a4-4672-8b8e-9cf59e963290)
-    (property "Reference" "D_R2C1" (id 0) (at 37.211 60.579 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 44.831 64.3889 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 42.291 63.119 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 42.291 63.119 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c724f950-b85d-47f4-a597-83899c2b29de))
-    (pin "2" (uuid 46663638-af6f-4280-9fb6-7e298abde919))
-  )
-
-  (symbol (lib_id "Device:D") (at 26.543 217.678 270) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid ef84abbe-b5fa-4140-9c09-a939e0dba8d6)
-    (property "Reference" "D_R11C0" (id 0) (at 21.463 215.138 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D" (id 1) (at 29.083 218.9479 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder" (id 2) (at 26.543 217.678 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 26.543 217.678 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3ad16bf-cb6e-4a6f-b971-706c4f5edb5a))
-    (pin "2" (uuid d86bb6b3-930d-4b9c-aadd-2562ea5e7988))
-  )
-
-  (symbol (lib_id "Space_Cadet_Button_Switches:SWK") (at 26.543 277.876 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid f009bbde-e635-45df-adcc-6f29a74a6da4)
-    (property "Reference" "R14C0" (id 0) (at 22.733 276.606 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "ALT" (id 1) (at 24.003 278.511 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U" (id 2) (at 27.051 280.416 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 35.941 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4ecc524d-589e-4370-89c4-e06e2252d534))
-    (pin "2" (uuid a08bdc15-d553-4c7f-b2c3-52b5e852c380))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a0ec0bcc-7be9-4a0e-8dfd-6c54debb3a5d")
+	(paper "A3")
+	(title_block
+		(title "SD-16273 Keyboard PCB")
+		(date "2022-05-14")
+		(rev "1")
+		(company "Micro Switch (a divison of Honeywell)")
+	)
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Space_Cadet_Button_Switches:SWK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.524 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SWK"
+				(at 2.286 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+				(at 0.508 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 9.398 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SWK_0_1"
+				(rectangle
+					(start 1.524 -1.524)
+					(end -1.778 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SWK_1_1"
+				(pin passive line
+					(at 4.064 0 180)
+					(length 2.54)
+					(name "in"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 4.064 270)
+					(length 2.54)
+					(name "out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 81.28 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c678509-5f35-44d4-adfa-ab9de768fd99")
+	)
+	(junction
+		(at 317.5 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be8a624-b662-4aa4-b50e-6f4b354a7ff1")
+	)
+	(junction
+		(at 349.25 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4883fa5c-e936-4399-a7e1-c74753ba4662")
+	)
+	(junction
+		(at 26.67 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50050d6f-7f36-46bb-ae66-51cb3a89b402")
+	)
+	(junction
+		(at 48.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bcd855f-035d-4738-80ca-4ff6a4688b2a")
+	)
+	(junction
+		(at 26.67 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55d58cf-9e15-427e-9939-1a9f2b1c189d")
+	)
+	(junction
+		(at 26.67 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cafad8ae-ac59-4d9d-95f1-d0ce87d5e768")
+	)
+	(junction
+		(at 294.64 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deb90fb7-4c65-4011-ac05-220a0611f58d")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 114.3 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b81469-59f3-444d-9a81-073299c76132")
+	)
+	(wire
+		(pts
+			(xy 63.5 119.38) (xy 63.5 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af4a6d7-ebc0-468a-a5ab-413574b14f89")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 81.28 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cc4c95-2620-491f-9b35-498a6cb556e1")
+	)
+	(wire
+		(pts
+			(xy 317.5 118.11) (xy 317.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125f40a8-f47a-416d-b5fc-982c935fbd9c")
+	)
+	(wire
+		(pts
+			(xy 86.36 67.31) (xy 86.36 68.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a0901d-b41a-4e54-88e2-d32917fc722b")
+	)
+	(wire
+		(pts
+			(xy 118.364 124.46) (xy 119.507 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16650205-96d7-4cbb-923b-0b2482bbc3ea")
+	)
+	(wire
+		(pts
+			(xy 233.68 101.6) (xy 233.68 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8634a4-91f4-430c-af69-52022c819171")
+	)
+	(wire
+		(pts
+			(xy 22.86 280.924) (xy 398.653 280.924)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa56333-a5cc-4a52-9ae4-2efdb8c303a5")
+	)
+	(wire
+		(pts
+			(xy 26.67 85.09) (xy 26.67 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d397fdf-9e7d-441a-b467-e53c3105d6f5")
+	)
+	(wire
+		(pts
+			(xy 294.64 118.11) (xy 294.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f927662-230e-4d1f-958e-dbd826666ceb")
+	)
+	(wire
+		(pts
+			(xy 349.25 101.6) (xy 349.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2305ce41-de82-452e-b26d-3c48c86780b8")
+	)
+	(wire
+		(pts
+			(xy 22.86 41.4885) (xy 399.7672 41.4885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c65b6d-1676-46e9-be32-53817c82c28f")
+	)
+	(wire
+		(pts
+			(xy 22.86 263.906) (xy 398.653 263.906)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296b9e16-60e6-4d3a-9831-121cd357da80")
+	)
+	(wire
+		(pts
+			(xy 22.86 92.71) (xy 400.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f84882-30a7-4992-9cc5-96c1ad82adb5")
+	)
+	(wire
+		(pts
+			(xy 96.52 119.38) (xy 96.52 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a53604c-9ddd-4e3d-b02e-926ad1a520fe")
+	)
+	(wire
+		(pts
+			(xy 325.12 101.6) (xy 325.12 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a95064f-202a-434e-b2c8-360c9f7eff5b")
+	)
+	(wire
+		(pts
+			(xy 26.67 58.42) (xy 399.5846 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e132989-a6d5-473b-8648-62d56fd2470f")
+	)
+	(wire
+		(pts
+			(xy 93.98 101.6) (xy 93.98 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f053916-84cf-4726-a2c8-cd5d2925554d")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 163.83 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fff717-b51b-4943-8b38-5fb0cfc2ef05")
+	)
+	(wire
+		(pts
+			(xy 26.67 58.42) (xy 26.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383a5932-b8f9-43bb-a00b-abd50533b71d")
+	)
+	(wire
+		(pts
+			(xy 22.86 229.743) (xy 398.78 229.743)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39628f0f-6620-4116-91be-b1e444856f32")
+	)
+	(wire
+		(pts
+			(xy 41.91 144.272) (xy 26.67 144.272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aba7b74-71f3-42b1-b209-8182f655cf4c")
+	)
+	(wire
+		(pts
+			(xy 22.6905 109.9471) (xy 398.4498 109.9471)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41756b8d-c5e4-4503-8fc7-a1f986cadb1c")
+	)
+	(wire
+		(pts
+			(xy 30.734 90.17) (xy 31.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448b3478-f0d2-4b27-924b-2796a83c2d90")
+	)
+	(wire
+		(pts
+			(xy 368.3 101.6) (xy 368.3 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483eb877-db05-481a-a825-25baa22435ff")
+	)
+	(wire
+		(pts
+			(xy 22.86 212.471) (xy 399.161 212.471)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48fb1de4-6f03-4e35-a18d-711c2f1ed37c")
+	)
+	(wire
+		(pts
+			(xy 22.86 24.13) (xy 400.05 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c31551b-604e-483c-8b2e-db1fcb768af7")
+	)
+	(wire
+		(pts
+			(xy 26.67 92.71) (xy 26.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d110d3b-1b65-4715-a9a5-5971299592d8")
+	)
+	(wire
+		(pts
+			(xy 64.77 67.056) (xy 64.77 68.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f9a1ec-aa6f-4211-bea0-585b03f417c1")
+	)
+	(wire
+		(pts
+			(xy 340.36 118.11) (xy 340.36 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce9a335-8e92-44e3-958f-a2b6302046d0")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df1319a-7741-4750-9fec-c4d6aea21bf7")
+	)
+	(wire
+		(pts
+			(xy 30.734 55.245) (xy 31.75 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd173ec-3ed9-4cdd-b0bd-c8a30e12649b")
+	)
+	(wire
+		(pts
+			(xy 45.72 111.76) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6746dee6-f1b1-4afa-a002-e3d2906302a3")
+	)
+	(wire
+		(pts
+			(xy 365.76 119.38) (xy 365.76 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3eb0e6-45f3-482a-8338-a538c202801f")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 48.26 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715008ac-6a1d-46bb-9fdf-38204c4fbd63")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743b96ae-fa55-4c5f-bbd2-39566ca716e9")
+	)
+	(wire
+		(pts
+			(xy 317.5 118.11) (xy 317.5 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76dfcec8-446e-4942-882c-4261499c4fed")
+	)
+	(wire
+		(pts
+			(xy 295.91 101.6) (xy 295.91 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aebdcd6-bb2c-4c1d-bfc3-4f7c7bbe9e47")
+	)
+	(wire
+		(pts
+			(xy 251.46 101.6) (xy 251.46 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8c9fd7-d5ba-402b-a030-59bd4a67a0a6")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 48.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6a7311-1353-420d-aea8-ea7a35bb992c")
+	)
+	(wire
+		(pts
+			(xy 44.196 49.53) (xy 44.196 50.546)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e4f5b2-2aa2-4328-b1f7-13d7940d942d")
+	)
+	(wire
+		(pts
+			(xy 44.196 67.31) (xy 44.196 68.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868d3199-43fb-4529-b55e-d8f429d75a41")
+	)
+	(wire
+		(pts
+			(xy 48.26 72.39) (xy 53.086 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a83aaa-26c3-47a3-8448-c0cf54fcd469")
+	)
+	(wire
+		(pts
+			(xy 63.5 49.53) (xy 63.5 50.546)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86be5ebf-cdba-4c16-998e-9a8797c2b1f3")
+	)
+	(wire
+		(pts
+			(xy 30.734 90.805) (xy 31.75 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c995185-9e28-4832-926c-8152005c4d3f")
+	)
+	(wire
+		(pts
+			(xy 26.67 119.38) (xy 26.67 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918efc7a-ddf2-438a-b3a4-84cbe86a4966")
+	)
+	(wire
+		(pts
+			(xy 26.67 93.98) (xy 26.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92290dd5-ed08-4e31-a6bb-57c5a6b36c17")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 180.34 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a3ed6b-a569-410f-9529-0ed6c1123634")
+	)
+	(wire
+		(pts
+			(xy 26.67 67.31) (xy 26.67 68.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad78e0e-4c78-48ee-9641-61b44959f5be")
+	)
+	(wire
+		(pts
+			(xy 22.86 75.565) (xy 400.05 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e290312-a78f-433a-a180-3f923de64a47")
+	)
+	(wire
+		(pts
+			(xy 391.16 119.38) (xy 391.16 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f37c7de-fae5-4499-9899-b242bcbbf858")
+	)
+	(wire
+		(pts
+			(xy 198.12 101.6) (xy 198.12 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0675e19-2370-4359-855b-32ff9a20bada")
+	)
+	(wire
+		(pts
+			(xy 22.606 127) (xy 398.526 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a500ba7f-db20-421d-8099-7ba75ea0bc98")
+	)
+	(wire
+		(pts
+			(xy 26.6904 76.2) (xy 26.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fd9193-5bd9-42b4-933a-2ba07793b111")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 130.81 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacfba13-6c98-4bc7-9380-a69cc64f8d17")
+	)
+	(wire
+		(pts
+			(xy 271.78 101.6) (xy 271.78 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb07a08-e025-450f-89ce-827f55bf3b74")
+	)
+	(wire
+		(pts
+			(xy 271.78 118.11) (xy 271.78 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4d5612-8d98-4e6c-83f8-2f32bb218875")
+	)
+	(wire
+		(pts
+			(xy 26.67 50.165) (xy 26.67 51.181)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd12f43-5942-475e-9c9d-c8328b564312")
+	)
+	(wire
+		(pts
+			(xy 398.4498 109.9471) (xy 398.4563 109.9312)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b496ec97-8ac1-438a-8a67-5eea4ec003db")
+	)
+	(wire
+		(pts
+			(xy 71.12 101.6) (xy 71.12 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bcbee5-da12-4a91-b342-72bd6b5482d7")
+	)
+	(wire
+		(pts
+			(xy 22.86 161.3916) (xy 398.907 161.3916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad6c100-f538-45dc-bb2e-01096c2615b2")
+	)
+	(wire
+		(pts
+			(xy 63.5 85.09) (xy 63.5 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb90e2a8-f75a-4399-872a-59fca8350d7c")
+	)
+	(wire
+		(pts
+			(xy 22.86 246.888) (xy 398.399 246.888)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd950452-878f-4cb6-8b45-7fbfd04c8f25")
+	)
+	(wire
+		(pts
+			(xy 30.734 72.39) (xy 31.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64528ae-f842-4f72-b74b-b7a6ea54398d")
+	)
+	(wire
+		(pts
+			(xy 22.86 195.326) (xy 398.8879 195.326)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81d2ab0-e8b4-4353-a202-825979eb0f2c")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 147.32 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbab60ac-7a25-4ac0-8f2f-83cd1b70f690")
+	)
+	(wire
+		(pts
+			(xy 325.12 93.98) (xy 328.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc38031-1d62-471b-b90e-eaaf4e003df9")
+	)
+	(wire
+		(pts
+			(xy 95.25 33.02) (xy 95.25 34.036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b97254-dc83-403a-ae29-819e3e1d917a")
+	)
+	(wire
+		(pts
+			(xy 26.67 33.02) (xy 26.67 34.036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81b9682-a303-40d0-9d3f-423467b2479c")
+	)
+	(wire
+		(pts
+			(xy 22.86 178.308) (xy 399.034 178.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c5d5ed-d35d-42a9-b08f-29976589e0b1")
+	)
+	(wire
+		(pts
+			(xy 294.64 118.11) (xy 294.64 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db30a90e-9395-4c6e-97c9-e0ec261012cc")
+	)
+	(wire
+		(pts
+			(xy 214.63 101.6) (xy 214.63 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de51ea41-d6a6-491b-ba35-662c0a48faf4")
+	)
+	(wire
+		(pts
+			(xy 45.72 119.38) (xy 45.72 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de75ec47-3e52-44ad-bab0-5407b1c8b747")
+	)
+	(wire
+		(pts
+			(xy 22.86 58.42) (xy 26.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06e3538-f060-4f45-a5bb-8a36937c4d93")
+	)
+	(wire
+		(pts
+			(xy 63.5 67.056) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42009cb-fe7e-4511-8c5f-ab9678c10f6a")
+	)
+	(wire
+		(pts
+			(xy 198.12 119.38) (xy 198.12 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6763202-d0f2-4abb-a195-df8a55963238")
+	)
+	(wire
+		(pts
+			(xy 64.77 67.056) (xy 63.5 67.056)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88da031-e2e2-465b-9732-11676347ea42")
+	)
+	(wire
+		(pts
+			(xy 349.25 101.6) (xy 349.25 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f387cd-ec17-465a-9c0a-8e082282a97b")
+	)
+	(wire
+		(pts
+			(xy 86.36 85.09) (xy 86.36 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaef9fc6-3e0c-4075-9845-0a11b317c1ea")
+	)
+	(wire
+		(pts
+			(xy 63.5 33.02) (xy 63.5 34.036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effbdac1-c447-4fd4-b113-5b0a1858cffe")
+	)
+	(wire
+		(pts
+			(xy 26.67 101.6) (xy 26.67 102.616)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14bcdca-19fb-4e89-95a4-a2b39ae3e4d1")
+	)
+	(wire
+		(pts
+			(xy 202.184 124.46) (xy 203.327 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14eb67d-4aa3-4c59-bcf5-7ab1c06f2640")
+	)
+	(wire
+		(pts
+			(xy 22.6781 144.2719) (xy 399.5646 144.2719)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc315d2b-fdb9-4b65-858c-4d0882f1cb5d")
+	)
+	(text "Switch Matrix"
+		(exclude_from_sim no)
+		(at 190.5508 19.2024 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee6d752d-2133-4fa5-9e89-10a24a833f4f")
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 22.86 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "143fc276-dfa1-470b-9994-94d310e1bf2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1855 58.3406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 46.99 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28a05310-f0f5-4f88-83a9-ac907b138bb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.0694 13.0688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 22.86 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2924d4a9-ff2c-47a5-b88d-18d0bb402846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1855 92.6306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW7"
+		(shape input)
+		(at 22.6781 144.2719 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38d330df-63ee-4c68-a0e4-2d6b6c7288f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.0036 144.1925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW10"
+		(shape input)
+		(at 22.86 195.326 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c881846-592c-4f79-91db-19cc14e9f7b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.9759 195.2466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 22.86 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b4879ca-125a-4e72-a00b-4f0097f695de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1855 24.0506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 22.86 41.4885 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60382bca-c056-4bbc-849a-f4c4ca9caa62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1855 41.4091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW15"
+		(shape input)
+		(at 22.86 280.924 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62a0b929-5b0e-4c79-8f19-3eedb051a728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.9759 280.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW14"
+		(shape input)
+		(at 22.86 263.906 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64da6129-95e7-4eca-9195-9aef1822c352")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.9759 263.8266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 31.75 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "701b9cc5-b835-4775-b7c9-1bf12b0e5116")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.8294 13.0688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW8"
+		(shape input)
+		(at 22.86 161.3916 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7072a585-227a-4215-8bac-79da92ed5993")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1855 161.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW6"
+		(shape input)
+		(at 22.606 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7665e830-045a-47d7-978f-cc836a9621e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9315 126.9206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW11"
+		(shape input)
+		(at 22.86 212.471 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d652eee-e8d8-49f5-8f63-a698c545756c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.9759 212.3916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 22.6905 109.9471 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4ebcf71-98de-41d3-872f-c0ac8cd8121c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.016 109.8677 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW12"
+		(shape input)
+		(at 22.86 229.743 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dff8272d-debd-41ef-8cf1-4f4b6f8ff749")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.9759 229.6636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW13"
+		(shape input)
+		(at 22.86 246.888 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea55d300-07ae-4460-9121-3f14eaa0782d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.9759 246.8086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW9"
+		(shape input)
+		(at 22.86 178.308 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6348348-4d66-43e1-89df-f9e6646bc2f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1855 178.2286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 22.86 75.565 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fac66267-c36f-4660-a4bf-df48e263b1d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.1855 75.4856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 26.67 55.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04c117d5-7798-49fc-9bf2-7faff5d6fa66")
+		(property "Reference" "S_ROM_1"
+			(at 23.876 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ROM_1"
+			(at 24.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+			(at 27.178 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.068 56.769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "460decd2-a18b-4ec4-bba6-5635b788d50d")
+		)
+		(pin "2"
+			(uuid "25a02e61-d166-4f7c-982a-1ac770544f90")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_ROM_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 44.196 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "060d7d81-d9ef-43d5-9eaf-0464b47281f1")
+		(property "Reference" "D_ROM_4"
+			(at 39.116 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 46.736 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 44.196 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.196 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.196 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcdcdccf-235c-40a9-b772-f41cf536a007")
+		)
+		(pin "2"
+			(uuid "bf7c6e08-b168-4ed3-bdce-145db5130f37")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_ROM_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 340.36 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07286dd0-32e5-4b86-bd96-5c6f53f73270")
+		(property "Reference" "D_R_META1"
+			(at 335.28 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 342.9 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 340.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9ca5b52-15d5-4646-9387-08e1fd76f4a2")
+		)
+		(pin "2"
+			(uuid "6c73cffa-8318-4eff-a538-d3ee6411cfd7")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_R_META1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 93.98 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c56b2fd-43f3-4ff5-95b4-3dded997ff86")
+		(property "Reference" "S_L_SHIFT1"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LEFT_SHIFT"
+			(at 91.44 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2.25U"
+			(at 94.488 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 103.378 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c91edb9e-7412-4e2f-b023-feb3109828d7")
+		)
+		(pin "2"
+			(uuid "3251a3c0-3dc1-4fe1-8a31-69d08933a846")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_L_SHIFT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 26.67 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cb3b285-ca31-4053-a023-4e00c5b736c1")
+		(property "Reference" "D_L_HYPER1"
+			(at 21.844 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 29.21 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 26.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "868a1459-5eea-4c63-a612-c14385c468e5")
+		)
+		(pin "2"
+			(uuid "609c7e13-0b10-4a9d-8c8c-22bf8dbf3069")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_L_HYPER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dbf4e2b-daec-43f0-a9e4-b7a6f3a736b9")
+		(property "Reference" "D_M17"
+			(at 212.344 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "066b575f-51bb-4f8f-acaa-a9a3f4a02ec4")
+		)
+		(pin "2"
+			(uuid "d1b42d14-d972-4d0f-89bf-3236678650cd")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_M17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 26.67 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dd89272-747c-4ab2-980e-9eba300c6498")
+		(property "Reference" "S_ROM3"
+			(at 24.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ROM_3"
+			(at 24.13 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+			(at 27.178 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.068 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "192e6844-628a-41d9-b477-ff6f84ce0716")
+		)
+		(pin "2"
+			(uuid "6319fa77-5c1c-4aee-9f60-5a580521ef77")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_ROM3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 114.3 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16b75526-5421-4b46-bde8-b1124e3db898")
+		(property "Reference" "S_L_SPC1"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LEFT_SPACE"
+			(at 111.76 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+			(at 114.808 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.698 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d5a7a5-8bc6-4e86-a10e-5735bb9c31eb")
+		)
+		(pin "2"
+			(uuid "5a823e8c-e5fa-49cb-a22e-d5803d1c86d9")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_L_SPC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 86.36 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16f10f2d-f0ef-4a33-b50c-91083a26fac2")
+		(property "Reference" "D_TAB1"
+			(at 84.074 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 88.9 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cacd4f7c-518a-46e9-9b04-4e17a6096190")
+		)
+		(pin "2"
+			(uuid "ce9cc621-0a89-4d92-a89b-44d26bf34f30")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_TAB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 45.72 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f1909ba-eb6b-408d-bc65-a7b731c7e323")
+		(property "Reference" "S_L_SUPER1"
+			(at 42.926 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LEFT_SUPER"
+			(at 43.18 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 46.228 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.118 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e1e46e-51cf-4b46-b156-754f0a784524")
+		)
+		(pin "2"
+			(uuid "363231c5-b6ab-42c3-945c-2b3a29e00377")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_L_SUPER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 214.63 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2062e903-bd50-40f9-9692-59b44cb44ad1")
+		(property "Reference" "S_M17"
+			(at 211.074 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M"
+			(at 211.074 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 215.138 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.028 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8287904-7ecd-4138-a507-4e6185fea8f1")
+		)
+		(pin "2"
+			(uuid "1b5123a2-8f88-4460-a41e-b1f459cec1cc")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_M17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 368.3 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "280d56f9-38ac-4e09-8593-57d9d17e62db")
+		(property "Reference" "D_REPEAT1"
+			(at 363.22 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 370.84 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03635628-8347-4bbe-b70a-2cf126b5e01c")
+		)
+		(pin "2"
+			(uuid "f8b70e92-b0c1-4889-b1c0-4ebf736631c8")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_REPEAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 391.16 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2819788d-d774-4639-8334-60446547797d")
+		(property "Reference" "D_R_HYPER1"
+			(at 386.334 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 393.7 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 391.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7441e279-6dfb-4efc-9934-7b83c58c8ddc")
+		)
+		(pin "2"
+			(uuid "cfae66fc-c671-45a4-a4cb-cd62f70da07a")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_R_HYPER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 26.67 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29149ea9-4295-443a-8d29-91c8337f497e")
+		(property "Reference" "D_MODE_LOCK1"
+			(at 15.494 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 29.21 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 26.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27a750c1-2930-42a2-8d9b-439bcb0fbd1e")
+		)
+		(pin "2"
+			(uuid "317ae89d-567c-412c-b966-8427e8bf5535")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_MODE_LOCK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 349.25 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f85bac2-b238-4f3f-b4e9-b31c0291a153")
+		(property "Reference" "D_TOP17"
+			(at 344.17 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 351.79 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 349.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c15b5d-337d-431d-be89-9789fdde09c1")
+		)
+		(pin "2"
+			(uuid "bf21306c-322e-480d-a533-ffc9b1cf9f51")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_TOP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 44.196 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30c081a8-6eb9-49ff-8afb-4e4de5006481")
+		(property "Reference" "D_ROM_2"
+			(at 39.116 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 46.736 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 44.196 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.196 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.196 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e2b194-78b4-4c72-b805-e35e3550b188")
+		)
+		(pin "2"
+			(uuid "8d4c482b-c37a-47ca-8580-9a0af7f9dca1")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_ROM_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 365.76 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31936e8c-8da5-4c4a-a112-28bca94fb9d6")
+		(property "Reference" "D_R_META1"
+			(at 360.68 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 368.3 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 365.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eaf9a57-23da-447f-b21c-242f917b46e3")
+		)
+		(pin "2"
+			(uuid "bcb89930-b43a-46b7-b7dd-268a8deb3097")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_R_META1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 251.46 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "339bc6d0-7b8f-403f-9829-650d1a7f53e5")
+		(property "Reference" "D_POINT1"
+			(at 249.174 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 254 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97854681-9772-403d-8df2-2247ed6dbffe")
+		)
+		(pin "2"
+			(uuid "1f75b8a5-acba-4cd7-b6a7-678891347fd1")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_POINT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 81.28 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35b9f520-3579-44b5-add0-2f892bde29fb")
+		(property "Reference" "D_CTRL1"
+			(at 76.2 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 83.82 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a219f1-f110-4c1a-a132-b83cc73f45c5")
+		)
+		(pin "2"
+			(uuid "a6d47a2e-318e-488a-82b4-32d637c09fdb")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_CTRL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 93.98 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39620699-4abd-44a0-9d93-c0c4b92389ba")
+		(property "Reference" "D_L_SHIFT1"
+			(at 90.17 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 96.52 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9eda40be-fcd9-4e6d-a266-414ee2dd7dad")
+		)
+		(pin "2"
+			(uuid "bd1f2f36-d3ab-4822-a8bb-5aef482ff066")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_L_SHIFT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 26.67 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e878b83-7df7-4cc5-b215-1388c96428db")
+		(property "Reference" "D_CAPS_LOCK1"
+			(at 17.272 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 29.21 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a816be6-9df4-4edd-b3d1-28106aecf46b")
+		)
+		(pin "2"
+			(uuid "db874f0a-7f6a-4273-9162-ddd41e688730")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_CAPS_LOCK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 198.12 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f5130ac-910c-484a-96c3-079784b187c2")
+		(property "Reference" "S_N17"
+			(at 194.564 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "N"
+			(at 194.564 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 198.628 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.518 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34fb02f7-9d15-4fb7-aebe-91b8430abe77")
+		)
+		(pin "2"
+			(uuid "afc20322-2c18-4e3c-bcab-4e4efe88c8c7")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_N17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 26.67 46.355 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4309aa7c-5581-4e58-b3a2-50a6f4a54a48")
+		(property "Reference" "D_ROM_1"
+			(at 21.59 43.815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 29.21 47.6249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 26.67 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a78019fa-9887-460b-891f-79c7a4934058")
+		)
+		(pin "2"
+			(uuid "18d645d1-5667-4252-ae22-8dde6f6a4193")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_ROM_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 391.16 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43beb396-4eb3-4d92-9396-1f856a2b6967")
+		(property "Reference" "S_R_HYPER17"
+			(at 387.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RIGHT_HYPER"
+			(at 388.62 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 391.668 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.558 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64cbc932-1855-45ea-936f-4597bb465b96")
+		)
+		(pin "2"
+			(uuid "cc453dd6-4c59-4496-aa04-346b76e7f910")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_R_HYPER17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 44.196 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a1a595b-1734-48c3-9baf-7268eeda2fed")
+		(property "Reference" "S_ROM_2"
+			(at 41.529 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ROM_2"
+			(at 41.656 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 44.704 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.594 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.196 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df9af83-9689-4570-9ac2-a6e8ee799f65")
+		)
+		(pin "2"
+			(uuid "9bd8ef1d-532a-4927-afe5-162e6702eed1")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_ROM_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 81.28 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "504f2999-3fd5-451d-85a9-0a086046102e")
+		(property "Reference" "S_L_CTRL1"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LEFT_CTRL"
+			(at 78.74 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 81.788 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.678 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69f26454-4a5e-4783-bb35-5f3abfd0240b")
+		)
+		(pin "2"
+			(uuid "c4549258-58ef-4278-bb64-b21e6103f181")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_L_CTRL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 114.3 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "509b49d3-9c52-4e87-b1cc-2579e783caa2")
+		(property "Reference" "D_LEFT_SPACE1"
+			(at 107.188 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 116.84 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86bdb5b8-bdd8-47e4-b178-1d2ceed0320f")
+		)
+		(pin "2"
+			(uuid "5aa6c91b-9a15-48ef-83d2-57f7ed63307c")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_LEFT_SPACE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 130.81 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ac72dd-d2b8-4385-aca3-3d518270a805")
+		(property "Reference" "D_X17"
+			(at 128.524 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 133.35 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcba6f2c-0b93-4821-89a5-f5c985390ddb")
+		)
+		(pin "2"
+			(uuid "350c3a13-6eb8-49b5-a279-8863ed38695b")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_X17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 48.26 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b27f1f1-9c00-427c-9a5b-72ceb9d7b040")
+		(property "Reference" "S_TOP1"
+			(at 45.466 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TOP"
+			(at 45.72 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 48.768 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.658 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab7b31a7-e0db-4448-b96b-016ae03d18d8")
+		)
+		(pin "2"
+			(uuid "27affb8e-da73-4975-956d-cb99610f4848")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_TOP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 44.196 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b8ffff5-7989-47d3-ba38-693fe278699e")
+		(property "Reference" "S_ROM4"
+			(at 41.656 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ROM_4"
+			(at 41.656 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+			(at 44.704 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.594 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.196 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5ca64e4-bbb0-4363-9993-b4aabb6e4c09")
+		)
+		(pin "2"
+			(uuid "836c6c84-6525-4053-a84f-0dc39306a389")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_ROM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 71.12 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b958905-95a3-4da3-8933-513d6accc0c0")
+		(property "Reference" "D_GREEK1"
+			(at 66.04 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 73.66 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "176efef5-b778-4a4e-94de-fe7aa75bcf58")
+		)
+		(pin "2"
+			(uuid "e5304362-e41e-41bc-a5ab-5f8ca247834b")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_GREEK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 198.12 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e2a8721-d631-4e05-840d-14aeb4b687e4")
+		(property "Reference" "S_RIGHT_SPACE17"
+			(at 194.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RIGHT_SPACE"
+			(at 195.58 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+			(at 198.628 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.518 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ffcaa15-78e8-4960-9138-34ecbf2c1acd")
+		)
+		(pin "2"
+			(uuid "bafbc777-6ed1-4ac1-8723-125d75b03b41")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_RIGHT_SPACE17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 325.12 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f7f4f2c-0ec8-4f66-9232-b06e9ff518dd")
+		(property "Reference" "D_R_GREEK17"
+			(at 320.04 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 327.66 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 325.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d00239b5-5d63-4101-9326-f896a6228729")
+		)
+		(pin "2"
+			(uuid "dc62bc67-6675-4949-8adb-6cc2ddd4041a")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_R_GREEK17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 26.67 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61c997af-1a11-41b6-ad2e-7eed7fb89f1c")
+		(property "Reference" "S_C_LOCK1"
+			(at 23.876 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CAPS_LOCK"
+			(at 24.13 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+			(at 27.178 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.068 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c874be21-d20b-423d-986b-860b4c8f4403")
+		)
+		(pin "2"
+			(uuid "1130e164-cb7a-4c48-a3d4-7a01face9d08")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_C_LOCK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 96.52 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "626ddf2e-c5e6-4429-8bc6-e4a5599d907b")
+		(property "Reference" "D_L_ALT1"
+			(at 92.71 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 99.06 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d1af18-2f69-4e17-89a4-416b157f126a")
+		)
+		(pin "2"
+			(uuid "a4dfca25-43bf-4eb6-90af-40f3c029f868")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_L_ALT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 114.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "695b5aee-d05b-4b93-946c-1684744baee8")
+		(property "Reference" "S_Z1"
+			(at 110.744 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Z"
+			(at 110.744 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 114.808 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.698 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca5ea66-f669-40c4-bd1f-4985b7725243")
+		)
+		(pin "2"
+			(uuid "25073753-bbd8-4527-85aa-065663b0532c")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_Z1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 64.77 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c39388b-21e9-4c26-9bbc-13b8bcf2deef")
+		(property "Reference" "R2C1"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NETWORK"
+			(at 62.23 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 65.278 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.168 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d340f0a-c181-4e29-b9e8-e2a5bf9590b5")
+		)
+		(pin "2"
+			(uuid "b92a9dcc-efa9-46de-8394-1be42f852c3f")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "R2C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 147.32 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f00e655-e87c-4cf0-be16-9f52c92a6e59")
+		(property "Reference" "D_C18"
+			(at 145.034 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 149.86 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4f32e02-1e0f-4132-8ad2-6c31b7ddeeb5")
+		)
+		(pin "2"
+			(uuid "aec3d610-ee95-4b84-93c5-47abc8a13863")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 26.67 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f163d38-e927-4bb8-81cf-024313ac950d")
+		(property "Reference" "S_MACRO0"
+			(at 22.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MACRO"
+			(at 24.13 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 27.178 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.068 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5bb7e25-1849-486f-abfc-d53892d0ba0c")
+		)
+		(pin "2"
+			(uuid "ec6784af-84ca-4c44-b24f-501237b01ed1")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_MACRO0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 86.36 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f4428ae-58c8-4325-ad98-598e78e1dd3e")
+		(property "Reference" "S_TAB7"
+			(at 82.804 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TAB"
+			(at 82.804 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 86.868 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.758 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee2b0481-47de-41e1-a6ed-aecda066314d")
+		)
+		(pin "2"
+			(uuid "7d3b0970-b582-480b-a175-3d661f350e84")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_TAB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 180.34 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72451eb1-9cea-49c4-9fb4-9b29e66f874f")
+		(property "Reference" "D_B18"
+			(at 178.054 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 182.88 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a161caaf-2bba-4f45-9190-a4600af7eaf7")
+		)
+		(pin "2"
+			(uuid "5271c366-e45a-4f75-bc38-7725158e0894")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_B18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75da44fe-df51-47d4-a67c-38e2d4d4e77f")
+		(property "Reference" "D_QUOTE1"
+			(at 90.17 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 97.79 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fe9c9fc-a58f-453e-9677-66f40b27d3ef")
+		)
+		(pin "2"
+			(uuid "1a64a9fc-51d1-4958-83f4-55b15d891378")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_QUOTE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 63.5 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ada8277-a53e-44a5-bbcc-e6b149d00eb5")
+		(property "Reference" "D_SYSTEM1"
+			(at 58.42 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 66.04 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb45ebd-d2a6-4ab8-98e3-3d73411afa69")
+		)
+		(pin "2"
+			(uuid "3918ce2f-17cd-4550-ac26-1795ab8e0d02")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_SYSTEM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 251.46 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c198b14-c3a8-4ab0-a292-b787cc1668ce")
+		(property "Reference" "S_POINT1"
+			(at 247.904 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "POINT"
+			(at 247.904 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 251.968 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.858 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad855f67-4e38-4bd7-9084-86cfdd271609")
+		)
+		(pin "2"
+			(uuid "a4dd35b1-081b-4438-93d2-757c1d1c7216")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_POINT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 63.5 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c585249-6f3d-4abe-9b89-38044143e878")
+		(property "Reference" "S_META1"
+			(at 59.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "META"
+			(at 60.96 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 64.008 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.898 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35e7b062-1c95-4da8-876b-fdd05fd383bd")
+		)
+		(pin "2"
+			(uuid "4ac36f2c-f556-4120-9543-269de2549bdc")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_META1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 294.64 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81f1f484-8b13-47ba-98e7-b339615bfa09")
+		(property "Reference" "S_R_CTRL17"
+			(at 290.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RIGHT_CTRL"
+			(at 292.1 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 295.148 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.038 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c13d6089-ec69-4b5f-8d40-04abe74079e6")
+		)
+		(pin "2"
+			(uuid "94430a1d-b540-42c8-b65a-5df606615519")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_R_CTRL17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 271.78 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82992b43-b713-4a2e-9c01-4be46b367f02")
+		(property "Reference" "D_L_ALT17"
+			(at 267.97 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 274.32 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 271.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ddf88eb-30e2-46a9-926f-7ca0e9083bd3")
+		)
+		(pin "2"
+			(uuid "a2a4df6c-117f-47ec-b9ef-2c1bf17342ac")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_L_ALT17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 271.78 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8704f27a-2edf-42c9-8c1e-df89a2a0d4e0")
+		(property "Reference" "S_L_ALT17"
+			(at 269.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "L_ALT"
+			(at 269.24 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 272.288 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.178 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b90e23f-e546-4b00-986d-43117486511e")
+		)
+		(pin "2"
+			(uuid "b60efcae-5727-4d93-8e37-a34f92a23b44")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_L_ALT17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 26.67 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c4d9fdc-00f8-4426-9217-a3f8a2455717")
+		(property "Reference" "S_L_HYPER1"
+			(at 23.622 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LEFT_HYPER"
+			(at 24.13 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 27.178 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.068 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40f6b5c2-3465-4e51-ad0c-0e1aaac2266b")
+		)
+		(pin "2"
+			(uuid "9467eff4-059e-43fa-9a44-5bc7daa24e8b")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_L_HYPER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 325.12 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d9635b1-fbd4-42cb-8ed4-fbdc7f5ebcff")
+		(property "Reference" "S_R_GREEK17"
+			(at 322.326 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RIGHT_GREEK"
+			(at 322.58 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 325.628 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.518 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d15bb6e-2d3f-42c2-b39a-65a308f725db")
+		)
+		(pin "2"
+			(uuid "055d4512-3a8d-4d9c-990f-9db8926755cd")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_R_GREEK17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 163.83 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90c40e1f-dce1-473f-80a0-7016b42c4c2f")
+		(property "Reference" "S_V18"
+			(at 160.274 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "V"
+			(at 160.274 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 164.338 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.228 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64bcb071-b2a1-45c6-b3c4-7bb0a33c522c")
+		)
+		(pin "2"
+			(uuid "08fde54b-afd7-4de2-bc53-c3e624e5ab8c")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_V18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 295.91 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "937aa2a4-e272-44bb-ad40-e56caa46ea9f")
+		(property "Reference" "S_R_SHIFT17"
+			(at 292.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RIGHT_SHIFT"
+			(at 293.37 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2.25U"
+			(at 296.418 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 305.308 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 295.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2429c525-5367-41fe-a4fb-0873dca413e9")
+		)
+		(pin "2"
+			(uuid "253befb4-77dc-46ee-b9a0-58b6ac60bbdb")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_R_SHIFT17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 63.5 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95f222e0-7c95-41eb-b383-6bdd1f3ffd09")
+		(property "Reference" "S_SYSTEM1"
+			(at 59.944 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SYSTEM"
+			(at 59.944 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 64.008 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.898 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dc6a1ff-f971-4050-a6e2-417a5a92ead7")
+		)
+		(pin "2"
+			(uuid "9780f25e-76aa-472f-b9c1-5feba6554862")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_SYSTEM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 71.12 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96524c13-7b3e-4ce3-ae6f-b05002022052")
+		(property "Reference" "S_GREEK1"
+			(at 68.326 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEK"
+			(at 68.58 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 71.628 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.518 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e7c1fda-3d64-41d1-a901-73362f93f3a3")
+		)
+		(pin "2"
+			(uuid "86e91b31-d5a5-4d6f-9a80-bd76a4409bac")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_GREEK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 95.25 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9883910e-028f-43a6-9bc4-a66ba09731cf")
+		(property "Reference" "S_QUOTE1"
+			(at 92.456 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "QUOTE"
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 95.758 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.648 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6b0caed-ecc4-485f-9d81-57a3f0968e85")
+		)
+		(pin "2"
+			(uuid "11eb7b41-7a07-4c7a-bdcd-7ca1b2796717")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_QUOTE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 63.5 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6b31a68-7e85-4157-a45b-14db66896c1e")
+		(property "Reference" "S_TERMINAL1"
+			(at 60.198 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TERMINAL"
+			(at 60.452 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 64.008 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.898 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed48b0a8-2626-43f7-aaf3-e3c094b88770")
+		)
+		(pin "2"
+			(uuid "7f8debcb-0af2-4e5a-a999-754b3c130cde")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_TERMINAL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 26.67 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaacc267-2f97-49c1-bb98-f105904950da")
+		(property "Reference" "D_ROM_3"
+			(at 21.59 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 29.21 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1172fd92-8301-4521-8245-56bfebfacb8b")
+		)
+		(pin "2"
+			(uuid "b362f3a4-e156-41fd-8012-c24e49b0f95c")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_ROM_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 233.68 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac30b74e-49a3-4afe-a38b-2d25ae459692")
+		(property "Reference" "S_COMMA1"
+			(at 230.124 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "COMMA"
+			(at 230.124 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 234.188 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.078 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b58b417-7b2c-455f-94d1-61bfe01e766e")
+		)
+		(pin "2"
+			(uuid "ad00f372-d31b-4a12-a469-7f87d0d54c39")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_COMMA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 389.89 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acc52c03-ecd8-4390-aa4d-b21a0bb64203")
+		(property "Reference" "S_A_LOCK17"
+			(at 387.096 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ALT_LOCK"
+			(at 387.35 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
+			(at 390.398 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 399.288 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 389.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57930375-3f77-46a3-aee3-02c25d4f961c")
+		)
+		(pin "2"
+			(uuid "4f389dd2-cadc-4e49-8516-908945f49cc3")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_A_LOCK17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 86.36 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad3c9878-3eaf-45ab-8db4-03acb7e8ad41")
+		(property "Reference" "S_RUB_OUT1"
+			(at 82.804 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RUB_OUT"
+			(at 82.804 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 86.868 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.758 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "068836b2-54dd-447f-acf6-88a102e4c18e")
+		)
+		(pin "2"
+			(uuid "f6d8cadf-ad1b-43e4-bc46-16e6ef1f0cdc")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_RUB_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 295.91 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afefb23e-9506-48f9-b35c-087cf14b6b41")
+		(property "Reference" "D_R_SHIFT17"
+			(at 292.1 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 298.45 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 295.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 295.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0764edd8-532a-4d07-b0f6-df9c4343e96f")
+		)
+		(pin "2"
+			(uuid "0ed6f2a0-67a4-4321-87a5-39855ec01768")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_R_SHIFT17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 317.5 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4f15bca-a229-40b3-980d-d1489971ff99")
+		(property "Reference" "S_LKM1"
+			(at 313.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LKM"
+			(at 314.96 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 318.008 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.898 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b3631c2-4c92-4ce9-af1b-5ae31edc69e0")
+		)
+		(pin "2"
+			(uuid "030001ea-75ec-4412-826a-7618a66f8d0b")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_LKM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 349.25 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b515a305-868c-4250-a98b-a288dcba3f49")
+		(property "Reference" "S_TOP17"
+			(at 346.456 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TOP"
+			(at 346.71 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 349.758 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.648 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f26f9b45-31c2-4514-8c78-76c243560e9e")
+		)
+		(pin "2"
+			(uuid "0a77a80d-eb4d-4cbb-8563-92fb98d5d928")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_TOP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 63.5 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6c0e4f7-1312-44d5-a62b-24a791e5c6ef")
+		(property "Reference" "D_ALT_MODE1"
+			(at 57.658 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 66.04 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec39dec-0797-44f7-8264-c223d6123803")
+		)
+		(pin "2"
+			(uuid "8a18dc2d-3acf-4bed-a88a-59330e4de1f8")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_ALT_MODE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 163.83 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b80fedb5-06e4-4f63-9b89-2080e622700a")
+		(property "Reference" "D_V18"
+			(at 161.544 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 166.37 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f356608-eabf-4922-aa18-1d354416d70e")
+		)
+		(pin "2"
+			(uuid "a988b252-5f13-4dc1-9241-bcf59200c2bc")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_V18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 389.89 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9df857e-7ceb-4269-9493-0d7d14424967")
+		(property "Reference" "D_ALT_LOCK17"
+			(at 380.492 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 392.43 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 389.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 389.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dc5979a-60d3-4588-96f7-fe14c3e88852")
+		)
+		(pin "2"
+			(uuid "cf959f1e-287f-420c-95ae-e017badedbfb")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_ALT_LOCK17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 26.67 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baf90f96-81d6-4b46-b7f0-7ffad9ca18d5")
+		(property "Reference" "S_M_LOCK1"
+			(at 23.876 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MODE_LOCK"
+			(at 24.13 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 27.178 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.068 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd34e42c-84c7-47ed-b6de-53eb70c3321c")
+		)
+		(pin "2"
+			(uuid "2f6963a2-9dc8-4a79-94ec-b974426b2e53")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_M_LOCK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 365.76 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce579c1-c10f-4f19-8b3d-048f84c20d5b")
+		(property "Reference" "S_R_SUPER1"
+			(at 362.966 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RIGHT_SUPER"
+			(at 363.22 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 366.268 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.158 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668dd46c-3749-4f67-8d69-b05010bbceb0")
+		)
+		(pin "2"
+			(uuid "16495413-aca9-4ca0-89bb-7d049586c2f3")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_R_SUPER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 63.5 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1680ed8-3e6a-4b48-91d2-f8d9696898d1")
+		(property "Reference" "D_TERMINAL1"
+			(at 58.42 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 66.04 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d12b2e53-21f3-4742-8e9a-f26036bd71d6")
+		)
+		(pin "2"
+			(uuid "e23408cc-0390-4a2c-8148-eebbd7079e21")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_TERMINAL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 45.72 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4b7de32-5d50-4591-b218-2ca610b812d7")
+		(property "Reference" "D_L_SUPER1"
+			(at 41.656 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 48.26 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40a3f418-806d-42b9-9c30-dd825646b08b")
+		)
+		(pin "2"
+			(uuid "075460ea-61cd-46ef-a93b-9fd3de477746")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_L_SUPER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 180.34 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6510561-35be-43ae-8c48-e77e5c26f8de")
+		(property "Reference" "S_B18"
+			(at 176.784 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B"
+			(at 176.784 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 180.848 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.738 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb4501e1-f57a-45b8-8b7b-bcf9c2186cd1")
+		)
+		(pin "2"
+			(uuid "39444e36-aa4b-4fcc-b8ed-d973e3c9c12d")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_B18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 271.78 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6eea97e-8144-4b51-a51d-4e7e3dba39fd")
+		(property "Reference" "D_QUESTION1"
+			(at 269.494 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 274.32 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 271.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "320e6559-a65a-4824-a6e1-16c119a39f3b")
+		)
+		(pin "2"
+			(uuid "27dd0b70-1404-4592-b041-0219db8587cf")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_QUESTION1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 26.67 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc31325c-36a1-4b1d-93d0-9b44f0f4fbae")
+		(property "Reference" "D_MACRO0"
+			(at 21.59 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 29.21 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4cd37f-514e-4b2b-af05-99ee27fdc26e")
+		)
+		(pin "2"
+			(uuid "a080d5d7-1765-4d50-9ffd-a5e96baab8cd")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_MACRO0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 48.26 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdcb8367-96f4-492b-8942-d9ee150c0c8a")
+		(property "Reference" "D_TOP1"
+			(at 43.18 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 48.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1ce1376-c760-4880-85e0-2353dd34edb4")
+		)
+		(pin "2"
+			(uuid "2ee847f3-77af-4401-b1a8-28e79897c8b3")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_TOP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 294.64 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0bd37e5-c1bd-435c-9a92-45ec0e79b33b")
+		(property "Reference" "D_CTRL1"
+			(at 289.56 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 297.18 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 294.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53c00ade-8d49-4733-b146-e4ea63138e77")
+		)
+		(pin "2"
+			(uuid "6c1b3529-f26e-4836-8594-b3af525145a2")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_CTRL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 147.32 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3e89ce3-d94b-4121-8366-f7c7619dc6fa")
+		(property "Reference" "S_C18"
+			(at 143.764 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 143.764 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 147.828 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.718 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de528b59-e81d-49d6-91dc-be8f818fc82e")
+		)
+		(pin "2"
+			(uuid "d4f14d3c-6454-4f3f-85f7-e3481617245b")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 317.5 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d56938a2-e772-4e29-80f6-9807847cf479")
+		(property "Reference" "D_LKM1"
+			(at 312.42 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 320.04 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 317.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92bdb3de-08dc-4ac6-92df-a27ab28707fa")
+		)
+		(pin "2"
+			(uuid "cdf4bf5a-6029-48a9-8002-1969b5853125")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_LKM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 368.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d57a7055-099b-4076-b70f-981f2ed370f6")
+		(property "Reference" "S_REPEAT1"
+			(at 365.506 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "REPEAT"
+			(at 365.76 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 368.808 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.698 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0cfdae8-f0ea-4518-85a0-454861e88443")
+		)
+		(pin "2"
+			(uuid "b6bb13b5-fc76-432e-8139-1620fbfe1329")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_REPEAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 63.5 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d951874a-f6b8-4a39-8c68-9552cd0d56c3")
+		(property "Reference" "S_ALT_MODE1"
+			(at 60.706 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ALT_MODE"
+			(at 60.96 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 64.008 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.898 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ce749f-bfe5-4710-bc88-c9e3c90008f8")
+		)
+		(pin "2"
+			(uuid "ba8602e9-d3bd-4e70-a425-a26f11e2e832")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_ALT_MODE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 86.36 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da810388-4d2c-43fd-9eae-b1bfc5e350c3")
+		(property "Reference" "D_RUB_OUT1"
+			(at 79.756 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 88.9 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9774380-948a-465b-beed-a9f9823061d8")
+		)
+		(pin "2"
+			(uuid "0c48d20b-94c9-43f2-a138-75ec72d5863e")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_RUB_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 63.5 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df01794a-31a4-4672-8b8e-9cf59e963290")
+		(property "Reference" "D_NETWORK1"
+			(at 58.42 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 66.04 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c724f950-b85d-47f4-a597-83899c2b29de")
+		)
+		(pin "2"
+			(uuid "46663638-af6f-4280-9fb6-7e298abde919")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_NETWORK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 63.5 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef84abbe-b5fa-4140-9c09-a939e0dba8d6")
+		(property "Reference" "D_META1"
+			(at 58.42 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 66.04 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3ad16bf-cb6e-4a6f-b971-706c4f5edb5a")
+		)
+		(pin "2"
+			(uuid "d86bb6b3-930d-4b9c-aadd-2562ea5e7988")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_META1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 96.52 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f009bbde-e635-45df-adcc-6f29a74a6da4")
+		(property "Reference" "S_L_ALT1"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "L_ALT"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 97.028 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.918 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ecc524d-589e-4370-89c4-e06e2252d534")
+		)
+		(pin "2"
+			(uuid "a08bdc15-d553-4c7f-b2c3-52b5e852c380")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_L_ALT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 340.36 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f21146e6-de11-46f1-98dd-99eba9774a7b")
+		(property "Reference" "S_R_META1"
+			(at 336.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RIGHT_META"
+			(at 337.82 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1.25U"
+			(at 340.868 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.758 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9063d325-e17c-4437-aa77-5163146a04e4")
+		)
+		(pin "2"
+			(uuid "5b611890-67c2-4e8c-85ec-b6ac6ed290f8")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_R_META1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 198.12 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6443d92-eeb8-4214-ae80-f4989aadcca8")
+		(property "Reference" "D_N19"
+			(at 195.834 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 200.66 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2538c78-72bc-4033-9ad6-36ed5ebae22c")
+		)
+		(pin "2"
+			(uuid "9b543279-26cf-4074-93a8-3bb50855aebf")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_N19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 271.78 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9953a34-e9d7-4f53-bc0a-abefbfb27a38")
+		(property "Reference" "S_QUESTION1"
+			(at 268.224 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "QUESTION"
+			(at 268.224 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 272.288 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.178 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48efa81e-9893-4290-ad4d-741d74c583e7")
+		)
+		(pin "2"
+			(uuid "18745c93-747d-4eb8-9289-9604da6015cb")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_QUESTION1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 233.68 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa08dcf0-9d3b-44ab-b83f-fed90b047117")
+		(property "Reference" "D_COMMA1"
+			(at 231.394 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 236.22 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf34167-91c8-4f20-9355-251382e05289")
+		)
+		(pin "2"
+			(uuid "398e6005-e7a3-4787-9672-9fc8975483b2")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_COMMA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 114.3 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa60104c-68b3-46a2-9eab-28ecf87c45af")
+		(property "Reference" "D_Z1"
+			(at 112.014 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 116.84 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2707ad46-8b39-4db5-81cb-edab4702ceb8")
+		)
+		(pin "2"
+			(uuid "8f6a4194-9912-4e1b-8d5e-3e6adf721a1b")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_Z1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 198.12 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faad3ba6-2e44-460f-99cf-c4c9486fdee5")
+		(property "Reference" "D_RIGHT_SPACE17"
+			(at 191.008 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 200.66 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 198.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9af50bed-7571-46fa-ab8a-c9c8f76b85c7")
+		)
+		(pin "2"
+			(uuid "2ab5329a-9157-4d49-b3db-d99673779c11")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "D_RIGHT_SPACE17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Space_Cadet_Button_Switches:SWK")
+		(at 130.81 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe218328-e546-4d44-9220-d998dd5618b3")
+		(property "Reference" "S_X17"
+			(at 127.254 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "X"
+			(at 127.254 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+			(at 131.318 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.208 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83949715-086d-4e25-9bf9-d61dd4267cfc")
+		)
+		(pin "2"
+			(uuid "58c731e4-d141-4335-8d34-be713f2ed125")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
+					(reference "S_X17")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
