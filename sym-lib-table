@@ -1,5 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "MicroSwitch")(type "KiCad")(uri "${KIPRJMOD}/MicroSwitch_SD_Series_E.kicad_sym")(options "")(descr ""))
-  (lib (name ".kicad_sym")(type "KiCad")(uri "${KIPRJMOD}/Button_Switch_Keyboard.pretty/.kicad_sym.kicad_sym")(options "")(descr ""))
   (lib (name "Space_Cadet_Button_Switches")(type "KiCad")(uri "${KIPRJMOD}/Space_Cadet_Button_Switches.kicad_sym")(options "")(descr ""))
 )
