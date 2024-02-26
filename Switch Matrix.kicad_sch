@@ -1334,6 +1334,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_F1"
+			(at 204.216 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81ee8635-1b64-4861-89ac-8b83bd01b255")
 		)
@@ -1820,6 +1829,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LGREEK1"
+			(at 108.966 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c91edb9e-7412-4e2f-b023-feb3109828d7")
 		)
@@ -2089,7 +2107,7 @@
 		(fields_autoplaced yes)
 		(uuid "10ee6a2e-b1f4-4d11-b5c0-39810b3fcd6e")
 		(property "Reference" "S_SEVEN1"
-			(at 239.014 83.8199 0)
+			(at 240.03 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2116,7 @@
 			)
 		)
 		(property "Value" "SEVEN"
-			(at 239.014 86.3599 0)
+			(at 240.03 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,6 +2143,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_SIX1"
 			(at 242.57 85.09 0)
 			(effects
 				(font
@@ -2194,6 +2221,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 299.466 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_L1"
 			(at 299.466 128.27 0)
 			(effects
 				(font
@@ -2358,6 +2394,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LEFT_ALT1"
+			(at 147.066 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15d5a7a5-8bc6-4e86-a10e-5735bb9c31eb")
 		)
@@ -2506,6 +2551,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 432.816 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_RESUME1"
 			(at 432.816 64.77 0)
 			(effects
 				(font
@@ -2663,6 +2717,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 394.716 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_LINE1"
 			(at 394.716 128.27 0)
 			(effects
 				(font
@@ -3002,6 +3065,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LHYPER1"
+			(at 70.866 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42e1e46e-51cf-4b46-b156-754f0a784524")
 		)
@@ -3063,6 +3135,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.316 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_N1"
 			(at 242.316 151.13 0)
 			(effects
 				(font
@@ -3220,6 +3301,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.066 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_A1"
 			(at 147.066 128.27 0)
 			(effects
 				(font
@@ -3820,6 +3910,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_R1"
+			(at 204.216 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c945751c-2275-49c7-9fe2-747654f9171d")
 		)
@@ -3881,6 +3980,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.266 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_T1"
 			(at 223.266 105.41 0)
 			(effects
 				(font
@@ -3958,6 +4066,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_HOLD_OUTPUT1"
+			(at 299.466 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c0d1d28-49aa-4bb6-ad82-2ec219c19175")
 		)
@@ -4019,6 +4136,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.316 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_Y1"
 			(at 242.316 105.41 0)
 			(effects
 				(font
@@ -5053,6 +5179,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_BACKSLASH1"
+			(at 394.716 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e029ac11-cb47-4eab-9848-6f115712f913")
 		)
@@ -5296,6 +5431,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_B1"
+			(at 223.266 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34fb02f7-9d15-4fb7-aebe-91b8430abe77")
 		)
@@ -5452,6 +5596,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_K1"
+			(at 280.416 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d63ec58d-a6ba-4b25-af43-099430be5e3e")
 		)
@@ -5521,6 +5674,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RSUPER1"
+			(at 432.816 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64cbc932-1855-45ea-936f-4597bb465b96")
 		)
@@ -5538,7 +5700,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 432.816 86.36 0)
+		(at 434.721 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5546,7 +5708,7 @@
 		(dnp no)
 		(uuid "43f86144-4117-462f-8030-8b0d64a67cd9")
 		(property "Reference" "S_THUMB_DOWN1"
-			(at 431.038 85.344 0)
+			(at 432.943 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5717,7 @@
 			)
 		)
 		(property "Value" "THUMB_DOWN"
-			(at 431.038 87.63 0)
+			(at 432.943 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5726,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
-			(at 433.324 88.9 0)
+			(at 435.229 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 442.214 87.884 0)
+			(at 444.119 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5744,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 432.816 86.36 0)
+			(at 434.721 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_THUMB_UP1"
+			(at 434.721 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,6 +6092,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_SYSTEM1"
+			(at 108.966 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0561f9d3-f6c1-4722-a972-43d954fdf3c4")
 		)
@@ -5990,6 +6170,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_H1"
+			(at 242.316 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6efadb78-ee31-40b0-af1a-47f5826e5653")
 		)
@@ -6051,6 +6240,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 70.866 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_ROM_ONE1"
 			(at 70.866 85.09 0)
 			(effects
 				(font
@@ -6304,6 +6502,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LMETA1"
+			(at 108.966 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69f26454-4a5e-4783-bb35-5f3abfd0240b")
 		)
@@ -6504,7 +6711,7 @@
 		(fields_autoplaced yes)
 		(uuid "50bd101a-bdaf-4437-bc78-81a52585b055")
 		(property "Reference" "S_FIVE1"
-			(at 200.914 83.8199 0)
+			(at 201.93 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6720,7 @@
 			)
 		)
 		(property "Value" "FIVE"
-			(at 200.914 86.3599 0)
+			(at 201.93 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,6 +6747,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_FOUR1"
 			(at 204.47 85.09 0)
 			(effects
 				(font
@@ -6791,6 +7007,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_D1"
+			(at 185.166 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acc21f06-695d-429d-a66e-d3154747c2ff")
 		)
@@ -6904,7 +7129,7 @@
 		(fields_autoplaced yes)
 		(uuid "57ba7d88-454c-40d1-8f4d-ab83b19cb059")
 		(property "Reference" "S_SIX1"
-			(at 219.964 83.8199 0)
+			(at 220.98 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +7138,7 @@
 			)
 		)
 		(property "Value" "SIX"
-			(at 219.964 86.3599 0)
+			(at 220.98 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,6 +7165,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_FIVE1"
 			(at 223.52 85.09 0)
 			(effects
 				(font
@@ -7191,6 +7425,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_CAPSLOCK1"
+			(at 70.866 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab7b31a7-e0db-4448-b96b-016ae03d18d8")
 		)
@@ -7252,6 +7495,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 70.866 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_ROM_THREE1"
 			(at 70.866 105.41 0)
 			(effects
 				(font
@@ -7504,6 +7756,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_O1"
+			(at 299.466 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc10ef3d-437e-4972-9911-2e4aac3658de")
 		)
@@ -7565,6 +7826,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.366 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_LEFT_SPC17"
 			(at 261.366 173.99 0)
 			(effects
 				(font
@@ -7798,6 +8068,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_DELETE1"
+			(at 415.036 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f86dbed4-0bdc-4833-af76-5d988fbc9f98")
 		)
@@ -7955,6 +8234,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LCURVEP1"
+			(at 375.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c3604d2-53d0-46cc-84d6-a5765e38db79")
 		)
@@ -8024,6 +8312,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_P1"
+			(at 318.516 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab0e57bd-8ee1-4f58-a16f-3d804b096c91")
 		)
@@ -8085,6 +8382,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.066 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_QUOTE_MOD1"
 			(at 147.066 64.77 0)
 			(effects
 				(font
@@ -8336,6 +8642,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LSHIFT1"
+			(at 128.016 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bca5ea66-f669-40c4-bd1f-4985b7725243")
 		)
@@ -8405,6 +8720,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_BREAK1"
+			(at 394.716 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48dc68e4-4ebc-4651-b2a5-52d46eca10f0")
 		)
@@ -8466,6 +8790,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 89.916 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_ROM_FOUR1"
 			(at 89.916 105.41 0)
 			(effects
 				(font
@@ -8544,6 +8877,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_EQ1"
+			(at 356.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed2141b8-f230-4ac2-a8e1-38b08c09973f")
 		)
@@ -8605,6 +8947,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.116 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_W1"
 			(at 166.116 105.41 0)
 			(effects
 				(font
@@ -9014,6 +9365,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_NETWORK1"
+			(at 108.966 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee2b0481-47de-41e1-a6ed-aecda066314d")
 		)
@@ -9250,6 +9610,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 415.036 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_STATUS1"
 			(at 415.036 85.09 0)
 			(effects
 				(font
@@ -9588,6 +9957,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RUBOUT1"
+			(at 128.016 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f52f925a-879b-4844-8483-d7fa286d4732")
 		)
@@ -9744,6 +10122,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_COMMA1"
+			(at 280.416 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad855f67-4e38-4bd7-9084-86cfdd271609")
 		)
@@ -9805,6 +10192,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 89.916 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_LSUPER1"
 			(at 89.916 172.72 0)
 			(effects
 				(font
@@ -9875,6 +10271,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_SEVEN1"
 			(at 261.62 85.09 0)
 			(effects
 				(font
@@ -10032,6 +10437,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 375.666 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_RIGHT_ALT1"
 			(at 375.666 172.72 0)
 			(effects
 				(font
@@ -10240,7 +10654,7 @@
 		(fields_autoplaced yes)
 		(uuid "84469c07-23a6-4e71-a4b8-927037092619")
 		(property "Reference" "S_NINE1"
-			(at 275.844 83.8199 0)
+			(at 276.86 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +10663,7 @@
 			)
 		)
 		(property "Value" "NINE"
-			(at 275.844 86.3599 0)
+			(at 276.86 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,6 +10767,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LKM1"
+			(at 356.616 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b90e23f-e546-4b00-986d-43117486511e")
 		)
@@ -10414,6 +10837,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.366 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_CLEAR_SCREEN1"
 			(at 261.366 64.77 0)
 			(effects
 				(font
@@ -10517,7 +10949,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d2138b3-b659-465f-aa41-e1f917616f93")
 		(property "Reference" "S_THREE1"
-			(at 162.814 83.8199 0)
+			(at 163.83 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10958,7 @@
 			)
 		)
 		(property "Value" "THREE"
-			(at 162.814 86.3599 0)
+			(at 163.83 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,6 +10985,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_TWO1"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -10630,6 +11071,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RSHIFT1"
+			(at 337.566 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d15bb6e-2d3f-42c2-b39a-65a308f725db")
 		)
@@ -10691,6 +11141,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.166 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_C1"
 			(at 185.166 151.13 0)
 			(effects
 				(font
@@ -10855,6 +11314,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_SLASH1"
+			(at 318.516 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2429c525-5367-41fe-a4fb-0873dca413e9")
 		)
@@ -10916,6 +11384,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 89.916 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_ROM_TWO1"
 			(at 89.916 85.09 0)
 			(effects
 				(font
@@ -10993,6 +11470,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_LTOP1"
+			(at 89.916 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e7c1fda-3d64-41d1-a901-73362f93f3a3")
 		)
@@ -11019,7 +11505,7 @@
 		(fields_autoplaced yes)
 		(uuid "96c50456-ea11-477f-a00a-97a4d63ee13b")
 		(property "Reference" "S_ONE1"
-			(at 124.714 83.8199 0)
+			(at 125.73 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +11514,7 @@
 			)
 		)
 		(property "Value" "ONE"
-			(at 124.714 86.3599 0)
+			(at 125.73 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,6 +11541,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_COLON1"
 			(at 128.27 85.09 0)
 			(effects
 				(font
@@ -11124,6 +11619,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 108.966 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_TERMINAL1"
 			(at 108.966 64.77 0)
 			(effects
 				(font
@@ -11288,6 +11792,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_THUMB_LEFT1"
+			(at 432.816 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aec4cc6c-df11-43c0-96bc-6f69a2d72b21")
 		)
@@ -11444,6 +11957,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_Q1"
+			(at 147.066 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77caface-3c31-436a-9e60-f56f7fd03295")
 		)
@@ -11505,6 +12027,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 89.916 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_MACRO1"
 			(at 89.916 64.77 0)
 			(effects
 				(font
@@ -11757,6 +12288,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_M17"
+			(at 261.366 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b58b417-7b2c-455f-94d1-61bfe01e766e")
 		)
@@ -11913,6 +12453,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_REPEAT1"
+			(at 433.07 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57930375-3f77-46a3-aee3-02c25d4f961c")
 		)
@@ -11974,6 +12523,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 108.966 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_ALTMODE1"
 			(at 108.966 128.27 0)
 			(effects
 				(font
@@ -12182,7 +12740,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3f0457b-f15e-4516-bb91-443de96b1e32")
 		(property "Reference" "S_ZERO1"
-			(at 296.164 83.8199 0)
+			(at 297.18 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +12749,7 @@
 			)
 		)
 		(property "Value" "ZERO"
-			(at 296.164 86.3599 0)
+			(at 297.18 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12218,6 +12776,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 299.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_NINE1"
 			(at 299.72 85.09 0)
 			(effects
 				(font
@@ -12295,6 +12862,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RIGHT_SPACE1"
+			(at 337.82 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b3631c2-4c92-4ce9-af1b-5ae31edc69e0")
 		)
@@ -12321,7 +12897,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5036896-b681-49d5-8f81-f1cbf6e7c5f7")
 		(property "Reference" "S_FOUR1"
-			(at 181.864 83.8199 0)
+			(at 182.88 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,7 +12906,7 @@
 			)
 		)
 		(property "Value" "FOUR"
-			(at 181.864 86.3599 0)
+			(at 182.88 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,6 +12933,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_THREE1"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -12434,6 +13019,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RGREEK1"
+			(at 394.97 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f26f9b45-31c2-4514-8c78-76c243560e9e")
 		)
@@ -12495,6 +13089,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.016 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_TAB1"
 			(at 128.016 105.41 0)
 			(effects
 				(font
@@ -12659,6 +13262,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_ABORT18"
+			(at 375.666 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5019a44-82c1-463c-b010-028383cdd58f")
 		)
@@ -12720,6 +13332,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 356.616 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_RETURN1"
 			(at 356.616 128.27 0)
 			(effects
 				(font
@@ -13147,6 +13768,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_MINUS1"
+			(at 337.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d348fbdf-e245-4d08-ad07-8cbcf411a3c8")
 		)
@@ -13372,6 +14002,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RMETA1"
+			(at 413.766 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "668dd46c-3749-4f67-8d69-b05010bbceb0")
 		)
@@ -13485,7 +14124,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4172a14-ad07-416d-893a-07c9185f4b0c")
 		(property "Reference" "S_TWO1"
-			(at 143.764 83.8199 0)
+			(at 144.78 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,7 +14133,7 @@
 			)
 		)
 		(property "Value" "TWO"
-			(at 143.764 86.3599 0)
+			(at 144.78 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13521,6 +14160,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_ONE1"
 			(at 147.32 85.09 0)
 			(effects
 				(font
@@ -13860,6 +14508,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_V1"
+			(at 204.216 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb4501e1-f57a-45b8-8b7b-bcf9c2186cd1")
 		)
@@ -14008,6 +14665,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 337.566 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_LPAREN1"
 			(at 337.566 105.41 0)
 			(effects
 				(font
@@ -14172,6 +14838,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_E1"
+			(at 185.166 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4a995ef-a73e-4894-8173-8c1d3f790f20")
 		)
@@ -14233,6 +14908,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 280.416 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_I_1"
 			(at 280.416 105.41 0)
 			(effects
 				(font
@@ -14484,6 +15168,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_QUOTE1"
+			(at 337.566 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccf337ec-aa5b-415d-9269-6f9203badf58")
 		)
@@ -14545,6 +15238,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.116 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_S1"
 			(at 166.116 128.27 0)
 			(effects
 				(font
@@ -14972,6 +15674,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_J1"
+			(at 261.366 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3673fd85-28cc-4e6a-93ea-a594b91c0dff")
 		)
@@ -14998,7 +15709,7 @@
 		(fields_autoplaced yes)
 		(uuid "d385a3ad-db3a-4cd8-95cc-473d925eb0fe")
 		(property "Reference" "S_MINUS1"
-			(at 315.214 83.8199 0)
+			(at 316.23 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,7 +15718,7 @@
 			)
 		)
 		(property "Value" "MINUS"
-			(at 315.214 86.3599 0)
+			(at 316.23 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,6 +15745,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 318.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_ZERO1"
 			(at 318.77 85.09 0)
 			(effects
 				(font
@@ -15103,6 +15823,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.116 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_X1"
 			(at 166.116 151.13 0)
 			(effects
 				(font
@@ -15267,6 +15996,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RTOP1"
+			(at 414.02 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0cfdae8-f0ea-4518-85a0-454861e88443")
 		)
@@ -15328,6 +16066,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 394.716 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_RCURVEP1"
 			(at 394.716 85.09 0)
 			(effects
 				(font
@@ -15405,6 +16152,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_M_LOCK1"
+			(at 89.916 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6ce749f-bfe5-4710-bc88-c9e3c90008f8")
 		)
@@ -15466,6 +16222,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 356.616 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_RPAREN1"
 			(at 356.616 105.41 0)
 			(effects
 				(font
@@ -15717,6 +16482,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_FN1"
+			(at 223.52 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d920105e-dc57-4325-a553-68c9c636c6ea")
 		)
@@ -15778,6 +16552,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.266 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_CLEAR_INPUT1"
 			(at 223.266 64.77 0)
 			(effects
 				(font
@@ -16292,6 +17075,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_OVER_STRIKE1"
+			(at 185.166 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f54f1c0-b01d-457c-b1dd-5b437ada1411")
 		)
@@ -16535,6 +17327,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_CTRL1"
+			(at 128.016 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ecc524d-589e-4370-89c4-e06e2252d534")
 		)
@@ -16596,6 +17397,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 337.566 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_STOP_OUTPUT1"
 			(at 337.566 64.77 0)
 			(effects
 				(font
@@ -16673,6 +17483,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_RCTRL1"
+			(at 394.716 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9063d325-e17c-4437-aa77-5163146a04e4")
 		)
@@ -16734,6 +17553,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.266 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_G1"
 			(at 223.266 128.27 0)
 			(effects
 				(font
@@ -16898,6 +17726,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_BACKTICK1"
+			(at 375.666 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "035328a7-1017-4a48-850c-545b6ca86a0a")
 		)
@@ -16967,6 +17804,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_SEMICOLON1"
+			(at 318.516 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "383deda1-7155-4cda-b63d-7aa485fdf3a7")
 		)
@@ -17028,6 +17874,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 299.466 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_DOT1"
 			(at 299.466 151.13 0)
 			(effects
 				(font
@@ -17279,6 +18134,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_U1"
+			(at 261.366 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fe510a2-70ee-49cc-a432-fa4c40372167")
 		)
@@ -17522,6 +18386,15 @@
 				(hide yes)
 			)
 		)
+		(property "dep" "S_END1"
+			(at 413.766 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ada5419-00d1-4801-a46e-50c7f41babdb")
 		)
@@ -17583,6 +18456,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.066 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "dep" "S_Z1"
 			(at 147.066 151.13 0)
 			(effects
 				(font
