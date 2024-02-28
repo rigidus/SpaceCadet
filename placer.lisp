@@ -74,4 +74,21 @@
 (let ((*dep-dag*))
   (declare (special *dep-dag*))
   (replacer *raw* #'process-footprint-for-dag)
-  (print *dep-dag*))
+  ;; (print *dep-dag*)
+  (let ((graph (make-hash-table :test #'equal))
+        (top-vertexes)) ;; узлы без зависимостей
+    (loop for node in *dep-dag* do
+      (let ((dep  (getf node :DEP))
+            (ref  (getf node :REF)))
+        (when (equal 'none (gethash ref graph 'none))
+          (setf (gethash ref graph) (list dep))
+          (setf (gethash ref graph) (pushnew dep (gethash ref graph))))
+        ))
+    (loop for val being the hash-values of graph
+            using (hash-key key)
+          do (progn
+               (format t "~&~A -> ~{~A~}" key val)
+               (loop for item in val :do
+                 (when (equal 'none (gethash item graph 'none))
+                   (pushnew val top-vertexes)))))
+    top-vertexes))
