@@ -80,54 +80,53 @@
       ;; else
       node))
 
-(defun get-graph ()
+(defun get-graph (dep-dag)
   "building dag on hash-table"
-  (loop for node in *dep-dag* do
-    (let ((dep  (getf node :DEP))
-          (ref  (getf node :REF)))
-      (when (equal 'none (gethash ref *graph* 'none))
-        (setf (gethash ref *graph*) (list dep))
-        (setf (gethash ref *graph*) (pushnew dep (gethash ref *graph*)))))))
+  (let ((graph (make-hash-table :test #'equal)))
+    (loop for node in dep-dag do
+      (let ((dep  (getf node :DEP))
+            (ref  (getf node :REF)))
+        (when (equal 'none (gethash ref graph 'none))
+          (setf (gethash ref graph) (list dep))
+          (setf (gethash ref graph) (pushnew dep (gethash ref graph))))))
+    graph))
 
-(defun get-top-vertexes ()
-  "finding top-vertexes"
-  (loop for val being the hash-values of *graph*
-          using (hash-key key) do
-            (progn
-              ;; (format t "~&~A -> ~{~A~}" key val)
-              (loop for item in val :do
-                (when (equal 'none (gethash item *graph* 'none))
-                  (pushnew (car val) *top-vertexes*))))))
+(defun get-top-vertexes (graph)
+  "finding top-vertexes" ;; узлы без зависимостей
+  (let ((top-vertexes))
+    (loop for val being the hash-values of graph
+            using (hash-key key) do
+              (progn
+                ;; (format t "~&~A -> ~{~A~}" key val)
+                (loop for item in val :do
+                  (when (equal 'none (gethash item graph 'none))
+                    (pushnew (car val) top-vertexes)))))
+    top-vertexes))
 
-(defun get-chains ()
-  "get chains from dag from top-vetrexes"
-  (labels ((find-next (vertex)
-             (loop for val being the hash-values of *graph*
-                     using (hash-key key) do
-                       (if (member vertex val :test #'string=)
-                           (return-from find-next key))))
-           (chain (starter)
-             (loop for next = (find-next starter)
-                   until (null next)
-                   collect next
-                   do (setf starter next))))
-    (loop for top in *top-vertexes* do
-      (push (list* top (chain top)) *chains*))))
+(defun get-chains (graph top-vertexes)
+  "get chains from dag from top-vetrexes" ;; цепочки построенные от top-vertexes
+  (let ((chains))
+    (labels ((find-next (vertex)
+               (loop for val being the hash-values of graph
+                       using (hash-key key) do
+                         (if (member vertex val :test #'string=)
+                             (return-from find-next key))))
+             (chain (starter)
+               (loop for next = (find-next starter)
+                     until (null next)
+                     collect next
+                     do (setf starter next))))
+      (loop for top in top-vertexes do
+        (push (list* top (chain top)) chains)))
+    chains))
 
-(let ((*dep-dag*)
-      (*graph* (make-hash-table :test #'equal))
-      (*top-vertexes*)
-      (*chains*))
-  (declare (special *dep-dag* *graph* *top-vertexes* *chains*))
+(let ((*dep-dag*))
+  (declare (special *dep-dag*))
   (replacer *raw* #'process-footprint-for-dag)
-  ;; (print *dep-dag*)
-  (get-graph)
-  (get-top-vertexes)
-  (get-chains)
-  (let ((graph *graph*)
-        (top-vertexes *top-vertexes*) ;; узлы без зависимостей
-        (chains *chains*)) ;; цепочки построенные от top-vertexes
-    ;; (print chains)
+  (print *dep-dag*)
+  (let* ((graph (get-graph *dep-dag*))
+         (top-vertexes (get-top-vertexes graph))
+         (chains (get-chains graph top-vertexes)))
     (loop for chain in chains do
       (let ((top  (car chain))
             ;; (rest (cdr chain))
@@ -148,4 +147,5 @@
                       node))
         ;; todo: modify all chain
         ;; todo: write tree to file
-        ))))
+        )))
+  )
