@@ -38,21 +38,29 @@
      (cons (car tree)
            (replacer (cdr tree) fn)))))
 
-(defun find-property (subtree property)
+(defun find-sublist (subtree first &optional aux)
   (cond
     ((null subtree) nil)
     ((atom subtree) nil)
     ((and (listp subtree)
           (atom (car subtree))
           (symbolp (car subtree))
-          (equal 'PROPERTY (car subtree))
-          (stringp (cadr subtree))
-          (string= property (cadr subtree)))
-     (caddr subtree)) ; Возвращаем текущий узел
+          (equal first (car subtree))
+          (if aux
+              (funcall aux subtree)
+              t))
+     subtree) ; Возвращаем subtree
     ((atom (car subtree))
-     (find-property (cdr subtree) property))
-    (t (or (find-property (car subtree) property)
-           (find-property (cdr subtree) property)))))
+     (find-sublist (cdr subtree) first aux))
+    (t (or (find-sublist (car subtree) first aux)
+           (find-sublist (cdr subtree) first aux)))))
+
+(defun find-property (subtree property)
+  (caddr
+   (find-sublist subtree 'PROPERTY
+                 #'(lambda (subtree)
+                     (and (stringp (cadr subtree))
+                          (string= property (cadr subtree)))))))
 
 ;; (find-property *raw* "dep")
 
@@ -76,21 +84,23 @@
   (replacer *raw* #'process-footprint-for-dag)
   ;; (print *dep-dag*)
   (let ((graph (make-hash-table :test #'equal))
-        (top-vertexes)) ;; узлы без зависимостей
+        (top-vertexes) ;; узлы без зависимостей
+        (chains)) ;; цепочки построенные от top-vertexes
     (loop for node in *dep-dag* do
       (let ((dep  (getf node :DEP))
             (ref  (getf node :REF)))
         (when (equal 'none (gethash ref graph 'none))
           (setf (gethash ref graph) (list dep))
-          (setf (gethash ref graph) (pushnew dep (gethash ref graph))))
-        ))
+          (setf (gethash ref graph) (pushnew dep (gethash ref graph))))))
+    ;; finding top-vertexes
     (loop for val being the hash-values of graph
             using (hash-key key) do
               (progn
-                (format t "~&~A -> ~{~A~}" key val)
+                ;; (format t "~&~A -> ~{~A~}" key val)
                 (loop for item in val :do
                   (when (equal 'none (gethash item graph 'none))
                     (pushnew (car val) top-vertexes)))))
+    ;; finding chains from top-vetrexes
     (labels ((find-next (vertex)
                (loop for val being the hash-values of graph
                        using (hash-key key) do
@@ -102,6 +112,26 @@
                      collect next
                      do (setf starter next))))
       (loop for top in top-vertexes do
-        (print (list :top top :chain (chain top)))))
-    top-vertexes
-    ))
+        (push (list* top (chain top)) chains)))
+    ;; (print chains)
+    (loop for chain in chains do
+      (let ((top  (car chain))
+            ;; (rest (cdr chain))
+            (curr-x)
+            (curr-y))
+        ;; get base coords
+        (replacer *raw*
+                  #'(lambda (node)
+                      (if (and (listp node)
+                               (equal (car node) 'FOOTPRINT))
+                          (let ((name (cadr node))
+                                (ref (find-property node "Reference"))
+                                (at (find-sublist node 'AT)))
+                            (when (string= top ref)
+                              (setf curr-x (cadr at))
+                              (setf curr-y (caddr at))
+                              (print (list :name name :ref ref :x curr-x :y curr-y)))))
+                      node))
+        ;; todo: modify all chain
+        ;; todo: write tree to file
+        ))))
