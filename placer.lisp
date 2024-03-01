@@ -105,13 +105,3 @@
         (print (list :top top :chain (chain top)))))
     top-vertexes
     ))
-
-(defun accumulate-value ()
-  (random 10)) ; пример функции, которая генерирует новое значение
-
-(defun test-function (value)
-  (>= value 5)) ; пример функции-теста, которая возвращает nil, когда значение больше или равно 5
-
-(loop for value = (accumulate-value)
-      until (test-function value)
-      collect value)
