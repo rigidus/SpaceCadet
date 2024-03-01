@@ -86,7 +86,7 @@
     (loop for node in dep-dag do
       (let ((dep  (getf node :DEP))
             (ref  (getf node :REF)))
-        (when (equal 'none (gethash ref graph 'none))
+        (if (equal 'none (gethash ref graph 'none))
           (setf (gethash ref graph) (list dep))
           (setf (gethash ref graph) (pushnew dep (gethash ref graph))))))
     graph))
