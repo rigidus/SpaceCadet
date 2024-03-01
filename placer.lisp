@@ -85,10 +85,33 @@
           (setf (gethash ref graph) (pushnew dep (gethash ref graph))))
         ))
     (loop for val being the hash-values of graph
-            using (hash-key key)
-          do (progn
-               (format t "~&~A -> ~{~A~}" key val)
-               (loop for item in val :do
-                 (when (equal 'none (gethash item graph 'none))
-                   (pushnew val top-vertexes)))))
-    top-vertexes))
+            using (hash-key key) do
+              (progn
+                (format t "~&~A -> ~{~A~}" key val)
+                (loop for item in val :do
+                  (when (equal 'none (gethash item graph 'none))
+                    (pushnew (car val) top-vertexes)))))
+    (labels ((find-next (vertex)
+               (loop for val being the hash-values of graph
+                       using (hash-key key) do
+                         (if (member vertex val :test #'string=)
+                             (return-from find-next key))))
+             (chain (starter)
+               (loop for next = (find-next starter)
+                     until (null next)
+                     collect next
+                     do (setf starter next))))
+      (loop for top in top-vertexes do
+        (print (list :top top :chain (chain top)))))
+    top-vertexes
+    ))
+
+(defun accumulate-value ()
+  (random 10)) ; пример функции, которая генерирует новое значение
+
+(defun test-function (value)
+  (>= value 5)) ; пример функции-теста, которая возвращает nil, когда значение больше или равно 5
+
+(loop for value = (accumulate-value)
+      until (test-function value)
+      collect value)
