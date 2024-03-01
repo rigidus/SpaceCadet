@@ -98,20 +98,25 @@
             using (hash-key key) do
               (progn
                 ;; (format t "~&~A -> ~{~A~}" key val)
-                (loop for item in val :do
+                (loop for item in val do
                   (when (equal 'none (gethash item graph 'none))
-                    (pushnew (car val) top-vertexes)))))
+                    (pushnew item top-vertexes)))))
     top-vertexes))
 
+;; представим себе картинку клавиатуры: данная функция строит цепочки кнопок
+;; порядово от левого края к правому. Где в начале ряда самая левая кнопка -
+;; т.е. такой узел, у которого нет зависимостей от других узлов.
 (defun get-chains (graph top-vertexes)
   "get chains from dag from top-vetrexes" ;; цепочки построенные от top-vertexes
   (let ((chains))
     (labels ((find-next (vertex)
-               (loop for val being the hash-values of graph
-                       using (hash-key key) do
-                         (if (member vertex val :test #'string=)
-                             (return-from find-next key))))
+               ;; найти элемент, для которого vertex - одна из зависимостей
+               (loop for deps-list being the hash-values of graph
+                       using (hash-key node-name) do
+                         (if (member vertex deps-list :test #'string=)
+                             (return-from find-next node-name))))
              (chain (starter)
+               ;; получить список узлов, где top (вершины графа) - это зависимости
                (loop for next = (find-next starter)
                      until (null next)
                      collect next
