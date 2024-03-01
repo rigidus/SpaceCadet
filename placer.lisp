@@ -18,22 +18,14 @@
     (FOOTPRINT "Diode_SMD:D_SOD-123" (AT 399.058 487.366)
      (PROPERTY "Reference" "D_RIGHT_SPACE1" (AT 0 -2 0)))))
 
-(defun tree-cnt (tree)
-  (cond
-    ((null tree) 0)
-    ((atom tree) 1)
-    (t (+ 1 (count-elements (car tree))
-          (count-elements (cdr tree))))))
-
-;; (tree-cnt *raw2*)
-
 (defun replacer (tree fn)
   (cond
     ((null tree) nil)
     ((atom tree) tree)
     ((let ((it (funcall fn (car tree))))
-       (cons it
-             (replacer (cdr tree) fn))))
+       (unless (null it)
+         (cons it
+               (replacer (cdr tree) fn)))))
     (t
      (cons (car tree)
            (replacer (cdr tree) fn)))))
@@ -134,7 +126,7 @@
          (chains (get-chains graph top-vertexes)))
     (loop for chain in chains do
       (let ((top  (car chain))
-            ;; (rest (cdr chain))
+            (rest (cdr chain))
             (curr-x)
             (curr-y))
         ;; get base coords
@@ -148,9 +140,34 @@
                             (when (string= top ref)
                               (setf curr-x (cadr at))
                               (setf curr-y (caddr at))
-                              (print (list :name name :ref ref :x curr-x :y curr-y)))))
+                              ;; (print (list :name name :ref ref :x curr-x :y curr-y))
+                              )))
                       node))
         ;; todo: modify all chain
+        ;; 1. взять координаты следующей кнопки
+        ;; x следующей кнопки = x текущей кнопки + размер текущей кнопки
+        ;; y следующей кнопки = y текущей кнопки
+        ;; повторить для всех узлов в chain до тех пор, пока не додйем до самой правой кнопки - т.е. cdr == nil
+        (print "---")
+        (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
+          (replacer *raw*
+                    #'(lambda (node)
+                        (if (and (listp node)
+                                 (equal (car node) 'FOOTPRINT))
+                            (let ((ref (find-property node "Reference")))
+                              (if (string= ref next)
+                                  (replacer node
+                                            #'(lambda (footnode)
+                                                (if (and (listp footnode)
+                                                         (equal (car footnode) 'AT))
+                                                    (list 'AT
+                                                          ;; (+ 19.05 curr-x)
+                                                          ;; it depends of footprint name
+                                                          99999999
+                                                          curr-y)
+                                                    ;; else
+                                                    footnode)))
+                                  ;; else
+                                  nil))))))
         ;; todo: write tree to file
-        )))
-  )
+        ))))
