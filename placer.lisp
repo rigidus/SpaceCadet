@@ -79,8 +79,8 @@
       (let ((dep  (getf node :DEP))
             (ref  (getf node :REF)))
         (if (equal 'none (gethash ref graph 'none))
-          (setf (gethash ref graph) (list dep))
-          (setf (gethash ref graph) (pushnew dep (gethash ref graph))))))
+            (setf (gethash ref graph) (list dep))
+            (setf (gethash ref graph) (pushnew dep (gethash ref graph))))))
     graph))
 
 (defun get-top-vertexes (graph)
@@ -117,10 +117,45 @@
         (push (list* top (chain top)) chains)))
     chains))
 
+(defconstant *unit-button-size* 19.05)
+
+(defvar *output-file* "test2.kicad_pcb")
+
+(setf *raw* `(footprint "Button_Switch_Keyboard:SW_MX_2U"
+                        (layer "F.Cu")
+                        (uuid "02a262cb-470c-40ca-be1a-8e82f454b693")
+                        (at 330.788 442.106)
+                        (property "Reference" "S_N1"
+                                  (at 4.5 5.75 0)
+                                  (layer "F.SilkS")
+                                  (uuid "438b4544-75f2-4bed-a678-b76fb2d2dbc5")
+                                  (effects
+                                   (font
+                                    (size 1 1)
+                                    (thickness 0.12)
+                                    )
+                                   (justify right top)
+                                   )
+                                  )
+                        (property "Value" "N"
+                                  (at -4 -8.5 0)
+                                  (layer "F.Fab")
+                                  (uuid "a6c609e8-09bf-4903-a062-ee7f1f362442")
+                                  (effects
+                                   (font
+                                    (size 1 1)
+                                    (thickness 0.12)
+                                    )
+                                   (justify left top)
+                                   )
+                                  )))
+
+
+
 (let ((*dep-dag*))
   (declare (special *dep-dag*))
   (replacer *raw* #'process-footprint-for-dag)
-  (print *dep-dag*)
+  ;; (print *dep-dag*)
   (let* ((graph (get-graph *dep-dag*))
          (top-vertexes (get-top-vertexes graph))
          (chains (get-chains graph top-vertexes)))
@@ -143,31 +178,85 @@
                               ;; (print (list :name name :ref ref :x curr-x :y curr-y))
                               )))
                       node))
-        ;; todo: modify all chain
-        ;; 1. взять координаты следующей кнопки
-        ;; x следующей кнопки = x текущей кнопки + размер текущей кнопки
-        ;; y следующей кнопки = y текущей кнопки
-        ;; повторить для всех узлов в chain до тех пор, пока не додйем до самой правой кнопки - т.е. cdr == nil
-        (print "---")
-        (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
-          (replacer *raw*
-                    #'(lambda (node)
-                        (if (and (listp node)
-                                 (equal (car node) 'FOOTPRINT))
-                            (let ((ref (find-property node "Reference")))
-                              (if (string= ref next)
-                                  (replacer node
-                                            #'(lambda (footnode)
-                                                (if (and (listp footnode)
-                                                         (equal (car footnode) 'AT))
-                                                    (list 'AT
-                                                          ;; (+ 19.05 curr-x)
-                                                          ;; it depends of footprint name
-                                                          99999999
-                                                          curr-y)
-                                                    ;; else
-                                                    footnode)))
-                                  ;; else
-                                  nil))))))
-        ;; todo: write tree to file
-        ))))
+        ;; modify all chains
+        (let ((replaced *raw*))
+          (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
+            (setf replaced
+                  (replacer replaced
+                            #'(lambda (node)
+                                (if (and (listp node)
+                                         (equal (car node) 'FOOTPRINT))
+                                    (let ((ref (find-property node "Reference")))
+                                      (if (string= ref next)
+                                          (let ((button-size
+                                                  (read-button-size (cadr node))))
+                                            (replacer node
+                                                      #'(lambda (footnode)
+                                                          (if (and (listp footnode)
+                                                                   (equal (car footnode) 'AT))
+                                                              (let ((size
+                                                                      (cond ((equal button-size "1")
+                                                                             *unit-button-size*)
+                                                                            ((equal button-size "1.25")
+                                                                             (* *unit-button-size* 1.25))
+                                                                            ((equal button-size "2")
+                                                                             (* *unit-button-size* 2.25))
+                                                                            ((equal button-size "2.25")
+                                                                             (* *unit-button-size* 2.25))
+                                                                            ((equal button-size "3U")
+                                                                             (* *unit-button-size* 3))
+                                                                            ((equal button-size "3.25U")
+                                                                             (* *unit-button-size* 3.25)))))
+                                                                (print "---------------")
+                                                                (print (+ curr-x size))
+                                                                (print curr-x)
+
+                                                                (list 'AT
+                                                                      (+ curr-x size)
+                                                                      curr-y))
+                                                              ;; else
+                                                              footnode))))))
+
+                                          ;; else
+                                          nil))
+                            )))
+          (fancy-print replaced "test.kicad_pcb"))))))
+
+(defun tab (cnt)
+  (make-string cnt :initial-element #\Tab))
+
+;; (tab 12)
+
+(defmacro bprint (var)
+  `(subseq (with-output-to-string (*standard-output*)  (pprint ,var)) 1))
+
+(defun fancy-print-rec (expr out level)
+  (cond ((null expr) (format out ")"))
+        ((listp (car expr))
+         (progn
+           (format out "~% ~a(" (tab (+ 1 level)))
+           (fancy-print-rec (car expr) out (+ 1 level))
+           (fancy-print-rec (cdr expr) out level)))
+        (t (progn
+             (if (symbolp (car expr))
+                 (format out "~a " (string-downcase (symbol-name (car expr))))
+                 (format out "~a " (bprint (car expr))))
+             (fancy-print-rec (cdr expr) out level)))))
+
+(defun fancy-print (expr file)
+  (with-open-file (out file :direction :output :if-exists :supersede)
+    (format out "(")
+    (fancy-print-rec expr out 0)))
+
+;; Пример использования:
+;;(fancy-print *raw* "test.kicad_pcb")
+
+(defun read-button-size (string)
+  (let ((symbols
+          (loop for i from (1- (- (length string) 1)) downto 0
+                for char = (char string i)
+                until (char= #\_ char)
+                collect char)))
+    (coerce (reverse symbols) 'string)))
+
+;; (read-button-size "Button_Switch_Keyboard:SW_MX_1.25U")
