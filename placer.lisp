@@ -151,6 +151,68 @@
 ;;                                   )))
 
 
+(defun tab (cnt)
+  (make-string cnt :initial-element #\Tab))
+
+;; (tab 12)
+
+(defmacro bprint (var)
+  `(subseq (with-output-to-string (*standard-output*)  (pprint ,var)) 1))
+
+(defun fancy-print-rec (expr out level)
+  (cond ((null expr) (format out ")"))
+        ((listp (car expr))
+         (progn
+           (format out "~% ~a(" (tab (+ 1 level)))
+           (fancy-print-rec (car expr) out (+ 1 level))
+           (fancy-print-rec (cdr expr) out level)))
+        (t (progn
+             (if (symbolp (car expr))
+                 (format out "~a " (string-downcase (symbol-name (car expr))))
+                 (format out "~a " (bprint (car expr))))
+             (fancy-print-rec (cdr expr) out level)))))
+
+(defun fancy-print (expr file)
+  (with-open-file (out file :direction :output :if-exists :supersede)
+    (format out "(")
+    (fancy-print-rec expr out 0)))
+
+;; Пример использования:
+;;(fancy-print *raw* "test.kicad_pcb")
+
+
+
+
+(defun read-button-size (string)
+  (let ((symbols
+          (loop for i from (1- (- (length string) 1)) downto 0
+                for char = (char string i)
+                until (char= #\_ char)
+                collect char)))
+    (coerce (reverse symbols) 'string)))
+
+(defun caclulate-button-size (string)
+  (let* ((button-size-string (read-button-size string))
+         (button-size (cond
+                        ((equal button-size-string "1")
+                         *unit-button-size*)
+                        ((equal button-size-string "1.25")
+                         (* *unit-button-size* 1.25))
+                        ((equal button-size-string "2")
+                         (* *unit-button-size* 2))
+                        ((equal button-size-string "2.25")
+                         (* *unit-button-size* 2.25))
+                        ((equal button-size-string "3")
+                         (* *unit-button-size* 3))
+                        ((equal button-size-string "3.25")
+                         (* *unit-button-size* 3.25)))))
+    button-size))
+
+;; (caclulate-button-size "Button_Switch_Keyboard:SW_MX_1.25U")
+
+(defun calculate-new-x (cur-x-coord prev-button-size cur-button-size)
+  (+ cur-x-coord (/ prev-button-size 2) (/ cur-button-size 2)))
+
 
 (let ((*dep-dag*))
   (declare (special *dep-dag*))
@@ -216,62 +278,3 @@
                                     nil))
                             )))
           (fancy-print replaced "test.kicad_pcb")))))
-
-(defun tab (cnt)
-  (make-string cnt :initial-element #\Tab))
-
-;; (tab 12)
-
-(defmacro bprint (var)
-  `(subseq (with-output-to-string (*standard-output*)  (pprint ,var)) 1))
-
-(defun fancy-print-rec (expr out level)
-  (cond ((null expr) (format out ")"))
-        ((listp (car expr))
-         (progn
-           (format out "~% ~a(" (tab (+ 1 level)))
-           (fancy-print-rec (car expr) out (+ 1 level))
-           (fancy-print-rec (cdr expr) out level)))
-        (t (progn
-             (if (symbolp (car expr))
-                 (format out "~a " (string-downcase (symbol-name (car expr))))
-                 (format out "~a " (bprint (car expr))))
-             (fancy-print-rec (cdr expr) out level)))))
-
-(defun fancy-print (expr file)
-  (with-open-file (out file :direction :output :if-exists :supersede)
-    (format out "(")
-    (fancy-print-rec expr out 0)))
-
-;; Пример использования:
-;;(fancy-print *raw* "test.kicad_pcb")
-
-(defun read-button-size (string)
-  (let ((symbols
-          (loop for i from (1- (- (length string) 1)) downto 0
-                for char = (char string i)
-                until (char= #\_ char)
-                collect char)))
-    (coerce (reverse symbols) 'string)))
-
-(defun caclulate-button-size (string)
-  (let* ((button-size-string (read-button-size string))
-         (button-size (cond
-                        ((equal button-size-string "1")
-                         *unit-button-size*)
-                        ((equal button-size-string "1.25")
-                         (* *unit-button-size* 1.25))
-                        ((equal button-size-string "2")
-                         (* *unit-button-size* 2))
-                        ((equal button-size-string "2.25")
-                         (* *unit-button-size* 2.25))
-                        ((equal button-size-string "3")
-                         (* *unit-button-size* 3))
-                        ((equal button-size-string "3.25")
-                         (* *unit-button-size* 3.25)))))
-    button-size))
-
-;; (caclulate-button-size "Button_Switch_Keyboard:SW_MX_1.25U")
-
-(defun calculate-new-x (cur-x-coord prev-button-size cur-button-size)
-  (+ cur-x-coord (/ prev-button-size 2) (/ cur-button-size 2)))
