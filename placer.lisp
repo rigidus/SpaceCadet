@@ -158,14 +158,16 @@
   ;; (print *dep-dag*)
   (let* ((graph (get-graph *dep-dag*))
          (top-vertexes (get-top-vertexes graph))
-         (chains (get-chains graph top-vertexes)))
+         (chains (get-chains graph top-vertexes))
+         (replaced *raw*))
     ;; go through chains (ordered rows of buttons as they exist on keyboard)
     (loop for chain in chains do
       (let ((top  (car chain))
             (rest (cdr chain))
             (curr-x)
-            (curr-y))
-        (format t "current chain is ~a ~%" chain)
+            (curr-y)
+            (prev-button-size))
+        ;;(format t "current chain is ~a ~%" chain)
         ;; get coordinates of the most left button
         (replacer *raw*
                   #'(lambda (node)
@@ -177,14 +179,14 @@
                             (when (string= top ref)
                               (setf curr-x (cadr at))
                               (setf curr-y (caddr at))
+                              (setf prev-button-size (caclulate-button-size (cadr node)))
                               (print (list :name name :ref ref :x curr-x :y curr-y))
                               )))
                       node))
         ;; go through each chain (row) except the most left button and change coordinates of buttons
         ;; according their row beginning
-        (let ((replaced *raw*))
           (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
-            (format t "current button is ~a ~%" next)
+            ;;(format t "~% current button is ~a ~%" next)
             (setf replaced
                   (replacer replaced
                             #'(lambda (node)
@@ -192,40 +194,28 @@
                                          (equal (car node) 'FOOTPRINT))
                                     (let ((ref (find-property node "Reference")))
                                       (if (string= ref next) ;; if name of node is name of button
-                                          (let ((button-size
-                                                  (read-button-size (cadr node))))
-                                            (replacer node ;; replace coordinates
-                                                      #'(lambda (footnode)
-                                                          (if (and (listp footnode)
-                                                                   (equal (car footnode) 'AT))
-                                                              (let ((size
-                                                                      (cond
-                                                                        ((equal button-size "1") ;; todo кооринаты кнопок - это координаты центра кнопок, т.е. надо пересчитывать верно
-                                                                         (/ *unit-button-size* 2)) ;; todo разместить самые левые кнопки вручную
-                                                                        ((equal button-size "1.25")
-                                                                         (/ (* *unit-button-size* 1.25) 2))
-                                                                        ((equal button-size "2")
-                                                                         *unit-button-size* )
-                                                                        ((equal button-size "2.25")
-                                                                         (/ (* *unit-button-size* 2.25) 2))
-                                                                        ((equal button-size "3U")
-                                                                         (/ (* *unit-button-size* 3) 2))
-                                                                        ((equal button-size "3.25U")
-                                                                         (/ (* *unit-button-size* 3.25) 2)))))
-                                                                ;; (print "---------------")
-                                                                ;; (print (+ curr-x size))
-                                                                ;; (print curr-x)
-                                                                (setf curr-x (+ curr-x size))
-                                                                (list 'AT
-                                                                      curr-x
-                                                                      curr-y))
-                                                              ;; else
-                                                              footnode))))))
+                                          (replacer node ;; replace coordinates
+                                                    #'(lambda (footnode)
+                                                        (if (and (listp footnode)
+                                                                 (equal (car footnode) 'AT))
+                                                            (let* ((button-size (caclulate-button-size (cadr node)))
+                                                                   (new-x (calculate-new-x curr-x
+                                                                                           prev-button-size
+                                                                                           button-size)))
+                                                              ;; (print (list :ref ref :prev-x curr-x :new-x new-x :prev-button-size prev-button-size :cur-button-size button-size))
+                                                              ;; (print "---------------")
+                                                              (setf curr-x new-x)
+                                                              (setf prev-button-size button-size)
+                                                              (list 'AT
+                                                                    new-x
+                                                                    curr-y))
+                                                            ;; else
+                                                            footnode)))))
 
                                     ;; else
                                     nil))
                             )))
-          (fancy-print replaced "test.kicad_pcb"))))))
+          (fancy-print replaced "test.kicad_pcb")))))
 
 (defun tab (cnt)
   (make-string cnt :initial-element #\Tab))
@@ -264,4 +254,24 @@
                 collect char)))
     (coerce (reverse symbols) 'string)))
 
-;; (read-button-size "Button_Switch_Keyboard:SW_MX_1.25U")
+(defun caclulate-button-size (string)
+  (let* ((button-size-string (read-button-size string))
+         (button-size (cond
+                        ((equal button-size-string "1")
+                         *unit-button-size*)
+                        ((equal button-size-string "1.25")
+                         (* *unit-button-size* 1.25))
+                        ((equal button-size-string "2")
+                         (* *unit-button-size* 2))
+                        ((equal button-size-string "2.25")
+                         (* *unit-button-size* 2.25))
+                        ((equal button-size-string "3")
+                         (* *unit-button-size* 3))
+                        ((equal button-size-string "3.25")
+                         (* *unit-button-size* 3.25)))))
+    button-size))
+
+;; (caclulate-button-size "Button_Switch_Keyboard:SW_MX_1.25U")
+
+(defun calculate-new-x (cur-x-coord prev-button-size cur-button-size)
+  (+ cur-x-coord (/ prev-button-size 2) (/ cur-button-size 2)))

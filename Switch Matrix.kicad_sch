@@ -10095,7 +10095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
 			(at 280.924 153.67 0)
 			(effects
 				(font
@@ -12270,7 +12270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
 			(at 261.874 153.67 0)
 			(effects
 				(font
@@ -17864,7 +17864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_MX_2U"
+		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
 			(at 299.974 153.67 0)
 			(effects
 				(font
