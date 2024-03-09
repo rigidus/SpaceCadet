@@ -121,34 +121,34 @@
 
 (defvar *output-file* "test2.kicad_pcb")
 
-(setf *raw* `(footprint "Button_Switch_Keyboard:SW_MX_2U"
-                        (layer "F.Cu")
-                        (uuid "02a262cb-470c-40ca-be1a-8e82f454b693")
-                        (at 330.788 442.106)
-                        (property "Reference" "S_N1"
-                                  (at 4.5 5.75 0)
-                                  (layer "F.SilkS")
-                                  (uuid "438b4544-75f2-4bed-a678-b76fb2d2dbc5")
-                                  (effects
-                                   (font
-                                    (size 1 1)
-                                    (thickness 0.12)
-                                    )
-                                   (justify right top)
-                                   )
-                                  )
-                        (property "Value" "N"
-                                  (at -4 -8.5 0)
-                                  (layer "F.Fab")
-                                  (uuid "a6c609e8-09bf-4903-a062-ee7f1f362442")
-                                  (effects
-                                   (font
-                                    (size 1 1)
-                                    (thickness 0.12)
-                                    )
-                                   (justify left top)
-                                   )
-                                  )))
+;; (setf *raw* `(footprint "Button_Switch_Keyboard:SW_MX_2U"
+;;                         (layer "F.Cu")
+;;                         (uuid "02a262cb-470c-40ca-be1a-8e82f454b693")
+;;                         (at 330.788 442.106)
+;;                         (property "Reference" "S_N1"
+;;                                   (at 4.5 5.75 0)
+;;                                   (layer "F.SilkS")
+;;                                   (uuid "438b4544-75f2-4bed-a678-b76fb2d2dbc5")
+;;                                   (effects
+;;                                    (font
+;;                                     (size 1 1)
+;;                                     (thickness 0.12)
+;;                                     )
+;;                                    (justify right top)
+;;                                    )
+;;                                   )
+;;                         (property "Value" "N"
+;;                                   (at -4 -8.5 0)
+;;                                   (layer "F.Fab")
+;;                                   (uuid "a6c609e8-09bf-4903-a062-ee7f1f362442")
+;;                                   (effects
+;;                                    (font
+;;                                     (size 1 1)
+;;                                     (thickness 0.12)
+;;                                     )
+;;                                    (justify left top)
+;;                                    )
+;;                                   )))
 
 
 
@@ -159,12 +159,14 @@
   (let* ((graph (get-graph *dep-dag*))
          (top-vertexes (get-top-vertexes graph))
          (chains (get-chains graph top-vertexes)))
+    ;; go through chains (ordered rows of buttons as they exist on keyboard)
     (loop for chain in chains do
       (let ((top  (car chain))
             (rest (cdr chain))
             (curr-x)
             (curr-y))
-        ;; get base coords
+        (format t "current chain is ~a ~%" chain)
+        ;; get coordinates of the most left button
         (replacer *raw*
                   #'(lambda (node)
                       (if (and (listp node)
@@ -175,50 +177,53 @@
                             (when (string= top ref)
                               (setf curr-x (cadr at))
                               (setf curr-y (caddr at))
-                              ;; (print (list :name name :ref ref :x curr-x :y curr-y))
+                              (print (list :name name :ref ref :x curr-x :y curr-y))
                               )))
                       node))
-        ;; modify all chains
+        ;; go through each chain (row) except the most left button and change coordinates of buttons
+        ;; according their row beginning
         (let ((replaced *raw*))
           (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
+            (format t "current button is ~a ~%" next)
             (setf replaced
                   (replacer replaced
                             #'(lambda (node)
                                 (if (and (listp node)
                                          (equal (car node) 'FOOTPRINT))
                                     (let ((ref (find-property node "Reference")))
-                                      (if (string= ref next)
+                                      (if (string= ref next) ;; if name of node is name of button
                                           (let ((button-size
                                                   (read-button-size (cadr node))))
-                                            (replacer node
+                                            (replacer node ;; replace coordinates
                                                       #'(lambda (footnode)
                                                           (if (and (listp footnode)
                                                                    (equal (car footnode) 'AT))
                                                               (let ((size
-                                                                      (cond ((equal button-size "1")
-                                                                             *unit-button-size*)
-                                                                            ((equal button-size "1.25")
-                                                                             (* *unit-button-size* 1.25))
-                                                                            ((equal button-size "2")
-                                                                             (* *unit-button-size* 2.25))
-                                                                            ((equal button-size "2.25")
-                                                                             (* *unit-button-size* 2.25))
-                                                                            ((equal button-size "3U")
-                                                                             (* *unit-button-size* 3))
-                                                                            ((equal button-size "3.25U")
-                                                                             (* *unit-button-size* 3.25)))))
-                                                                (print "---------------")
-                                                                (print (+ curr-x size))
-                                                                (print curr-x)
-
+                                                                      (cond
+                                                                        ((equal button-size "1") ;; todo кооринаты кнопок - это координаты центра кнопок, т.е. надо пересчитывать верно
+                                                                         (/ *unit-button-size* 2)) ;; todo разместить самые левые кнопки вручную
+                                                                        ((equal button-size "1.25")
+                                                                         (/ (* *unit-button-size* 1.25) 2))
+                                                                        ((equal button-size "2")
+                                                                         *unit-button-size* )
+                                                                        ((equal button-size "2.25")
+                                                                         (/ (* *unit-button-size* 2.25) 2))
+                                                                        ((equal button-size "3U")
+                                                                         (/ (* *unit-button-size* 3) 2))
+                                                                        ((equal button-size "3.25U")
+                                                                         (/ (* *unit-button-size* 3.25) 2)))))
+                                                                ;; (print "---------------")
+                                                                ;; (print (+ curr-x size))
+                                                                ;; (print curr-x)
+                                                                (setf curr-x (+ curr-x size))
                                                                 (list 'AT
-                                                                      (+ curr-x size)
+                                                                      curr-x
                                                                       curr-y))
                                                               ;; else
                                                               footnode))))))
 
-                                          ;; else
-                                          nil))
+                                    ;; else
+                                    nil))
                             )))
           (fancy-print replaced "test.kicad_pcb"))))))
 
