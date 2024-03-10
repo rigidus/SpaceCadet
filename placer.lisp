@@ -6,7 +6,7 @@
   (read-from-string
    (uiop:read-file-string "SpaceCadet.kicad_pcb")))
 
-(print *raw*)
+;;(print *raw*)
 
 (defparameter *raw2*
   '(KICAD_PCB
@@ -181,8 +181,6 @@
 ;;(fancy-print *raw* "test.kicad_pcb")
 
 
-
-
 (defun read-button-size (string)
   (let ((symbols
           (loop for i from (1- (- (length string) 1)) downto 0
@@ -198,6 +196,10 @@
                          *unit-button-size*)
                         ((equal button-size-string "1.25")
                          (* *unit-button-size* 1.25))
+                        ((equal button-size-string "1.3")
+                         (* *unit-button-size* 1.3))
+                        ((equal button-size-string "1.45")
+                         (* *unit-button-size* 1.45))
                         ((equal button-size-string "2")
                          (* *unit-button-size* 2))
                         ((equal button-size-string "2.25")
