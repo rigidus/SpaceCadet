@@ -3418,7 +3418,7 @@
 	(footprint "Button_Switch_Keyboard:SW_MX_1U"
 		(layer "F.Cu")
 		(uuid "07956694-36ad-4bf4-a1a6-8f6a1fe1f6f1")
-		(at 77.35 157.85)
+		(at 75.475 159.05)
 		(property "Reference" "S_ROM_ONE1"
 			(at 2 6 0)
 			(unlocked yes)
@@ -12522,7 +12522,7 @@
 	(footprint "Button_Switch_Keyboard:SW_MX_1U"
 		(layer "F.Cu")
 		(uuid "20ef104c-46fc-4cec-b7f6-932b4a9909d8")
-		(at 77.16 214.89)
+		(at 75.475 216.2)
 		(property "Reference" "S_CAPSLOCK1"
 			(at 2 6 0)
 			(unlocked yes)
@@ -12953,7 +12953,7 @@
 	(footprint "Button_Switch_Keyboard:SW_MX_1.5U"
 		(layer "F.Cu")
 		(uuid "2216e908-486f-4bf3-a764-a1a3eb2fe316")
-		(at 79.65 233.915)
+		(at 80.2375 235.25)
 		(property "Reference" "S_LHYPER1"
 			(at 4.5 5.5 0)
 			(layer "F.SilkS")
@@ -34183,7 +34183,7 @@
 	(footprint "Button_Switch_Keyboard:SW_MX_2U"
 		(layer "F.Cu")
 		(uuid "55e34a0d-9461-4b6c-81f3-9e9e980d1336")
-		(at 86.76 138.865)
+		(at 85 140)
 		(property "Reference" "S_MACRO1"
 			(at 4.5 5.75 0)
 			(layer "F.SilkS")
@@ -49322,7 +49322,7 @@
 	(footprint "Button_Switch_Keyboard:SW_MX_2U"
 		(layer "F.Cu")
 		(uuid "9ba239f8-ceb1-482a-bb64-f2b2386ba4eb")
-		(at 86.8 195.85)
+		(at 85 197.15)
 		(property "Reference" "S_M_LOCK1"
 			(at 4.5 5.75 0)
 			(layer "F.SilkS")
@@ -61086,7 +61086,7 @@
 	(footprint "Button_Switch_Keyboard:SW_MX_1U"
 		(layer "F.Cu")
 		(uuid "d124253f-4389-48ca-9d48-abad7ed75d11")
-		(at 77.35 176.85)
+		(at 75.475 178.1)
 		(property "Reference" "S_ROM_THREE1"
 			(at 2 6 0)
 			(unlocked yes)
