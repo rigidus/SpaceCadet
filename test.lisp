@@ -53,14 +53,23 @@
       until (= (length result) 54)
       do (when (null source)
            (setf source (get-next-rnd-lst command 6))
-           (print 'refresh))
+           ;; (print 'refresh)
+           )
          (let ((item (pop source)))
-           (print item)
+           ;; (print item)
            (when (< item 54)
              (pushnew item result))))
     result))
 
-(print
- (mapcar #'(lambda (x)
-             (format nil "~A:~A" (number-to-card x) x))
-         (get-random-hand)))
+
+(loop repeat 500 do
+      (format t "~%~{~A~}"
+              (mapcar #'(lambda (x)
+                          (let* ((x (number-to-card x))
+                                 (a (car x))
+                                 (b (cadr x)))
+                            (format nil "~A ~A " a b)))
+                      (get-random-hand))))
+
+(print "")
+(quit)

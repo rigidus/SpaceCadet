@@ -1,16 +1,1 @@
 # Project specific
-
-**/*backups
-**/*cache
-*-bak
-*.pdf
-
-# Images and graphics
-*.ai
-*.dxf
-# *.png
-# *.jpg
-*.afphoto
-
-# macOS
-.DS_Store
