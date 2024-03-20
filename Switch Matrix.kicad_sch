@@ -6517,94 +6517,6 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 386.08 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b2f719f-a465-4afc-9421-7a0f3158b9e1")
-		(property "Reference" "D_RCURVEP1"
-			(at 388.62 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 388.62 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 386.08 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 386.08 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 386.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 386.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 386.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d14798b9-bb43-46eb-ad04-11facceaad1c")
-		)
-		(pin "2"
-			(uuid "771a6014-ee13-4127-92f9-8dde10fc1adb")
-		)
-		(instances
-			(project "SpaceCadet"
-				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
-					(reference "D_RCURVEP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
 		(at 214.63 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7024,7 +6936,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 424.18 95.25 270)
+		(at 443.23 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7032,7 +6944,7 @@
 		(dnp no)
 		(uuid "525219b5-05e6-46a1-8b7f-b4050ba4c473")
 		(property "Reference" "D_THUMB_RIGHT1"
-			(at 426.212 93.98 90)
+			(at 445.262 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +6953,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 426.72 96.5199 90)
+			(at 445.77 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7050,7 +6962,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 424.18 95.25 90)
+			(at 443.23 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,7 +6971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 424.18 95.25 90)
+			(at 443.23 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +6980,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 424.18 95.25 0)
+			(at 443.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7077,7 +6989,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 424.18 95.25 0)
+			(at 443.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +6998,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 424.18 95.25 0)
+			(at 443.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,7 +8171,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 415.036 105.41 0)
+		(at 434.086 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8267,7 +8179,7 @@
 		(dnp no)
 		(uuid "623621f7-5e71-49bd-9f9b-e8b3308bce90")
 		(property "Reference" "S_THUMB_LEFT1"
-			(at 412.75 104.394 0)
+			(at 431.8 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8188,7 @@
 			)
 		)
 		(property "Value" "THUMB_LEFT"
-			(at 412.75 106.68 0)
+			(at 431.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 415.544 107.95 0)
+			(at 434.594 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +8206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 424.434 106.934 0)
+			(at 443.484 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +8215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 415.036 105.41 0)
+			(at 434.086 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +8224,7 @@
 			)
 		)
 		(property "dep" "S_DELETE1"
-			(at 415.036 105.41 0)
+			(at 434.086 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,85 +8329,6 @@
 			(project "SpaceCadet"
 				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
 					(reference "D_LEFT_ALT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 394.97 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b6e289-20aa-44e2-8e20-2eb4808d1ecf")
-		(property "Reference" "S_RCURVEP1"
-			(at 392.43 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RCURVEP"
-			(at 392.43 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 395.478 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 404.368 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 394.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "dep" "S_LCURVEP1"
-			(at 394.97 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c3604d2-53d0-46cc-84d6-a5765e38db79")
-		)
-		(pin "2"
-			(uuid "dd3ad161-6fba-4568-8f2c-af9d65e36bef")
-		)
-		(instances
-			(project "SpaceCadet"
-				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
-					(reference "S_RCURVEP1")
 					(unit 1)
 				)
 			)
@@ -8738,7 +8571,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 405.13 95.25 270)
+		(at 424.18 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8746,7 +8579,7 @@
 		(dnp no)
 		(uuid "68cec3d9-1dd3-4813-a139-6235aef4f736")
 		(property "Reference" "D_THUMB_LEFT1"
-			(at 406.654 93.98 90)
+			(at 425.704 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8588,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 407.67 96.5199 90)
+			(at 426.72 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8597,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 405.13 95.25 90)
+			(at 424.18 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 405.13 95.25 90)
+			(at 424.18 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8615,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 405.13 95.25 0)
+			(at 424.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +8624,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 405.13 95.25 0)
+			(at 424.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8633,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 405.13 95.25 0)
+			(at 424.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d47f715-d6c0-401c-bf67-a25866003ba2")
-		(property "Reference" "S_LCURVEP1"
+		(property "Reference" "S_BACKSPACE1"
 			(at 373.38 83.8199 0)
 			(effects
 				(font
@@ -9310,7 +9143,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LCURVEP"
+		(property "Value" "BACKSPACE"
 			(at 373.38 86.3599 0)
 			(effects
 				(font
@@ -9319,7 +9152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
 			(at 376.428 87.63 0)
 			(effects
 				(font
@@ -9364,7 +9197,7 @@
 		(instances
 			(project "SpaceCadet"
 				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
-					(reference "S_LCURVEP1")
+					(reference "S_BACKSPACE1")
 					(unit 1)
 				)
 			)
@@ -11323,7 +11156,7 @@
 				(hide yes)
 			)
 		)
-		(property "dep" "S_LKM1"
+		(property "dep" "S_RKM1"
 			(at 356.616 172.72 0)
 			(effects
 				(font
@@ -12296,7 +12129,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 432.816 106.68 0)
+		(at 451.866 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12304,7 +12137,7 @@
 		(dnp no)
 		(uuid "a057d759-ae6d-445a-a466-f7c289dc6434")
 		(property "Reference" "S_THUMB_RIGHT1"
-			(at 431.038 105.664 0)
+			(at 450.088 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12146,7 @@
 			)
 		)
 		(property "Value" "THUMB_RIGHT"
-			(at 431.038 107.95 0)
+			(at 450.088 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +12155,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 433.324 109.22 0)
+			(at 452.374 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,7 +12164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 442.214 108.204 0)
+			(at 461.264 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12340,7 +12173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 432.816 106.68 0)
+			(at 451.866 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12182,7 @@
 			)
 		)
 		(property "dep" "S_THUMB_LEFT1"
-			(at 432.816 106.68 0)
+			(at 451.866 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16804,7 +16637,7 @@
 				(hide yes)
 			)
 		)
-		(property "dep" "S_RCURVEP1"
+		(property "dep" "S_BACKSPACE1"
 			(at 413.766 85.09 0)
 			(effects
 				(font
@@ -17506,9 +17339,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e3eb0c81-93ac-46ce-acd0-dadcf478ee2a")
-		(property "Reference" "D_LCURVEP1"
+		(property "Reference" "D_BACKSPACE1"
 			(at 369.57 73.6599 90)
 			(effects
 				(font
@@ -17580,7 +17412,7 @@
 		(instances
 			(project "SpaceCadet"
 				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303/1a8342a5-15fc-454c-84eb-2b470c08f569"
-					(reference "D_LCURVEP1")
+					(reference "D_BACKSPACE1")
 					(unit 1)
 				)
 			)

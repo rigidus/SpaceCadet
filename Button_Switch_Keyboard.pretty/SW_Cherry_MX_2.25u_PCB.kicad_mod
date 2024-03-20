@@ -6,7 +6,7 @@
 	(descr "Cherry MX keyswitch, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 	(tags "Cherry MX keyswitch 2.25u PCB")
 	(property "Reference" "REF**"
-		(at -2.54 -2.794 0)
+		(at -2.116 -1.016 0)
 		(layer "F.SilkS")
 		(uuid "739addf2-8504-47b6-b2d8-95888af29e7f")
 		(effects
@@ -345,31 +345,9 @@
 		(uuid "3ac734cd-a16c-4ef9-b964-80536cbc8d0e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -14.45 -2.794 0)
-		(layer "F.Fab")
-		(uuid "4894e525-e9d8-456d-b74b-2c37623cb933")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
 		(at -2.54 -2.794 0)
 		(layer "F.Fab")
 		(uuid "d0182ff3-98c4-461b-b853-ac20aa0d6006")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 9.34 -2.794 0)
-		(layer "F.Fab")
-		(uuid "eb4b33e2-44af-439d-8ce7-e6bf2991b13b")
 		(effects
 			(font
 				(size 1 1)

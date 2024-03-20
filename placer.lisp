@@ -8,7 +8,7 @@
 (defparameter *raw* (read-from-string
                      (uiop:read-file-string *input-file*)))
 
-(defparameter *output-file* "test4.kicad_pcb")
+(defparameter *output-file* "test5.kicad_pcb")
 
 (defconstant +unit-size+ 19.05)
 
@@ -211,71 +211,68 @@
          (chains (get-chains graph top-vertexes))
          ;; Переменная для изменений
          (replaced *raw*))
-
-    (fancy-print *raw*)
-
+    ;; (fancy-print *raw*)
     ;; (print *dep-dag*)
-
     ;; (maphash #'(lambda (k v)
     ;;              (print (list :k k :v v)))
     ;;          graph)
-
     ;; (print top-vertexes)
 
-    ;; go through chains (ordered rows of buttons as they exist on keyboard)
-    ;; (loop for chain in chains do
-    ;;   (let ((top  (car chain))
-    ;;         (rest (cdr chain))
-    ;;         (curr-x)
-    ;;         (curr-y)
-    ;;         (prev-button-size))
-    ;;     ;;(format t "current chain is ~a ~%" chain)
-    ;;     ;; get coordinates of the most left button
-    ;;     (replacer *raw*
-    ;;               #'(lambda (node)
-    ;;                   (if (and (listp node)
-    ;;                            (equal (car node) 'FOOTPRINT))
-    ;;                       (let ((name (cadr node))
-    ;;                             (ref (find-property node "Reference"))
-    ;;                             (at (find-sublist node 'AT)))
-    ;;                         (when (string= top ref)
-    ;;                           (setf curr-x (cadr at))
-    ;;                           (setf curr-y (caddr at))
-    ;;                           (setf prev-button-size (caclulate-button-size (cadr node)))
-    ;;                           (print (list :name name :ref ref :x curr-x :y curr-y))
-    ;;                           )))
-    ;;                   node))
-    ;;     ;; go through each chain (row) except the most left button and change coordinates of buttons
-    ;;     ;; according their row beginning
-    ;;     (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
-    ;;       ;;(format t "~% current button is ~a ~%" next)
-    ;;       (setf replaced
-    ;;             (replacer replaced
-    ;;                       #'(lambda (node)
-    ;;                           (if (and (listp node)
-    ;;                                    (equal (car node) 'FOOTPRINT))
-    ;;                               (let ((ref (find-property node "Reference")))
-    ;;                                 (if (string= ref next) ;; if name of node is name of button
-    ;;                                     (replacer node ;; replace coordinates
-    ;;                                               #'(lambda (footnode)
-    ;;                                                   (if (and (listp footnode)
-    ;;                                                            (equal (car footnode) 'AT))
-    ;;                                                       (let* ((button-size (caclulate-button-size (cadr node)))
-    ;;                                                              (new-x (calculate-new-x curr-x
-    ;;                                                                                      prev-button-size
-    ;;                                                                                      button-size)))
-    ;;                                                         ;; (print (list :ref ref :prev-x curr-x :new-x new-x :prev-button-size prev-button-size :cur-button-size button-size))
-    ;;                                                         ;; (print "---------------")
-    ;;                                                         (setf curr-x new-x)
-    ;;                                                         (setf prev-button-size button-size)
-    ;;                                                         (list 'AT
-    ;;                                                               new-x
-    ;;                                                               curr-y))
-    ;;                                                       ;; else
-    ;;                                                       footnode)))))
+    ;; go through chains (ordered rows of buttons
+    ;; as they exist on keyboard)
+    (loop for chain in chains do
+      (let ((top  (car chain))
+            (rest (cdr chain))
+            (curr-x)
+            (curr-y)
+            (prev-button-size))
+        ;;(format t "current chain is ~a ~%" chain)
+        ;; get coordinates of the most left button
+        (replacer *raw*
+                  #'(lambda (node)
+                      (if (and (listp node)
+                               (equal (car node) 'FOOTPRINT))
+                          (let ((name (cadr node))
+                                (ref (find-property node "Reference"))
+                                (at (find-sublist node 'AT)))
+                            (when (string= top ref)
+                              (setf curr-x (cadr at))
+                              (setf curr-y (caddr at))
+                              (setf prev-button-size (caclulate-button-size (cadr node)))
+                              (print (list :name name :ref ref :x curr-x :y curr-y))
+                              )))
+                      node))
+        ;; go through each chain (row) except the most left button and change coordinates of buttons
+        ;; according their row beginning
+        (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
+          ;;(format t "~% current button is ~a ~%" next)
+          (setf replaced
+                (replacer replaced
+                          #'(lambda (node)
+                              (if (and (listp node)
+                                       (equal (car node) 'FOOTPRINT))
+                                  (let ((ref (find-property node "Reference")))
+                                    (if (string= ref next) ;; if name of node is name of button
+                                        (replacer node ;; replace coordinates
+                                                  #'(lambda (footnode)
+                                                      (if (and (listp footnode)
+                                                               (equal (car footnode) 'AT))
+                                                          (let* ((button-size (caclulate-button-size (cadr node)))
+                                                                 (new-x (calculate-new-x curr-x
+                                                                                         prev-button-size
+                                                                                         button-size)))
+                                                            ;; (print (list :ref ref :prev-x curr-x :new-x new-x :prev-button-size prev-button-size :cur-button-size button-size))
+                                                            ;; (print "---------------")
+                                                            (setf curr-x new-x)
+                                                            (setf prev-button-size button-size)
+                                                            (list 'AT
+                                                                  new-x
+                                                                  curr-y))
+                                                          ;; else
+                                                          footnode)))))
 
-    ;;                               ;; else
-    ;;                               nil))
-    ;;                       )))
-    ;;     (fancy-print replaced *output-file*)))
+                                  ;; else
+                                  nil))
+                          )))
+        (fancy-print replaced *output-file*)))
     ))
