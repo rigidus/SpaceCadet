@@ -1,22 +1,18 @@
 (quicklisp:quickload "alexandria")
 (quicklisp:quickload "uiop")
+(quicklisp:quickload "split-sequence")
+(quicklisp:quickload "parse-number")
 
-(defparameter
-    *raw*
-  (read-from-string
-   (uiop:read-file-string "SpaceCadet.kicad_pcb")))
+(defparameter *input-file* "SpaceCadet.kicad_pcb")
 
-;;(print *raw*)
+(defparameter *raw* (read-from-string
+                     (uiop:read-file-string *input-file*)))
 
-(defparameter *raw2*
-  '(KICAD_PCB
-    (FOOTPRINT "Button_Switch_Keyboard:SW_MX_2U" (AT 86.76 138.865)
-     (PROPERTY "Reference" "S_MACRO1" (AT 4.5 5.75 0)))
-    (FOOTPRINT "Another_Footprint"
-     (PROPERTY "Reference" "S_TERMINAL2" (AT 4.5 5.75 0))
-     (PROPERTY "dep" "S_MACRO2" (AT 0 0 0)))
-    (FOOTPRINT "Diode_SMD:D_SOD-123" (AT 399.058 487.366)
-     (PROPERTY "Reference" "D_RIGHT_SPACE1" (AT 0 -2 0)))))
+(defparameter *output-file* "test4.kicad_pcb")
+
+(defconstant +unit-size+ 19.05)
+
+;; (print *raw*)
 
 (defun replacer (tree fn)
   (cond
@@ -99,7 +95,7 @@
 ;; порядово от левого края к правому. Где в начале ряда самая левая кнопка -
 ;; т.е. такой узел, у которого нет зависимостей от других узлов.
 (defun get-chains (graph top-vertexes)
-  "get chains from dag from top-vetrexes" ;; цепочки построенные от top-vertexes
+  "get chains from dag from top-vetrexes"
   (let ((chains))
     (labels ((find-next (vertex)
                ;; найти элемент, для которого vertex - одна из зависимостей
@@ -108,7 +104,8 @@
                          (if (member vertex deps-list :test #'string=)
                              (return-from find-next node-name))))
              (chain (starter)
-               ;; получить список узлов, где top (вершины графа) - это зависимости
+               ;; получить список узлов, где
+               ;; top (вершины графа) - это зависимости
                (loop for next = (find-next starter)
                      until (null next)
                      collect next
@@ -116,10 +113,6 @@
       (loop for top in top-vertexes do
         (push (list* top (chain top)) chains)))
     chains))
-
-(defconstant *unit-button-size* 19.05)
-
-(defvar *output-file* "test2.kicad_pcb")
 
 ;; (setf *raw* `(footprint "Button_Switch_Keyboard:SW_MX_2U"
 ;;                         (layer "F.Cu")
@@ -150,7 +143,6 @@
 ;;                                    )
 ;;                                   )))
 
-
 (defun tab (cnt)
   (make-string cnt :initial-element #\Tab))
 
@@ -168,119 +160,122 @@
            (fancy-print-rec (cdr expr) out level)))
         (t (progn
              (if (symbolp (car expr))
-                 (format out "~a " (string-downcase (symbol-name (car expr))))
-                 (format out "~a " (bprint (car expr))))
+                 (format out "~a " (string-downcase
+                                    (symbol-name (car expr))))
+                 (format out "~a " (bprint
+                                    (car expr))))
              (fancy-print-rec (cdr expr) out level)))))
 
-(defun fancy-print (expr file)
-  (with-open-file (out file :direction :output :if-exists :supersede)
-    (format out "(")
-    (fancy-print-rec expr out 0)))
+(defun fancy-print (expr &optional file)
+  (if file
+      (with-open-file (out file :direction :output :if-exists :supersede)
+        (format out "(")
+        (fancy-print-rec expr out 0))
+      ;; else
+      (progn
+        (format t "(")
+        (fancy-print-rec expr t 0))))
 
-;; Пример использования:
-;;(fancy-print *raw* "test.kicad_pcb")
-
+;; (fancy-print *raw*)
 
 (defun read-button-size (string)
-  (let ((symbols
-          (loop for i from (1- (- (length string) 1)) downto 0
-                for char = (char string i)
-                until (char= #\_ char)
-                collect char)))
-    (coerce (reverse symbols) 'string)))
+  (loop for word in (split-sequence:split-sequence #\_ string) do
+    (when (string= "u" (string-downcase
+                        (subseq word  (- (length word) 1))))
+      (return-from read-button-size
+        (parse-number:parse-real-number word :end (- (length word) 1)))))
+  (error 'read-button-size-error))
+
+;; (read-button-size "Button_Switch_Keyboard:SW_MX_1.25U")
+;; (read-button-size "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
 
 (defun caclulate-button-size (string)
-  (let* ((button-size-string (read-button-size string))
-         (button-size (cond
-                        ((equal button-size-string "1")
-                         *unit-button-size*)
-                        ((equal button-size-string "1.25")
-                         (* *unit-button-size* 1.25))
-                        ((equal button-size-string "1.3")
-                         (* *unit-button-size* 1.3))
-                        ((equal button-size-string "1.45")
-                         (* *unit-button-size* 1.45))
-                        ((equal button-size-string "1.5")
-                         (* *unit-button-size* 1.5))
-                        ((equal button-size-string "1.75")
-                         (* *unit-button-size* 1.75))
-                        ((equal button-size-string "2")
-                         (* *unit-button-size* 2))
-                        ((equal button-size-string "2.25")
-                         (* *unit-button-size* 2.25))
-                        ((equal button-size-string "3")
-                         (* *unit-button-size* 3))
-                        ((equal button-size-string "3.25")
-                         (* *unit-button-size* 3.25)))))
-    button-size))
-
-;; (caclulate-button-size "Button_Switch_Keyboard:SW_MX_1.25U")
+  (* +unit-size+ (read-button-size string)))
 
 (defun calculate-new-x (cur-x-coord prev-button-size cur-button-size)
   (+ cur-x-coord (/ prev-button-size 2) (/ cur-button-size 2)))
 
-
 (let ((*dep-dag*))
   (declare (special *dep-dag*))
+  ;; Получаем несортированный набор кнопок,
+  ;; ссылающихся друг на друга
   (replacer *raw* #'process-footprint-for-dag)
   ;; (print *dep-dag*)
-  (let* ((graph (get-graph *dep-dag*))
+  (let* (;; Получаем хэш-таблицу, где ключи -
+         ;; это кнопки, а значения - зависимости
+         (graph (get-graph *dep-dag*))
+         ;; Получаем список узлов без зависимостей
          (top-vertexes (get-top-vertexes graph))
+         ;; Получаем цепочку, построенную слева
+         ;; направо от узлов без зависимостей
          (chains (get-chains graph top-vertexes))
+         ;; Переменная для изменений
          (replaced *raw*))
-    ;; go through chains (ordered rows of buttons as they exist on keyboard)
-    (loop for chain in chains do
-      (let ((top  (car chain))
-            (rest (cdr chain))
-            (curr-x)
-            (curr-y)
-            (prev-button-size))
-        ;;(format t "current chain is ~a ~%" chain)
-        ;; get coordinates of the most left button
-        (replacer *raw*
-                  #'(lambda (node)
-                      (if (and (listp node)
-                               (equal (car node) 'FOOTPRINT))
-                          (let ((name (cadr node))
-                                (ref (find-property node "Reference"))
-                                (at (find-sublist node 'AT)))
-                            (when (string= top ref)
-                              (setf curr-x (cadr at))
-                              (setf curr-y (caddr at))
-                              (setf prev-button-size (caclulate-button-size (cadr node)))
-                              (print (list :name name :ref ref :x curr-x :y curr-y))
-                              )))
-                      node))
-        ;; go through each chain (row) except the most left button and change coordinates of buttons
-        ;; according their row beginning
-          (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
-            ;;(format t "~% current button is ~a ~%" next)
-            (setf replaced
-                  (replacer replaced
-                            #'(lambda (node)
-                                (if (and (listp node)
-                                         (equal (car node) 'FOOTPRINT))
-                                    (let ((ref (find-property node "Reference")))
-                                      (if (string= ref next) ;; if name of node is name of button
-                                          (replacer node ;; replace coordinates
-                                                    #'(lambda (footnode)
-                                                        (if (and (listp footnode)
-                                                                 (equal (car footnode) 'AT))
-                                                            (let* ((button-size (caclulate-button-size (cadr node)))
-                                                                   (new-x (calculate-new-x curr-x
-                                                                                           prev-button-size
-                                                                                           button-size)))
-                                                              ;; (print (list :ref ref :prev-x curr-x :new-x new-x :prev-button-size prev-button-size :cur-button-size button-size))
-                                                              ;; (print "---------------")
-                                                              (setf curr-x new-x)
-                                                              (setf prev-button-size button-size)
-                                                              (list 'AT
-                                                                    new-x
-                                                                    curr-y))
-                                                            ;; else
-                                                            footnode)))))
 
-                                    ;; else
-                                    nil))
-                            )))
-          (fancy-print replaced "test.kicad_pcb")))))
+    (fancy-print *raw*)
+
+    ;; (print *dep-dag*)
+
+    ;; (maphash #'(lambda (k v)
+    ;;              (print (list :k k :v v)))
+    ;;          graph)
+
+    ;; (print top-vertexes)
+
+    ;; go through chains (ordered rows of buttons as they exist on keyboard)
+    ;; (loop for chain in chains do
+    ;;   (let ((top  (car chain))
+    ;;         (rest (cdr chain))
+    ;;         (curr-x)
+    ;;         (curr-y)
+    ;;         (prev-button-size))
+    ;;     ;;(format t "current chain is ~a ~%" chain)
+    ;;     ;; get coordinates of the most left button
+    ;;     (replacer *raw*
+    ;;               #'(lambda (node)
+    ;;                   (if (and (listp node)
+    ;;                            (equal (car node) 'FOOTPRINT))
+    ;;                       (let ((name (cadr node))
+    ;;                             (ref (find-property node "Reference"))
+    ;;                             (at (find-sublist node 'AT)))
+    ;;                         (when (string= top ref)
+    ;;                           (setf curr-x (cadr at))
+    ;;                           (setf curr-y (caddr at))
+    ;;                           (setf prev-button-size (caclulate-button-size (cadr node)))
+    ;;                           (print (list :name name :ref ref :x curr-x :y curr-y))
+    ;;                           )))
+    ;;                   node))
+    ;;     ;; go through each chain (row) except the most left button and change coordinates of buttons
+    ;;     ;; according their row beginning
+    ;;     (loop for next = (prog1 (car rest) (setf rest (cdr rest))) until (null next) do
+    ;;       ;;(format t "~% current button is ~a ~%" next)
+    ;;       (setf replaced
+    ;;             (replacer replaced
+    ;;                       #'(lambda (node)
+    ;;                           (if (and (listp node)
+    ;;                                    (equal (car node) 'FOOTPRINT))
+    ;;                               (let ((ref (find-property node "Reference")))
+    ;;                                 (if (string= ref next) ;; if name of node is name of button
+    ;;                                     (replacer node ;; replace coordinates
+    ;;                                               #'(lambda (footnode)
+    ;;                                                   (if (and (listp footnode)
+    ;;                                                            (equal (car footnode) 'AT))
+    ;;                                                       (let* ((button-size (caclulate-button-size (cadr node)))
+    ;;                                                              (new-x (calculate-new-x curr-x
+    ;;                                                                                      prev-button-size
+    ;;                                                                                      button-size)))
+    ;;                                                         ;; (print (list :ref ref :prev-x curr-x :new-x new-x :prev-button-size prev-button-size :cur-button-size button-size))
+    ;;                                                         ;; (print "---------------")
+    ;;                                                         (setf curr-x new-x)
+    ;;                                                         (setf prev-button-size button-size)
+    ;;                                                         (list 'AT
+    ;;                                                               new-x
+    ;;                                                               curr-y))
+    ;;                                                       ;; else
+    ;;                                                       footnode)))))
+
+    ;;                               ;; else
+    ;;                               nil))
+    ;;                       )))
+    ;;     (fancy-print replaced *output-file*)))
+    ))
