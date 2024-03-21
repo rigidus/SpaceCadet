@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.1-8.0.1-1~ubuntu22.04.1"
     },
-    "CreationDate": "2024-03-20T19:07:05+03:00"
+    "CreationDate": "2024-03-21T17:00:08+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 474.04,
-      "Y": 165.05
+      "X": 485.63,
+      "Y": 184.68
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -30,7 +30,13 @@
       "MinLineWidth": 0.25
     }
   ],
-  "FilesAttributes": [],
+  "FilesAttributes": [
+    {
+      "Path": "SpaceCadet-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    }
+  ],
   "MaterialStackup": [
     {
       "Type": "Legend",
