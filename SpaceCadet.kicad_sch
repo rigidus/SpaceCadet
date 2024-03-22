@@ -5107,6 +5107,358 @@
 				)
 			)
 		)
+		(symbol "thinkerforge:LCD-20X4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LCD-20X4"
+				(at 1.27 -21.59 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LCD-20X4_0_1"
+				(rectangle
+					(start 0 20.32)
+					(end 6.35 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LCD-20X4_1_1"
+				(pin passive line
+					(at -3.81 19.05 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 3.81)
+					(name "DB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -6.35 0)
+					(length 3.81)
+					(name "DB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 0)
+					(length 3.81)
+					(name "DB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -11.43 0)
+					(length 3.81)
+					(name "DB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -13.97 0)
+					(length 3.81)
+					(name "DB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -16.51 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -19.05 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 16.51 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 13.97 0)
+					(length 3.81)
+					(name "V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 11.43 0)
+					(length 3.81)
+					(name "RS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 8.89 0)
+					(length 3.81)
+					(name "R/W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 6.35 0)
+					(length 3.81)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 3.81)
+					(name "DB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "DB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 3.81)
+					(name "DB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 86.36 231.14)
@@ -12024,6 +12376,116 @@
 			(project "SpaceCadet"
 				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303"
 					(reference "BOOT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "thinkerforge:LCD-20X4")
+		(at 218.44 303.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef36d947-b1ee-4ce6-9d74-c7b02d783bc0")
+		(property "Reference" "DISPLAY1"
+			(at 226.06 302.2599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LCD-20X4"
+			(at 226.06 304.7999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:lcd-2004"
+			(at 218.44 303.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 303.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "cac4e71f-42a3-4077-a7a1-4b7101444f18")
+		)
+		(pin "2"
+			(uuid "f07780cd-1abd-4d97-9875-82dbf3ca408a")
+		)
+		(pin "7"
+			(uuid "964467d0-cace-4fae-acdf-9e2e2e30ff10")
+		)
+		(pin "3"
+			(uuid "32e711ee-3c0e-489f-a4cd-9c42ea87c56d")
+		)
+		(pin "4"
+			(uuid "52d822ed-48a5-4c82-aced-2e3fbb317e7f")
+		)
+		(pin "15"
+			(uuid "3ad3a1f0-6318-44c8-b3bd-38af97d09b9d")
+		)
+		(pin "9"
+			(uuid "492296ef-cfba-4d56-93bc-03c4272293c8")
+		)
+		(pin "12"
+			(uuid "94ddea92-84ef-45c5-b588-633b4acaab45")
+		)
+		(pin "13"
+			(uuid "d707c87b-5101-449e-a1d3-82e5a2ed4b44")
+		)
+		(pin "6"
+			(uuid "68975b18-b2b3-4788-a124-0389b8c8c7d4")
+		)
+		(pin "14"
+			(uuid "63dc391b-b53d-4af5-b831-21fbba6e61be")
+		)
+		(pin "1"
+			(uuid "e6d855d8-691f-49f6-9a63-f8720be22535")
+		)
+		(pin "8"
+			(uuid "c1066e2c-fc97-4214-b370-b761b07e581d")
+		)
+		(pin "16"
+			(uuid "3b41613d-b6fd-431d-af63-5056a266a509")
+		)
+		(pin "10"
+			(uuid "46ca272d-b768-4c02-ade3-edf753809505")
+		)
+		(pin "11"
+			(uuid "5d66c543-7ebb-40c6-8c5d-84ae61599f26")
+		)
+		(instances
+			(project "SpaceCadet"
+				(path "/4f7acbe2-a0f9-477a-99f4-186b01302303"
+					(reference "DISPLAY1")
 					(unit 1)
 				)
 			)

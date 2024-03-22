@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.1-8.0.1-1~ubuntu22.04.1"
     },
-    "CreationDate": "2024-03-22T06:10:58+03:00"
+    "CreationDate": "2024-03-22T16:12:45+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 485.63,
-      "Y": 184.68
+      "X": 485.6353,
+      "Y": 200.1
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
