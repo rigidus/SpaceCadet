@@ -1220,7 +1220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 367.03 55.88 90)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 347.98 95.25 90)
 			(effects
 				(font
@@ -1541,7 +1541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 62.23 95.25 90)
 			(effects
 				(font
@@ -1628,7 +1628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 386.08 162.56 90)
 			(effects
 				(font
@@ -1715,7 +1715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 386.08 55.88 90)
 			(effects
 				(font
@@ -1880,7 +1880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 41.91 162.56 90)
 			(effects
 				(font
@@ -1967,7 +1967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 234.95 140.97 90)
 			(effects
 				(font
@@ -2280,7 +2280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 252.73 118.11 90)
 			(effects
 				(font
@@ -2367,7 +2367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 100.33 95.25 90)
 			(effects
 				(font
@@ -2533,7 +2533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 176.53 74.93 90)
 			(effects
 				(font
@@ -2698,7 +2698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 252.73 55.88 90)
 			(effects
 				(font
@@ -2786,7 +2786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 290.83 74.93 90)
 			(effects
 				(font
@@ -2848,7 +2848,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 424.18 74.93 270)
+		(at 403.86 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2856,7 +2856,7 @@
 		(dnp no)
 		(uuid "1e2b1187-ea51-4704-9c1d-57b6e25ddf05")
 		(property "Reference" "D_THUMB_UP1"
-			(at 425.704 73.66 90)
+			(at 405.384 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 426.72 76.1999 90)
+			(at 406.4 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,8 +2873,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 424.18 74.93 90)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 403.86 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 424.18 74.93 90)
+			(at 403.86 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 424.18 74.93 0)
+			(at 403.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2901,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 424.18 74.93 0)
+			(at 403.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2910,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 424.18 74.93 0)
+			(at 403.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 214.63 162.56 90)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 157.48 74.93 90)
 			(effects
 				(font
@@ -3369,7 +3369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 157.48 118.11 90)
 			(effects
 				(font
@@ -3431,7 +3431,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 405.13 74.93 270)
+		(at 386.334 73.914 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3439,7 +3439,7 @@
 		(dnp no)
 		(uuid "27002581-3936-4a1b-a84c-d0a75f854664")
 		(property "Reference" "D_STATUS1"
-			(at 407.416 73.66 90)
+			(at 388.62 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3448,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 407.67 76.1999 90)
+			(at 388.874 75.1839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,8 +3456,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 405.13 74.93 90)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 386.334 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 405.13 74.93 90)
+			(at 386.334 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +3475,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 405.13 74.93 0)
+			(at 386.334 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3484,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 405.13 74.93 0)
+			(at 386.334 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3493,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 405.13 74.93 0)
+			(at 386.334 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 405.384 139.954 90)
 			(effects
 				(font
@@ -3630,7 +3630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 424.18 162.56 90)
 			(effects
 				(font
@@ -3717,7 +3717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 41.91 118.11 90)
 			(effects
 				(font
@@ -3805,7 +3805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 328.93 74.93 90)
 			(effects
 				(font
@@ -3893,7 +3893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 100.33 74.93 90)
 			(effects
 				(font
@@ -4292,7 +4292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 119.38 118.11 90)
 			(effects
 				(font
@@ -4379,7 +4379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 386.334 139.954 90)
 			(effects
 				(font
@@ -4466,7 +4466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 62.23 74.93 90)
 			(effects
 				(font
@@ -4553,7 +4553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 405.13 162.56 90)
 			(effects
 				(font
@@ -4640,7 +4640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 309.88 162.56 90)
 			(effects
 				(font
@@ -4727,7 +4727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 271.78 140.97 90)
 			(effects
 				(font
@@ -4883,7 +4883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 100.33 162.56 90)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 100.33 140.97 90)
 			(effects
 				(font
@@ -5057,7 +5057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 271.78 118.11 90)
 			(effects
 				(font
@@ -5144,7 +5144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 195.58 95.25 90)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 157.48 95.25 90)
 			(effects
 				(font
@@ -5396,7 +5396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 195.58 118.11 90)
 			(effects
 				(font
@@ -5483,7 +5483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 41.91 140.97 90)
 			(effects
 				(font
@@ -5648,7 +5648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 43.18 74.93 90)
 			(effects
 				(font
@@ -5866,7 +5866,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 453.771 85.09 0)
+		(at 434.34 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5874,7 +5874,7 @@
 		(dnp no)
 		(uuid "43f86144-4117-462f-8030-8b0d64a67cd9")
 		(property "Reference" "S_THUMB_DOWN1"
-			(at 451.993 84.074 0)
+			(at 432.562 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +5883,7 @@
 			)
 		)
 		(property "Value" "THUMB_DOWN"
-			(at 451.993 86.36 0)
+			(at 432.562 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +5892,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 454.279 87.63 0)
+			(at 434.848 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +5901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 463.169 86.614 0)
+			(at 443.738 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +5910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 453.771 85.09 0)
+			(at 434.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +5919,7 @@
 			)
 		)
 		(property "dep" "S_THUMB_UP1"
-			(at 453.771 85.09 0)
+			(at 434.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +5969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 424.18 55.88 90)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 119.38 95.25 90)
 			(effects
 				(font
@@ -6143,7 +6143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 138.43 95.25 90)
 			(effects
 				(font
@@ -6466,7 +6466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 214.63 74.93 90)
 			(effects
 				(font
@@ -6631,7 +6631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 138.43 162.56 90)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 138.43 140.97 90)
 			(effects
 				(font
@@ -6859,7 +6859,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 443.23 95.25 270)
+		(at 424.18 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6867,7 +6867,7 @@
 		(dnp no)
 		(uuid "525219b5-05e6-46a1-8b7f-b4050ba4c473")
 		(property "Reference" "D_THUMB_RIGHT1"
-			(at 445.262 93.98 90)
+			(at 426.212 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +6876,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 445.77 96.5199 90)
+			(at 426.72 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,8 +6884,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 443.23 95.25 90)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 424.18 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 443.23 95.25 90)
+			(at 424.18 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6903,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 443.23 95.25 0)
+			(at 424.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +6912,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 443.23 95.25 0)
+			(at 424.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6921,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 443.23 95.25 0)
+			(at 424.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +6971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 405.13 118.11 90)
 			(effects
 				(font
@@ -7136,7 +7136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 309.88 118.11 90)
 			(effects
 				(font
@@ -7302,7 +7302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 176.53 118.11 90)
 			(effects
 				(font
@@ -7389,7 +7389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 367.03 95.25 90)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 81.28 140.97 90)
 			(effects
 				(font
@@ -7720,7 +7720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 309.88 74.93 90)
 			(effects
 				(font
@@ -7963,7 +7963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 328.93 140.97 90)
 			(effects
 				(font
@@ -8094,7 +8094,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 434.086 105.41 0)
+		(at 415.036 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8102,7 +8102,7 @@
 		(dnp no)
 		(uuid "623621f7-5e71-49bd-9f9b-e8b3308bce90")
 		(property "Reference" "S_THUMB_LEFT1"
-			(at 431.8 104.394 0)
+			(at 412.75 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8111,7 @@
 			)
 		)
 		(property "Value" "THUMB_LEFT"
-			(at 431.8 106.68 0)
+			(at 412.75 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8120,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 434.594 107.95 0)
+			(at 415.544 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 443.484 106.934 0)
+			(at 424.434 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.086 105.41 0)
+			(at 415.036 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8147,7 @@
 			)
 		)
 		(property "dep" "S_DELETE1"
-			(at 434.086 105.41 0)
+			(at 415.036 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 119.38 162.56 90)
 			(effects
 				(font
@@ -8494,7 +8494,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 424.18 95.25 270)
+		(at 405.13 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8502,7 +8502,7 @@
 		(dnp no)
 		(uuid "68cec3d9-1dd3-4813-a139-6235aef4f736")
 		(property "Reference" "D_THUMB_LEFT1"
-			(at 425.704 93.98 90)
+			(at 406.654 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8511,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 426.72 96.5199 90)
+			(at 407.67 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,8 +8519,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 424.18 95.25 90)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 405.13 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 424.18 95.25 90)
+			(at 405.13 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8538,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 424.18 95.25 0)
+			(at 405.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8547,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 424.18 95.25 0)
+			(at 405.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8556,7 +8556,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 424.18 95.25 0)
+			(at 405.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8606,7 +8606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 233.68 95.25 90)
 			(effects
 				(font
@@ -9231,7 +9231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 290.83 118.11 90)
 			(effects
 				(font
@@ -9319,7 +9319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 270.51 74.93 90)
 			(effects
 				(font
@@ -9407,7 +9407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 157.48 140.97 90)
 			(effects
 				(font
@@ -9616,7 +9616,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 443.23 74.93 270)
+		(at 423.799 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9624,7 +9624,7 @@
 		(dnp no)
 		(uuid "6f826259-d591-4028-b091-4caf61fa5a24")
 		(property "Reference" "D_THUMB_DOWN1"
-			(at 445.262 73.66 90)
+			(at 425.831 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +9633,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 445.77 76.1999 90)
+			(at 426.339 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,8 +9641,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 443.23 74.93 90)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 423.799 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 443.23 74.93 90)
+			(at 423.799 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9660,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 443.23 74.93 0)
+			(at 423.799 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9669,7 +9669,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 443.23 74.93 0)
+			(at 423.799 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,7 +9678,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 443.23 74.93 0)
+			(at 423.799 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 195.58 140.97 90)
 			(effects
 				(font
@@ -9791,7 +9791,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 434.086 85.09 0)
+		(at 413.766 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9799,7 +9799,7 @@
 		(dnp no)
 		(uuid "72495e06-8872-4ec4-adb2-7abbc1e1f6c4")
 		(property "Reference" "S_THUMB_UP1"
-			(at 431.8 84.074 0)
+			(at 411.48 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9808,7 @@
 			)
 		)
 		(property "Value" "THUMB_UP"
-			(at 431.8 86.36 0)
+			(at 411.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +9817,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 434.594 87.63 0)
+			(at 414.274 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +9826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 443.484 86.614 0)
+			(at 423.164 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9835,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.086 85.09 0)
+			(at 413.766 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +9844,7 @@
 			)
 		)
 		(property "dep" "S_STATUS1"
-			(at 434.086 85.09 0)
+			(at 413.766 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +9894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 214.63 118.11 90)
 			(effects
 				(font
@@ -9981,7 +9981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 328.93 95.25 90)
 			(effects
 				(font
@@ -10068,7 +10068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 100.33 55.88 90)
 			(effects
 				(font
@@ -10311,7 +10311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 81.28 74.93 90)
 			(effects
 				(font
@@ -10634,7 +10634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 347.98 74.93 90)
 			(effects
 				(font
@@ -10799,7 +10799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 252.73 95.25 90)
 			(effects
 				(font
@@ -10886,7 +10886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 367.03 162.56 90)
 			(effects
 				(font
@@ -11434,7 +11434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 338.074 153.67 0)
 			(effects
 				(font
@@ -11590,7 +11590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 176.53 55.88 90)
 			(effects
 				(font
@@ -12068,7 +12068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 176.53 95.25 90)
 			(effects
 				(font
@@ -12130,7 +12130,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 451.866 106.68 0)
+		(at 432.816 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12138,7 +12138,7 @@
 		(dnp no)
 		(uuid "a057d759-ae6d-445a-a466-f7c289dc6434")
 		(property "Reference" "S_THUMB_RIGHT1"
-			(at 450.088 105.664 0)
+			(at 431.038 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,7 +12147,7 @@
 			)
 		)
 		(property "Value" "THUMB_RIGHT"
-			(at 450.088 107.95 0)
+			(at 431.038 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12156,7 +12156,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 452.374 109.22 0)
+			(at 433.324 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 461.264 108.204 0)
+			(at 442.214 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 451.866 106.68 0)
+			(at 432.816 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12183,7 @@
 			)
 		)
 		(property "dep" "S_THUMB_LEFT1"
-			(at 451.866 106.68 0)
+			(at 432.816 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,7 +12233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 290.83 95.25 90)
 			(effects
 				(font
@@ -12398,7 +12398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 41.91 182.88 90)
 			(effects
 				(font
@@ -12564,7 +12564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 252.73 74.93 90)
 			(effects
 				(font
@@ -12651,7 +12651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 41.91 95.25 90)
 			(effects
 				(font
@@ -12816,7 +12816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 214.63 55.88 90)
 			(effects
 				(font
@@ -13059,7 +13059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 311.15 140.97 90)
 			(effects
 				(font
@@ -13146,7 +13146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 214.63 95.25 90)
 			(effects
 				(font
@@ -13625,7 +13625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 81.28 118.11 90)
 			(effects
 				(font
@@ -13869,7 +13869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 176.53 140.97 90)
 			(effects
 				(font
@@ -13956,7 +13956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 309.88 95.25 90)
 			(effects
 				(font
@@ -14043,7 +14043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 290.83 55.88 90)
 			(effects
 				(font
@@ -14130,7 +14130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 424.434 139.954 90)
 			(effects
 				(font
@@ -14365,7 +14365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 386.08 95.25 90)
 			(effects
 				(font
@@ -14530,7 +14530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 81.28 55.88 90)
 			(effects
 				(font
@@ -14696,7 +14696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 62.23 162.56 90)
 			(effects
 				(font
@@ -14783,7 +14783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 328.93 118.11 90)
 			(effects
 				(font
@@ -14871,7 +14871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 119.38 74.93 90)
 			(effects
 				(font
@@ -15036,7 +15036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 290.83 140.97 90)
 			(effects
 				(font
@@ -15201,7 +15201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 233.68 118.11 90)
 			(effects
 				(font
@@ -15366,7 +15366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 424.18 182.88 90)
 			(effects
 				(font
@@ -15531,7 +15531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 271.78 95.25 90)
 			(effects
 				(font
@@ -15618,7 +15618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 43.18 55.88 90)
 			(effects
 				(font
@@ -15862,7 +15862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 138.43 74.93 90)
 			(effects
 				(font
@@ -15949,7 +15949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 62.23 140.97 90)
 			(effects
 				(font
@@ -16037,7 +16037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 233.68 74.93 90)
 			(effects
 				(font
@@ -16124,7 +16124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 349.25 162.56 90)
 			(effects
 				(font
@@ -16446,7 +16446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 329.184 162.56 90)
 			(effects
 				(font
@@ -16586,7 +16586,7 @@
 	)
 	(symbol
 		(lib_id "Space_Cadet_Button_Switches:SWK")
-		(at 413.766 85.09 0)
+		(at 394.97 84.074 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16594,7 +16594,7 @@
 		(dnp no)
 		(uuid "d5cbe061-da1c-4b18-bf46-0ef5eb2ce6c0")
 		(property "Reference" "S_STATUS1"
-			(at 410.972 84.074 0)
+			(at 392.176 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16603,7 +16603,7 @@
 			)
 		)
 		(property "Value" "STATUS"
-			(at 411.226 86.36 0)
+			(at 392.43 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16612,7 +16612,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
-			(at 414.274 87.63 0)
+			(at 395.478 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16621,7 +16621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 423.164 86.614 0)
+			(at 404.368 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16630,7 +16630,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 413.766 85.09 0)
+			(at 394.97 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16639,7 +16639,7 @@
 			)
 		)
 		(property "dep" "S_RCURVE1"
-			(at 413.766 85.09 0)
+			(at 394.97 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16845,7 +16845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 100.33 118.11 90)
 			(effects
 				(font
@@ -16932,7 +16932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 347.98 118.11 90)
 			(effects
 				(font
@@ -17097,7 +17097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 138.43 55.88 90)
 			(effects
 				(font
@@ -17185,7 +17185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 195.58 74.93 90)
 			(effects
 				(font
@@ -17272,7 +17272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 81.28 95.25 90)
 			(effects
 				(font
@@ -17359,7 +17359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 367.03 74.93 90)
 			(effects
 				(font
@@ -17446,7 +17446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 138.43 118.11 90)
 			(effects
 				(font
@@ -17611,7 +17611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 386.08 118.11 90)
 			(effects
 				(font
@@ -17698,7 +17698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 81.28 162.56 90)
 			(effects
 				(font
@@ -18097,7 +18097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 214.63 140.97 90)
 			(effects
 				(font
@@ -18418,7 +18418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 328.93 55.88 90)
 			(effects
 				(font
@@ -18505,7 +18505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 252.73 140.97 90)
 			(effects
 				(font
@@ -18670,7 +18670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 119.38 140.97 90)
 			(effects
 				(font
@@ -18757,7 +18757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 252.73 162.56 90)
 			(effects
 				(font

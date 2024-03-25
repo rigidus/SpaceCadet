@@ -264,6 +264,28 @@
 		(layer "F.CrtYd")
 		(uuid "feb3c316-d558-4f4b-b118-28c5e3baa740")
 	)
+	(fp_rect
+		(start -21.335 -1.805)
+		(end -7.565 11.965)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.Fab")
+		(uuid "1d2d5038-197b-447c-85c9-9c05253b9b64")
+	)
+	(fp_rect
+		(start 2.455 -1.805)
+		(end 16.225 11.965)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.Fab")
+		(uuid "34b422a1-eca0-4f08-bdf7-529fc4bd02dd")
+	)
 	(fp_line
 		(start -20.8 -1.27)
 		(end -8.1 -1.27)

@@ -70,7 +70,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "B.Fab")
 		(uuid "4ac12a89-d867-46e0-94f9-22cec3f6836d")
 	)
 	(fp_line
