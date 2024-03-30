@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.524 2.794 0)
+			(at 1.016 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,15 +15,15 @@
 			)
 		)
 		(property "Value" "SWK"
-			(at 2.286 -2.54 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_MX_1U"
-			(at 0.508 -2.54 0)
+		(property "Footprint" "SWK"
+			(at 2.794 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 9.398 -1.524 0)
+			(at 12.954 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "SWK_0_1"
 			(rectangle
-				(start 1.524 -1.524)
-				(end -1.778 1.524)
+				(start -2.54 2.54)
+				(end 3.81 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -61,10 +61,70 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.524 0.508) (xy 1.524 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 0.508) (xy 2.54 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 -1.778) (xy 0 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.508) (xy 2.032 0.508) (xy 2.286 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.254) (xy 2.54 -1.778) (xy 3.048 -1.778) (xy 3.048 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "SWK_1_1"
 			(pin passive line
-				(at 4.064 0 180)
+				(at 6.35 1.27 180)
 				(length 2.54)
 				(name "in"
 					(effects
@@ -82,7 +142,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 4.064 270)
+				(at -1.27 5.08 270)
 				(length 2.54)
 				(name "out"
 					(effects

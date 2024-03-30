@@ -1240,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPI:RPi_Pico_SMD_TH"
+		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
 			(at 234.061 192.024 90)
 			(effects
 				(font
