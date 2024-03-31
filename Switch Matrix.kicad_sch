@@ -8116,7 +8116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 497.84 55.88 90)
 			(effects
 				(font
@@ -8350,7 +8350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 447.04 106.68 90)
 			(effects
 				(font
@@ -8438,7 +8438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 66.04 106.68 90)
 			(effects
 				(font
@@ -8525,7 +8525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 497.84 182.88 90)
 			(effects
 				(font
@@ -8612,7 +8612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 548.64 55.88 90)
 			(effects
 				(font
@@ -8777,7 +8777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 40.64 182.88 90)
 			(effects
 				(font
@@ -8864,7 +8864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 294.64 157.48 90)
 			(effects
 				(font
@@ -9177,7 +9177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 320.04 132.08 90)
 			(effects
 				(font
@@ -9264,7 +9264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 116.84 106.68 90)
 			(effects
 				(font
@@ -9430,7 +9430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 218.44 81.28 90)
 			(effects
 				(font
@@ -9595,7 +9595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 345.44 55.88 90)
 			(effects
 				(font
@@ -9683,7 +9683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 370.84 81.28 90)
 			(effects
 				(font
@@ -9770,7 +9770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 523.24 81.28 90)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 294.64 182.88 90)
 			(effects
 				(font
@@ -10101,7 +10101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 193.04 81.28 90)
 			(effects
 				(font
@@ -10266,7 +10266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 193.04 132.08 90)
 			(effects
 				(font
@@ -10353,7 +10353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 497.84 81.28 90)
 			(effects
 				(font
@@ -10440,7 +10440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 523.24 157.48 90)
 			(effects
 				(font
@@ -10527,7 +10527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 548.64 182.88 90)
 			(effects
 				(font
@@ -10614,7 +10614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 40.64 132.08 90)
 			(effects
 				(font
@@ -10702,7 +10702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 421.64 81.28 90)
 			(effects
 				(font
@@ -10790,7 +10790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 116.84 81.28 90)
 			(effects
 				(font
@@ -11189,7 +11189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 142.24 132.08 90)
 			(effects
 				(font
@@ -11276,7 +11276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 497.84 157.48 90)
 			(effects
 				(font
@@ -11363,7 +11363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 66.04 81.28 90)
 			(effects
 				(font
@@ -11450,7 +11450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 523.24 182.88 90)
 			(effects
 				(font
@@ -11537,7 +11537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 396.24 182.88 90)
 			(effects
 				(font
@@ -11624,7 +11624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 345.44 157.48 90)
 			(effects
 				(font
@@ -11711,7 +11711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 142.24 182.88 90)
 			(effects
 				(font
@@ -11798,7 +11798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 116.84 157.48 90)
 			(effects
 				(font
@@ -11885,7 +11885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 345.44 132.08 90)
 			(effects
 				(font
@@ -11972,7 +11972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 243.84 106.68 90)
 			(effects
 				(font
@@ -12059,7 +12059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 193.04 106.68 90)
 			(effects
 				(font
@@ -12224,7 +12224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 243.84 132.08 90)
 			(effects
 				(font
@@ -12311,7 +12311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 40.64 157.48 90)
 			(effects
 				(font
@@ -12476,7 +12476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 40.64 81.28 90)
 			(effects
 				(font
@@ -12797,7 +12797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 599.44 55.88 90)
 			(effects
 				(font
@@ -12884,7 +12884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 142.24 106.68 90)
 			(effects
 				(font
@@ -12971,7 +12971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 167.64 106.68 90)
 			(effects
 				(font
@@ -13294,7 +13294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 269.24 81.28 90)
 			(effects
 				(font
@@ -13459,7 +13459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 243.84 182.88 90)
 			(effects
 				(font
@@ -13546,7 +13546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 167.64 157.48 90)
 			(effects
 				(font
@@ -13712,7 +13712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 548.64 106.68 90)
 			(effects
 				(font
@@ -13799,7 +13799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 548.64 132.08 90)
 			(effects
 				(font
@@ -13964,7 +13964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 396.24 132.08 90)
 			(effects
 				(font
@@ -14130,7 +14130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 218.44 132.08 90)
 			(effects
 				(font
@@ -14217,7 +14217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 472.44 106.68 90)
 			(effects
 				(font
@@ -14460,7 +14460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 91.44 157.48 90)
 			(effects
 				(font
@@ -14548,7 +14548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 396.24 81.28 90)
 			(effects
 				(font
@@ -14791,7 +14791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 447.04 157.48 90)
 			(effects
 				(font
@@ -15025,7 +15025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 193.04 182.88 90)
 			(effects
 				(font
@@ -15347,7 +15347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 523.24 106.68 90)
 			(effects
 				(font
@@ -15434,7 +15434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 294.64 106.68 90)
 			(effects
 				(font
@@ -15990,7 +15990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 370.84 132.08 90)
 			(effects
 				(font
@@ -16078,7 +16078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 345.44 81.28 90)
 			(effects
 				(font
@@ -16166,7 +16166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 193.04 157.48 90)
 			(effects
 				(font
@@ -16400,7 +16400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 548.64 81.28 90)
 			(effects
 				(font
@@ -16488,7 +16488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 243.84 157.48 90)
 			(effects
 				(font
@@ -16653,7 +16653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 269.24 132.08 90)
 			(effects
 				(font
@@ -16740,7 +16740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 421.64 106.68 90)
 			(effects
 				(font
@@ -16827,7 +16827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 142.24 55.88 90)
 			(effects
 				(font
@@ -17070,7 +17070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 91.44 81.28 90)
 			(effects
 				(font
@@ -17393,7 +17393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 447.04 81.28 90)
 			(effects
 				(font
@@ -17558,7 +17558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 320.04 106.68 90)
 			(effects
 				(font
@@ -17645,7 +17645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 472.44 182.88 90)
 			(effects
 				(font
@@ -18350,7 +18350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 243.84 55.88 90)
 			(effects
 				(font
@@ -18828,7 +18828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 218.44 106.68 90)
 			(effects
 				(font
@@ -18993,7 +18993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 370.84 106.68 90)
 			(effects
 				(font
@@ -19237,7 +19237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 320.04 81.28 90)
 			(effects
 				(font
@@ -19324,7 +19324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 40.64 106.68 90)
 			(effects
 				(font
@@ -19489,7 +19489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 294.64 55.88 90)
 			(effects
 				(font
@@ -19732,7 +19732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 396.24 157.48 90)
 			(effects
 				(font
@@ -19819,7 +19819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 269.24 106.68 90)
 			(effects
 				(font
@@ -20298,7 +20298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 91.44 132.08 90)
 			(effects
 				(font
@@ -20542,7 +20542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 218.44 157.48 90)
 			(effects
 				(font
@@ -20629,7 +20629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 396.24 106.68 90)
 			(effects
 				(font
@@ -20717,7 +20717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 396.24 55.88 90)
 			(effects
 				(font
@@ -20804,7 +20804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 548.64 157.48 90)
 			(effects
 				(font
@@ -21039,7 +21039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 497.84 106.68 90)
 			(effects
 				(font
@@ -21204,7 +21204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 91.44 55.88 90)
 			(effects
 				(font
@@ -21370,7 +21370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 66.04 182.88 90)
 			(effects
 				(font
@@ -21457,7 +21457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 421.64 132.08 90)
 			(effects
 				(font
@@ -21545,7 +21545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 142.24 81.28 90)
 			(effects
 				(font
@@ -21710,7 +21710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 369.57 157.48 90)
 			(effects
 				(font
@@ -21875,7 +21875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 294.64 132.08 90)
 			(effects
 				(font
@@ -22118,7 +22118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 345.44 106.68 90)
 			(effects
 				(font
@@ -22205,7 +22205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 40.64 55.88 90)
 			(effects
 				(font
@@ -22449,7 +22449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 167.64 81.28 90)
 			(effects
 				(font
@@ -22536,7 +22536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 66.04 157.48 90)
 			(effects
 				(font
@@ -22624,7 +22624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 294.64 81.28 90)
 			(effects
 				(font
@@ -22711,7 +22711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 447.04 182.88 90)
 			(effects
 				(font
@@ -23033,7 +23033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 421.64 182.88 90)
 			(effects
 				(font
@@ -23432,7 +23432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 116.84 132.08 90)
 			(effects
 				(font
@@ -23519,7 +23519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 447.04 132.08 90)
 			(effects
 				(font
@@ -23684,7 +23684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 193.04 55.88 90)
 			(effects
 				(font
@@ -23772,7 +23772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 243.84 81.28 90)
 			(effects
 				(font
@@ -23859,7 +23859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 91.44 106.68 90)
 			(effects
 				(font
@@ -23946,7 +23946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 472.44 81.28 90)
 			(effects
 				(font
@@ -24033,7 +24033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 167.64 132.08 90)
 			(effects
 				(font
@@ -24198,7 +24198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 497.84 132.08 90)
 			(effects
 				(font
@@ -24285,7 +24285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 91.44 182.88 90)
 			(effects
 				(font
@@ -24684,7 +24684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 269.24 157.48 90)
 			(effects
 				(font
@@ -25005,7 +25005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 447.04 55.88 90)
 			(effects
 				(font
@@ -25092,7 +25092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 320.04 157.48 90)
 			(effects
 				(font
@@ -25257,7 +25257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 142.24 157.48 90)
 			(effects
 				(font
@@ -25344,7 +25344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Button_Switch_Keyboard:D_P7.62mm"
 			(at 345.44 182.88 90)
 			(effects
 				(font
