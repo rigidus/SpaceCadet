@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SWK"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
 			(at 2.794 6.096 0)
 			(effects
 				(font
