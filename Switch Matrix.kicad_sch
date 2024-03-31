@@ -865,12 +865,6 @@
 		(uuid "65710abc-d189-45bc-b16c-04127542053b")
 	)
 	(junction
-		(at 345.44 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "658c26ed-f13a-4db5-8120-db7b0c4e4d51")
-	)
-	(junction
 		(at 548.64 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -905,6 +899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "723120eb-d553-4f10-8926-fa4df99695f1")
+	)
+	(junction
+		(at 355.6 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72841de4-c2db-46fb-801a-f6619821e924")
 	)
 	(junction
 		(at 558.8 64.77)
@@ -1628,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 96.52) (xy 345.44 96.52)
+			(xy 312.42 96.52) (xy 363.22 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2078,16 +2078,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 96.52) (xy 345.44 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fad6e6-dd69-4097-b205-e1158e36dc2e")
-	)
-	(wire
-		(pts
 			(xy 558.8 166.37) (xy 558.8 191.77)
 		)
 		(stroke
@@ -2365,6 +2355,16 @@
 			(type default)
 		)
 		(uuid "1f717f67-f181-445f-b191-2085fc4ae545")
+	)
+	(wire
+		(pts
+			(xy 355.6 140.97) (xy 355.6 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb83c0e-a31a-41fc-b9b4-692ace2ce98f")
 	)
 	(wire
 		(pts
@@ -5388,16 +5388,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 96.52) (xy 345.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b9b00cf-d5ed-48ab-9525-f806acfcca7f")
-	)
-	(wire
-		(pts
 			(xy 218.44 134.62) (xy 218.44 137.16)
 		)
 		(stroke
@@ -6048,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 115.57) (xy 355.6 166.37)
+			(xy 355.6 115.57) (xy 355.6 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6075,6 +6065,16 @@
 			(type default)
 		)
 		(uuid "b745499e-9733-4b2f-99b1-0e5e5dee2edd")
+	)
+	(wire
+		(pts
+			(xy 421.64 134.62) (xy 421.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7456254-0954-48d0-802c-7b34d4155abb")
 	)
 	(wire
 		(pts
@@ -7085,6 +7085,16 @@
 			(type default)
 		)
 		(uuid "e8aa8bcc-aef9-4474-8dc2-79cb13aec6b2")
+	)
+	(wire
+		(pts
+			(xy 353.06 140.97) (xy 355.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1c00b4-5bee-4be4-b2f8-3b72a02e56f0")
 	)
 	(wire
 		(pts
@@ -14703,7 +14713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_2.25u"
 			(at 347.218 195.58 0)
 			(effects
 				(font
@@ -15259,7 +15269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.50u"
 			(at 423.418 93.98 0)
 			(effects
 				(font
@@ -15589,7 +15599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_2.75u"
 			(at 296.418 195.58 0)
 			(effects
 				(font
@@ -16312,7 +16322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.75u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.50u"
 			(at 118.618 119.38 0)
 			(effects
 				(font
@@ -16904,7 +16914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.25u"
 			(at 398.018 195.58 0)
 			(effects
 				(font
@@ -17470,7 +17480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.75u"
 			(at 448.818 195.58 0)
 			(effects
 				(font
@@ -17801,7 +17811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.50u"
 			(at 474.218 195.58 0)
 			(effects
 				(font
@@ -18427,7 +18437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.50u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_2.25u"
 			(at 398.018 170.18 0)
 			(effects
 				(font
@@ -19975,7 +19985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.25u"
 			(at 423.418 195.58 0)
 			(effects
 				(font
@@ -20453,7 +20463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.25u"
 			(at 448.818 144.78 0)
 			(effects
 				(font
@@ -22867,7 +22877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.50u"
 			(at 398.018 93.98 0)
 			(effects
 				(font
@@ -23110,7 +23120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.50u"
 			(at 525.018 170.18 0)
 			(effects
 				(font
@@ -24761,7 +24771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.50u"
 			(at 474.218 119.38 0)
 			(effects
 				(font
@@ -24839,7 +24849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_2.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
 			(at 398.018 144.78 0)
 			(effects
 				(font
