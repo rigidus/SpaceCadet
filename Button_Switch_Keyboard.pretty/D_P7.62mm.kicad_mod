@@ -266,7 +266,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 4.2 0 0)
+		(at 3.983 3.945 0)
 		(layer "F.SilkS")
 		(uuid "3414d422-cccc-4028-b1bf-769897c124a3")
 		(effects
@@ -289,15 +289,15 @@
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
-		(size 2.8 2.2)
+		(size 2 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1cddda6d-e86f-4b63-bda8-bfc63245abcf")
 	)
 	(pad "2" thru_hole oval
-		(at 7.62 0)
-		(size 2.8 2.2)
+		(at 7.015 0)
+		(size 2.8 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
