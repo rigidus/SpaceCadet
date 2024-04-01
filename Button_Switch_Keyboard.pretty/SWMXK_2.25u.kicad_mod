@@ -309,8 +309,8 @@
 		(uuid "feb3c316-d558-4f4b-b118-28c5e3baa740")
 	)
 	(fp_rect
-		(start -21.335 -1.805)
-		(end -7.565 11.965)
+		(start -21.235 -1.705)
+		(end -7.465 11.865)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -320,8 +320,8 @@
 		(uuid "1d2d5038-197b-447c-85c9-9c05253b9b64")
 	)
 	(fp_rect
-		(start 2.455 -1.805)
-		(end 16.225 11.965)
+		(start 2.555 -1.705)
+		(end 16.125 11.865)
 		(stroke
 			(width 0.1)
 			(type default)
