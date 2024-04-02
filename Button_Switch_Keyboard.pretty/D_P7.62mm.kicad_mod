@@ -276,17 +276,6 @@
 			)
 		)
 	)
-	(fp_text user "K"
-		(at 0 -2.1 0)
-		(layer "F.Fab")
-		(uuid "f3a35de2-7923-46d8-8a71-3f4e30bed520")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 2 2)
