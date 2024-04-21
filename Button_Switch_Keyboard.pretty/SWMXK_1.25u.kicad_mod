@@ -151,7 +151,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "e93c3a5a-6f30-400b-9665-615119c852a3")
 	)
 	(fp_line
@@ -161,7 +161,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "ba6e5a44-d846-41de-8a33-70f87a366e20")
 	)
 	(fp_line
@@ -171,7 +171,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "083c9ba7-408c-4465-b5c5-0439458dd8fb")
 	)
 	(fp_line
@@ -181,7 +181,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "b5650d1a-f551-4840-a839-88b7a8af151a")
 	)
 	(fp_line
@@ -191,7 +191,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "a0ae5d13-ff08-413e-bc47-2fe7c8fe0112")
 	)
 	(fp_arc
@@ -202,59 +202,19 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "273d00a0-dfa9-43a6-a20a-a19af67e09fa")
 	)
 	(fp_arc
 		(start -4.91 4.455)
-		(mid -4.324214 3.040786)
+		(mid -4.324214 3.040785)
 		(end -2.91 2.455)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "5a5aaffd-96b8-49ad-bb77-c1c7d05afc75")
-	)
-	(fp_line
-		(start -9.14 -1.52)
-		(end 4.06 -1.52)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2f39cdc9-3bc5-43d5-b9c9-9caacf535757")
-	)
-	(fp_line
-		(start -9.14 11.68)
-		(end -9.14 -1.52)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b6e521bd-21bb-4f16-a35a-ae5df2ceb7e0")
-	)
-	(fp_line
-		(start 4.06 -1.52)
-		(end 4.06 11.68)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "35fe84d1-6af6-4fdb-8a88-e0d0bc73a8b1")
-	)
-	(fp_line
-		(start 4.06 11.68)
-		(end -9.14 11.68)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f1b8b761-3f6b-480b-a525-b59b04a89a9c")
 	)
 	(fp_rect
 		(start -9.325 -1.705)
@@ -318,11 +278,10 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" smd circle
 		(at -7.62 5.08)
 		(size 1.7 1.7)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Paste")
 		(uuid "65ac6265-32a8-4775-8534-da41d74bf295")
 	)
 	(pad "" np_thru_hole circle
@@ -332,11 +291,10 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "7a548928-6bc4-44bf-8981-659d71935d07")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" smd circle
 		(at 2.54 5.08)
 		(size 1.7 1.7)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
+		(layers "F.Paste")
 		(uuid "a5cab333-a2fe-4447-ba6b-217dd7363ad7")
 	)
 	(pad "1" thru_hole circle
