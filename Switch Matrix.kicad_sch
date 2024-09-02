@@ -9835,7 +9835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SWMXK_1.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SWMXK_2.00u"
 			(at 499.618 144.78 0)
 			(effects
 				(font
