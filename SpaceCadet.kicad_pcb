@@ -84434,8 +84434,8 @@
 		)
 	)
 	(gr_rect
-		(start 12 9.271)
-		(end 505.6266 145)
+		(start 19 12)
+		(end 498.6266 140)
 		(stroke
 			(width 0.1)
 			(type solid)
