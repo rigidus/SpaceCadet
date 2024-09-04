@@ -360,8 +360,8 @@
 		(uuid "f1369ba1-4e56-4522-8e36-b7117bc6a6a6")
 	)
 	(fp_rect
-		(start -18.18489 3.3)
-		(end -17.38489 5.5)
+		(start -18.03489 3.3)
+		(end -17.23489 5.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -371,8 +371,8 @@
 		(uuid "a6fcc3e9-82e7-461c-9e22-c774f56421c0")
 	)
 	(fp_rect
-		(start -17.385 -0.4)
-		(end -11.085 15.4)
+		(start -17.235 -0.4)
+		(end -10.935 15.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -382,8 +382,8 @@
 		(uuid "84449fd0-0adf-4fbe-a57a-26456db98237")
 	)
 	(fp_rect
-		(start -11.084867 3.3)
-		(end -10.284867 5.5)
+		(start -10.934867 3.3)
+		(end -10.134867 5.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -404,8 +404,8 @@
 		(uuid "6c8b425a-8041-4840-89c1-101fe8bd0282")
 	)
 	(fp_rect
-		(start 5.198256 3.3)
-		(end 5.998256 5.5)
+		(start 5.048256 3.3)
+		(end 5.848256 5.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -415,8 +415,8 @@
 		(uuid "dce53bf5-1738-4c1b-b72d-111a1f76b7e7")
 	)
 	(fp_rect
-		(start 5.998 -0.4)
-		(end 12.298 15.4)
+		(start 5.848 -0.4)
+		(end 12.148 15.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -426,8 +426,8 @@
 		(uuid "f0cc506f-30b7-402c-85f2-8739086ffc3f")
 	)
 	(fp_rect
-		(start 12.298176 3.3)
-		(end 13.098176 5.5)
+		(start 12.148176 3.3)
+		(end 12.948176 5.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -498,13 +498,13 @@
 		)
 	)
 	(pad "" smd circle
-		(at -14.19 -1.92)
+		(at -14.04 -1.92)
 		(size 3.05 3.05)
 		(layers "F.Paste")
 		(uuid "c84b4d02-1651-4ddf-8995-42d639cd148f")
 	)
 	(pad "" smd circle
-		(at -14.19 13.32)
+		(at -14.04 13.32)
 		(size 4 4)
 		(layers "F.Paste")
 		(uuid "ab995f78-861c-4098-85ab-1e797c6c61e5")
@@ -541,13 +541,13 @@
 		(uuid "c604996a-3b2f-438e-89dd-43203381f927")
 	)
 	(pad "" smd circle
-		(at 9.11 -1.92)
+		(at 8.96 -1.92)
 		(size 3.05 3.05)
 		(layers "F.Paste")
 		(uuid "64b76242-896c-4423-b0bf-0e630ee32596")
 	)
 	(pad "" smd circle
-		(at 9.11 13.32)
+		(at 8.96 13.32)
 		(size 4 4)
 		(layers "F.Paste")
 		(uuid "1bad3f8c-374f-4923-ae1e-e674810447c1")
